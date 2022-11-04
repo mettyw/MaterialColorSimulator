@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Material Design 3 Color Simulator</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel=“stylesheet” />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+ <!-- For img.onLoad(9 to work, svg-injext needs to be executed immediately -->
+<script src="./svg-inject.min.js"></script>
+<script type="text/javascript" defer src="./bundle.js"></script>
+<style>
+
+    .cssColorOnDark {
+      color: #ffffff;
+    }
+
+    .csscssColorOnLight {
+      color: #000000;
+    }
+
+    .swatch {
+      font-size: small;
+      height: 3rem;
+      border: 2px solid white;
+    }
+
+    .tonalPaletteItem {
+      height: 2em;
+      cursor: pointer;
+    }
+  </style>
+  <script type="text/javascript" defer>
+  </script>
+</head>
+
+<body>
+  <header class="py-2 px-2 d-flex">
+    <div class="">
+      <h4>Material Design Color Simulator (beta)</h4>
+    </div>
+    <div class="flex-grow-1 px-4">
+      <button type="button" id="btnRandomizeAll" class="btn btn-primary btn-sm">Randomize all colors</button>
+    </div>
+    <div class="">
+      <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal"
+        data-bs-target="#helpDialog">Help</button>
+      <div class="modal fade" id="helpDialog" tabindex="-1" role="dialog" aria-labelledby="helpDialogLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="helpDialogLabel">Help</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h4>Usage</h4>
+              <ul>
+                <li>Use <em>Randomize all</em> button to randomize all colors</li>
+                <li>Click swatch to select color</li>
+                <li>Color picker
+                  <ul>
+                    <li>Press <em>Locate color</em> button to make corresponding UI components flash</li>
+                    <li>Press <em>Random color</em> button on each color</li>
+                    <li>Press <em>Reset color</em> button to revert change</li>
+                    <li>Use the Picker to select a color</li>
+                    <li>Use Tonal Palette as reference</li>
+                    <li>Click an item on the Tonal Palette to assign that color</li>
+                  </ul>
+                </li>
+                <li>Main section
+                  <ul>
+                    <li>Use <em>Device Mockups</em> tab to preview color theme on mobile app mockups</li>
+                    <li>Use <em>Components</em> tab to preview color theme on components</li>
+                    <li>Click on UI component to make corresponding color swatch flash</li>
+                    <li>Use <em>Export</em> tab to obtain android colors.xml and themes.xml file content</li>
+                  </ul>
+                </li>
+              </ul>
+              <h4>Disclaimer</h4>
+              <p>
+                Everything you see here is just an approximation of Material Design. The real implementation is much
+                more complex.
+                Actual results may vary!
+              </p>
+              <h4>Third party</h4>
+              <ul>
+                <li>JQuery &mdash; https://jquery.com/</li>
+                <li>Bootstrap &mdash; https://getbootstrap.com/</li>
+                <li>SVGInject &mdash; https://github.com/iconfu/svg-inject</li>
+                <li>iro.js &mdash; https://github.com/jaames/iro.js</li>
+                <li>Chroma.js &mdash; https://github.com/gka/chroma.js</li>
+                <li>Google fonts &mdash; https://fonts.googleapis.com/css?family=Roboto</li>
+              </ul>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a id="githublink" href="https://github.com/mettyw/" target="_blank" class="btn btn-light btn-sm"
+        role="button">Github</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-fluid pb-3">
+      <div class="d-grid gap-3" style="grid-template-columns: 1fr 3fr;">
+        <div class="bg-light border rounded-3">
+          <div class="container p-2 " id="color-swatches-content">
+          </div>
+          <div class="container p-2 collapse" id="color-picker-content">
+            <div class="row justify-content-between mb-3 ">
+              <div class="col ">
+                <h5 class="text-break">
+                  Color <span id="colorDialogColorName">undef</span>
+                </h5>
+                <!--      <span class="colorDialogColorDesc">The Material Design color system defines several key colors. </span> 
+      <a href="https://m3.material.io/styles/color/the-color-system/tokens">Read more ...</a>
+      -->
+              </div>
+              <div class="col-auto align-self-start ">
+                <button id="btnColorPickerBack" title="Close color picker" type="button" class="btn-close"
+                  aria-label="Close"></button>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col d-flex justify-content-center">
+                <span id="colorDialogPreviousValue" class="d-none"></span>
+                <span id="colorDialogColorKey" class="d-none"></span>
+                <div id="iropicker"></div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="input-group">
+                <button id="btnLocateColor" title="Locate color" type="button" class="btn btn-sm btn-light me-1 mb-1">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M11,2V4.07C7.38,4.53 4.53,7.38 4.07,11H2V13H4.07C4.53,16.62 7.38,19.47 11,19.93V22H13V19.93C16.62,19.47 19.47,16.62 19.93,13H22V11H19.93C19.47,7.38 16.62,4.53 13,4.07V2M11,6.08V8H13V6.09C15.5,6.5 17.5,8.5 17.92,11H16V13H17.91C17.5,15.5 15.5,17.5 13,17.92V16H11V17.91C8.5,17.5 6.5,15.5 6.08,13H8V11H6.09C6.5,8.5 8.5,6.5 11,6.08M12,11A1,1 0 0,0 11,12A1,1 0 0,0 12,13A1,1 0 0,0 13,12A1,1 0 0,0 12,11Z" />
+                  </svg>
+                </button>
+                <button id="btnRandomizeColor" title="Random color" type="button" class="btn btn-sm btn-light mb-1">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M19 5V19H5V5H19M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3M7.5 6C6.7 6 6 6.7 6 7.5S6.7 9 7.5 9 9 8.3 9 7.5 8.3 6 7.5 6M16.5 15C15.7 15 15 15.7 15 16.5C15 17.3 15.7 18 16.5 18C17.3 18 18 17.3 18 16.5C18 15.7 17.3 15 16.5 15M16.5 10.5C15.7 10.5 15 11.2 15 12S15.7 13.5 16.5 13.5C17.3 13.5 18 12.8 18 12S17.3 10.5 16.5 10.5M16.5 6C15.7 6 15 6.7 15 7.5S15.7 9 16.5 9C17.3 9 18 8.3 18 7.5S17.3 6 16.5 6M7.5 10.5C6.7 10.5 6 11.2 6 12S6.7 13.5 7.5 13.5 9 12.8 9 12 8.3 10.5 7.5 10.5M7.5 15C6.7 15 6 15.7 6 16.5C6 17.3 6.7 18 7.5 18S9 17.3 9 16.5C9 15.7 8.3 15 7.5 15Z" />
+                  </svg>
+                </button>
+                <button id="btnResetColor" title="Reset color" type="button" class="btn btn-sm btn-light me-1 mb-1">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M13.5,7A6.5,6.5 0 0,1 20,13.5A6.5,6.5 0 0,1 13.5,20H10V18H13.5C16,18 18,16 18,13.5C18,11 16,9 13.5,9H7.83L10.91,12.09L9.5,13.5L4,8L9.5,2.5L10.92,3.91L7.83,7H13.5M6,18H8V20H6V18Z" />
+                  </svg>
+                </button>
+                <input id="colorDialogColorValue" class="form-control form-control-sm  mb-1" type="text"
+                  style="min-width: 6em;" />
+                <button id="btnClosePanel" title="Close color picker" type="button"
+                  class="btn btn-sm btn-light me-1 mb-1">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" />
+                  </svg>
+                </button>
+                <button id="btnCopyClipboard" title="Copy to clipboard" type="button" class="btn btn-sm btn-light mb-1">
+                  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M19,3H14.82C14.4,1.84 13.3,1 12,1C10.7,1 9.6,1.84 9.18,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M12,3A1,1 0 0,1 13,4A1,1 0 0,1 12,5A1,1 0 0,1 11,4A1,1 0 0,1 12,3M7,7H17V5H19V19H5V5H7V7Z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="row px-1">
+              <hr />
+            </div>
+            <div class="row">
+              <h5>Reference colors</h5>
+              <!--
+              <p>
+                The tonal palettes are derived from the main colors of your color theme.
+                They help you to keep consistency across your theme.
+              </p>
+               -->
+              <h6>Color Primary tonal palette</h6>
+            </div>
+            <div class="row px-2 ">
+              <table>
+                <tr>
+                  <td id="colorPrimary-0" class="text-center cssColorOnDark tonalPaletteItem">0</td>
+                  <td id="colorPrimary-10" class="text-center cssColorOnDark tonalPaletteItem">10</td>
+                  <td id="colorPrimary-20" class="text-center cssColorOnDark tonalPaletteItem">20</td>
+                  <td id="colorPrimary-30" class="text-center cssColorOnDark tonalPaletteItem">30</td>
+                  <td id="colorPrimary-40" class="text-center cssColorOnDark tonalPaletteItem">40</td>
+                  <td id="colorPrimary-50" class="text-center cssColorOnDark tonalPaletteItem">50</td>
+                  <td id="colorPrimary-60" class="text-center cssColorOnLight tonalPaletteItem">60</td>
+                  <td id="colorPrimary-70" class="text-center cssColorOnLight tonalPaletteItem">70</td>
+                  <td id="colorPrimary-80" class="text-center cssColorOnLight tonalPaletteItem">80</td>
+                  <td id="colorPrimary-90" class="text-center cssColorOnLight tonalPaletteItem">90</td>
+                  <td id="colorPrimary-95" class="text-center cssColorOnLight tonalPaletteItem">95</td>
+                  <td id="colorPrimary-99" class="text-center cssColorOnLight tonalPaletteItem">99</td>
+                  <td id="colorPrimary-100" class="text-center cssColorOnLight tonalPaletteItem">100</td>
+                </tr>
+              </table>
+            </div>
+            <div class="row pt-2">
+              <h6>Color Secondary tonal palette</h6>
+            </div>
+            <div class="row px-2">
+              <table>
+                <tr>
+                  <td id="colorSecondary-0" class="text-center cssColorOnDark tonalPaletteItem">0</td>
+                  <td id="colorSecondary-10" class="text-center cssColorOnDark tonalPaletteItem">10</td>
+                  <td id="colorSecondary-20" class="text-center cssColorOnDark tonalPaletteItem">20</td>
+                  <td id="colorSecondary-30" class="text-center cssColorOnDark tonalPaletteItem">30</td>
+                  <td id="colorSecondary-40" class="text-center cssColorOnDark tonalPaletteItem">40</td>
+                  <td id="colorSecondary-50" class="text-center cssColorOnDark tonalPaletteItem">50</td>
+                  <td id="colorSecondary-60" class="text-center cssColorOnLight tonalPaletteItem">60</td>
+                  <td id="colorSecondary-70" class="text-center cssColorOnLight tonalPaletteItem">70</td>
+                  <td id="colorSecondary-80" class="text-center cssColorOnLight tonalPaletteItem">80</td>
+                  <td id="colorSecondary-90" class="text-center cssColorOnLight tonalPaletteItem">90</td>
+                  <td id="colorSecondary-95" class="text-center cssColorOnLight tonalPaletteItem">95</td>
+                  <td id="colorSecondary-99" class="text-center cssColorOnLight tonalPaletteItem">99</td>
+                  <td id="colorSecondary-100" class="text-center cssColorOnLight tonalPaletteItem">100</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="bg-light border rounded-3">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="mockups-tab" data-bs-toggle="tab" data-bs-target="#mockups"
+                type="button" role="tab" aria-controls="mockups" aria-selected="true">Device Mockups</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="components-tab" data-bs-toggle="tab" data-bs-target="#components"
+                type="button" role="tab" aria-controls="components" aria-selected="false">Components</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="export-tab" data-bs-toggle="tab" data-bs-target="#export" type="button"
+                role="tab" aria-controls="export" aria-selected="false">Export</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="tabContent">
+            <div class="tab-pane fade show active" id="mockups" role="tabpanel" aria-labelledby="mockups-tab">
+              <!-- TODO provide onError -->
+              <img src="mockups.svg" width="100%" height="*" onload="SVGInject(this)" />
+            </div>
+            <div class="tab-pane fade" id="components" role="tabpanel" aria-labelledby="components-tab">
+              <!-- TODO provide onError -->
+              <!--<img src="components.svg" width="100%" height="*" onload="SVGInject(this)" />-->
+              <i>Coming soon!</i>
+            </div>
+            <div class="tab-pane fade" id="export" role="tabpanel" aria-labelledby="export-tab">
+              <div class="card text-bg-warning m-3">
+                <div class="card-body">
+                  <p class="card-text">The export is still largely untested and likely neither matches Material Design 2
+                    nor 3 specs fully. Feedback is very much appreciated, just open an issue on Github!</p>
+                </div>
+              </div>
+              <div class="mb-3 p-3">
+                <h4><label for="exportColors" class="form-label">File values/colors.xml</label></h4>
+                <textarea class="form-control" id="exportColors" rows="10"></textarea>
+              </div>
+              <div class="mb-3 p-3">
+                <h4><label for="exportThemes" class="form-label">File values/themes.xml</label></h4>
+                <textarea class="form-control" id="exportThemes" rows="10"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+        </script>
+
+        <div class="toast-container position-absolute bottom-0 start-50 translate-middle-x p-2 ">
+          <div id="copyToast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+              <div class="toast-body">
+                Color was copied to the clipboard.
+              </div>
+              <button id="btn-close" type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>

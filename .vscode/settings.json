@@ -1,0 +1,18 @@
+{
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "eslint.onIgnoredFiles": "warn",
+    "eslint.run": "onSave"
+}
