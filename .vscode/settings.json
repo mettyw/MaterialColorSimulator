@@ -14,5 +14,5 @@
     "eslint.alwaysShowStatus": true,
     "eslint.lintTask.enable": true,
     "eslint.onIgnoredFiles": "warn",
-    "eslint.run": "onSave"
+    "eslint.run": "onSave",
 }

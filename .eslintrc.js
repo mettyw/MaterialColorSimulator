@@ -5,14 +5,17 @@ module.exports = {
     jquery: true,
   },
   extends: 'airbnb-base',
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  rules: {
-  },
+  rules: {},
   plugins: [
     'eslint-plugin-html',
+  ],
+  ignorePatterns: [
+    'webpack.config.js',
+    'dist/*.js',
+    'svg-inject.min.js',
   ],
 };
