@@ -1,2 +1,41 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+.cssColorOnDark {
+    color: #ffffff;
+}
+
+.csscssColorOnLight {
+    color: #000000;
+}
+
+$spacer : 0.3rem;
+.swatch {
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin: $spacer;
+    width: calc(50% - #{$spacer*2});
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.tonalPalette  {
+    border-radius:6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.swatchLabel {
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.swatchValue {
+    font-size: smaller;
+}
+
+
+.tonalPaletteItem {
+    height: 2rem;
+    cursor: pointer;
+}

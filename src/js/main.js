@@ -1,5 +1,6 @@
 // Import our custom CSS
 import '../scss/styles.scss';
+
 import $ from 'jquery';
 import 'bootstrap';
 // https://github.com/jaames/iro.js
@@ -287,13 +288,10 @@ $(document).ready(
       const swatchValueKey = `swatchValue-${key}`;
       // set up color swatch
       $('#color-swatches-content').append(
-        `<div class="swatch w-50 d-inline-flex flex-column p-1" id="${swatchKey}"" >`
-         + ` <div class="flex-grow-1 fw-bolder ${swatchLabelKey}">${colorMap[key].l}</div>`
-         + ' <div class="d-flex justify-content-between flex-grow-1">'
-         + '   <div class=" swatchcontent " > '
-         + '   </div> '
-         + `   <div class=" ${swatchLabelKey}" id="${swatchValueKey}">${colorMap[key].v}</div>`
-         + '  </div> '
+        `<div class="swatch d-inline-flex flex-column p-1" id="${swatchKey}"" >`
+         + ` <div class="flex-grow-1 fw-bolder swatchLabel ${swatchLabelKey}">${colorMap[key].l}</div>`
+
+         + `   <div class="swatchValue ${swatchLabelKey}" id="${swatchValueKey}">${colorMap[key].v}</div>`
          + '</div>',
       );
       reloadColor(key);

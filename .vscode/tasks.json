@@ -7,6 +7,17 @@
 				"$eslint-stylish"
 			],
 			"label": "eslint: lint whole folder"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "webpack serve --mode development",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }
