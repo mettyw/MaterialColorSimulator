@@ -316,3 +316,5 @@ out
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node
+dist/main.js.LICENSE.txt
+dist/main.js
