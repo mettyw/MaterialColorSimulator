@@ -12,6 +12,7 @@
   "license": "TODO",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
