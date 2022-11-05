@@ -13,7 +13,7 @@ import chroma from 'chroma-js';
      *                        Key Variables
      ************************************************************************ */
 const APP_TITLE = 'Material Design 3 Color Simulator';
-const APP_URL = 'https://github.com/mettyw/Material3ColorSimulator';
+const APP_URL = 'https://github.com/mettyw/MaterialColorSimulator';
 const colorMap = {
   colorPrimary: {
     l: 'Primary',
