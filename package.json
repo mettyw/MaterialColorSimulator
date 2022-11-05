@@ -4,20 +4,26 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t cssify script.js -o bundle.js",
-    "watch": "watchify -t cssify script.js -o bundle.js --debug --verbose"
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "TODO",
   "devDependencies": {
-    "browserify": "^17.0.0",
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.1",
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.26.0",
-    "watchify": "^4.0.0"
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
     "@iconfu/svg-inject": "^1.2.3",
