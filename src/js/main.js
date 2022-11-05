@@ -346,30 +346,30 @@ $(document).ready(
       assignColor(key, color);
     });
 
-    $('#btnRandomizeColor').click(() => {
+    $('#btnRandomizeColor').on('click', () => {
       const key = $('#colorDialogColorKey').text();
       const color = randomColor();
       assignColor(key, color);
     });
-    $('#btnResetColor').click(() => {
+    $('#btnResetColor').on('click', () => {
       const key = $('#colorDialogColorKey').text();
       const color = $('#colorDialogPreviousValue').text();
       assignColor(key, color);
     });
-    $('#btnColorPicker').click(() => {
+    $('#btnColorPicker').on('click', () => {
       $('#color-swatches-content').hide();
       $('#color-picker-content').show();
     });
-    $('#btnClosePanel, #btnColorPickerBack').click(() => {
+    $('#btnClosePanel, #btnColorPickerBack').on('click', () => {
       $('#color-swatches-content').show();
       $('#color-picker-content').hide();
     });
-    $('#btnLocateColor').click(() => {
+    $('#btnLocateColor').on('click', () => {
       const key = $('#colorDialogColorKey').text();
       $(`.${key}`).fadeOut(100).fadeIn(100).fadeOut(100)
         .fadeIn(100);
     });
-    $('#btnCopyClipboard').click(() => {
+    $('#btnCopyClipboard').on('click', () => {
       const key = $('#colorDialogColorKey').text();
       const value = colorMap[key].v;
       navigator.clipboard.writeText(value).then(
@@ -382,7 +382,11 @@ $(document).ready(
         },
       );
     });
-    $('#btnRandomizeAll').click(() => {
+    $('#btnResetAll').on('click', () => {
+      window.location.reload();
+    });
+
+    $('#btnRandomizeAll').on('click', () => {
       let color;
       color = randomColor();
       assignColor('colorPrimary', color);
