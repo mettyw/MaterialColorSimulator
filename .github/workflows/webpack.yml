@@ -43,13 +43,16 @@ jobs:
       run: |
         npm install
         npx webpack
+
     - name: Setup Pages
-        uses: actions/configure-pages@v2
+      uses: actions/configure-pages@v2
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
         # Upload dist folder
         path: './dist'
+        
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v1
