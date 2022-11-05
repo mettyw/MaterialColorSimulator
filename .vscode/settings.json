@@ -15,4 +15,7 @@
     "eslint.lintTask.enable": true,
     "eslint.onIgnoredFiles": "warn",
     "eslint.run": "onSave",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
 }

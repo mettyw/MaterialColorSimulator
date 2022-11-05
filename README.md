@@ -1,7 +1,17 @@
 # Material3ColorSimulator
-Simulator for the Android Material Design color system. Currently work in progress: results are usable but not fully accurate.
+[Material3ColorSimulator](https://mettyw.github.io/MaterialColorSimulator/) is a simulator for the Android Material Design color system. It lets you edit, preview and export a Material Design color theme for Android.
 
-Open https://mettyw.github.io/MaterialColorSimulator/
+Note: Currently work in progress: results are usable but not fully accurate.
+
+## Usage
+
+https://mettyw.github.io/MaterialColorSimulator/
+
+## Screenshots
+![](assets/main1.png)
+
+![](assets/main2.png)
+
 ## Features
 * Use <em>Randomize all</em> button to randomize all colors
 * Click swatch to select color
@@ -20,7 +30,6 @@ Open https://mettyw.github.io/MaterialColorSimulator/
 
 ## Feedback & Contributions
 Very welcome!
-
 
 ## License
 TODO
