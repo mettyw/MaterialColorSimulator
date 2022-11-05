@@ -28,6 +28,13 @@ https://mettyw.github.io/MaterialColorSimulator/
   * Click on UI component to make corresponding color swatch flash
   * Use <em>Export</em> tab to obtain android colors.xml and themes.xml file content
 
+## How does it work?
+* phone mockups are drawn as SVG images
+* each themable item in the SVG has a CSS class (e.g. colorOnPrimary)
+* mockup SVGs are made inline in order to share the website's CSS
+* color picker changes the color of the CSS classes
+* the CSS class color map is transformed to Android XML files 
+
 ## Feedback & Contributions
 Very welcome!
 
