@@ -32,4 +32,4 @@ https://mettyw.github.io/MaterialColorSimulator/
 Very welcome!
 
 ## License
-TODO
+AGPL-3.0 license
