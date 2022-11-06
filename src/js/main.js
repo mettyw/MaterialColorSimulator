@@ -10,112 +10,9 @@ import SVGInject from '@iconfu/svg-inject';
 // https://github.com/gka/chroma.js
 import chroma from 'chroma-js';
 
-/** **********************************************************************
-     *                        Key Variables
-     ************************************************************************ */
-const APP_TITLE = 'Material Design 3 Color Simulator';
-const APP_URL = 'https://github.com/mettyw/MaterialColorSimulator';
-const colorMap = {
-  colorPrimary: {
-    l: 'Primary',
-    v: '#6200EE',
-  },
-  colorOnPrimary: {
-    l: 'OnPrimary',
-    v: '#FFFFFF',
-  },
-  colorPrimaryContainer: {
-    l: 'PrimaryContainer',
-    v: '#3700B3',
-  },
-  colorOnPrimaryContainer: {
-    l: 'OnPrimaryContainer',
-    v: '#FFFFFF',
-  },
-  colorSecondary: {
-    l: 'Secondary',
-    v: '#03DAC6',
-  },
-  colorOnSecondary: {
-    l: 'OnSecondary',
-    v: '#000000',
-  },
-  colorSecondaryContainer: {
-    l: 'SecondaryContainer',
-    v: '#018786',
-  },
-  colorOnSecondaryContainer: {
-    l: 'OnSecondaryContainer',
-    v: '#000000',
-  },
-  colorBackground: {
-    l: 'Background',
-    v: '#FFFBFE',
-  },
-  colorOnBackground: {
-    l: 'OnBackground',
-    v: '#1C1B1F',
-  },
-  colorSurface: {
-    l: 'Surface',
-    v: '#FAFAFD',
-  },
-  colorOnSurface: {
-    l: 'OnSurface',
-    v: '#1C1B1F',
-  },
-  colorSurfaceVariant: {
-    l: 'SurfaceVariant',
-    v: '#E7E0EC',
-  },
-  colorOnSurfaceVariant: {
-    l: 'OnSurfaceVariant',
-    v: '#49454E',
-  },
-  colorError: {
-    l: 'Error',
-    v: '#B3261E',
-  },
-  colorOnError: {
-    l: 'OnError',
-    v: '#FFFFFF',
-  },
-  colorErrorContainer: {
-    l: 'ErrorContainer',
-    v: '#F9DEDC',
-  },
-  colorOnErrorContainer: {
-    l: 'OnErrorContainer',
-    v: '#410E0B',
-  },
-  colorSurfaceInverse: {
-    l: 'SurfaceInverse',
-    v: '#313033',
-  },
-  colorOnSurfaceInverse: {
-    l: 'OnSurfaceInverse',
-    v: '#F4EFF4',
-  },
-  colorOutline: {
-    l: 'Outline',
-    v: '#79747E',
-  },
-  colorPrimaryInverse: {
-    l: 'PrimaryInverse',
-    v: '#D0BCFF',
-  },
-  /*
-       "colorOutlineVariant": { "l": "OutlineVariant", "v": "#C4C7C5" },
-       "colorShadow" : {"l" : "Shadow", "v" : "#000000"},
-       "colorSurfaceTint" : {"l" : "SurfaceTint", "v" : "#6750A4"},
-       "colorSurfaceTintColor" : {"l" : "SurfaceTintColor", "v" : "#9C4048"},
-       "colorTertiary" : {"l" : "Tertiary", "v" : "#7D5260"},
-       "colorOnTertiary" : {"l" : "OnTertiary", "v" : "#FFFFFF"},
-       "colorTertiaryContainer" : {"l" : "TertiaryContainer", "v" : "#FFD8E4"},
-       "colorOnTertiaryContainer" : {"l" : "OnTertiaryContainer", "v" : "#370B1E"},
-       "colorScrim" : {"l" : "Scrim", "v" : "#000000"},
-       */
-};
+import { APP_URL } from './constants';
+import colorMap from './colorMap';
+import * as colorUtils from './colorUtils';
 
 /** **********************************************************************
       *                        3rd Party Component init
@@ -132,78 +29,19 @@ const colorPicker = new iro.ColorPicker('#iropicker', {
       *                        Function definitions
       ************************************************************************ */
 
-function randomColor() {
-  const letters = '0123456789ABCDEF';
-  let color = '#';
-  while (color.length <= 6) color += letters[(Math.floor(Math.random() * letters.length))];
-  return color;
-}
-
-function randomDarkColor() {
-  const letters = '0123456789';
-  let color = '#';
-  while (color.length <= 6) color += letters[(Math.floor(Math.random() * letters.length))];
-  return color;
-}
-
-function randomLightColor() {
-  const letters = '89ABCDEF';
-  let color = '#';
-  while (color.length <= 6) color += letters[(Math.floor(Math.random() * letters.length))];
-  return color;
-}
-
-function textColorClassForBackground(bgColor) {
-  const r = parseInt(bgColor.slice(1, 3), 16);
-  const g = parseInt(bgColor.slice(3, 5), 16);
-  const b = parseInt(bgColor.slice(5, 7), 16);
-  // see http://alienryderflex.com/hsp.html
-  const hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b));
-  if (hsp > 127.5) {
-    return 'cssColorOnLight';
-  }
-  return 'cssColorOnDark';
-}
-
-function generateColorExport() {
-  let result = `<!-- colors.xml generated with ${APP_TITLE} - ${APP_URL} -->\n`;
-  result += '<resources>\n';
-  Object.keys(colorMap).forEach((key) => {
-    result += `   <color name="mytheme_light_${key}">${colorMap[key].v}</color>\n`;
-  });
-  result += '</resources>\n';
-  return result;
-}
-
-function generateThemeExport() {
-  let result = `<!-- themes.xml generated with ${APP_TITLE} - ${APP_URL} -->\n`;
-  result += '<resources>\n';
-  result += '  <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">\n';
-  Object.keys(colorMap).forEach((key) => {
-    if (key === 'colorBackground') {
-      result += `    <item name="android:${key}">@color/mytheme_light_${key}</item>\n`;
-    } else {
-      result += `    <item name="${key}">@color/mytheme_light_${key}</item>\n`;
-    }
-  });
-  result += '  </style>\n';
-  result += '</resources>\n';
-  return result;
-}
-
 function reloadColor(key) {
   const color = colorMap[key].v.toUpperCase();
   $(`#swatch-${key}`).css('background-color', color);
   $(`.swatchLabel-${key}`).removeClass('cssColorOnLight');
   $(`.swatchLabel-${key}`).removeClass('cssColorOnDark');
-  $(`.swatchLabel-${key}`).addClass(textColorClassForBackground(color));
+  $(`.swatchLabel-${key}`).addClass(colorUtils.textColorClassForBackground(color));
   $(`#swatchValue-${key}`).text(color);
   $(`svg .${key}`).each((i, obj) => {
     const svgelement = obj;
     svgelement.style.fill = color;
   });
-  $('#exportColors').val(generateColorExport());
-  $('#exportThemes').val(generateThemeExport());
+  $('#exportColors').val(colorUtils.generateColorExport());
+  $('#exportThemes').val(colorUtils.generateThemeExport());
 
   $('#colorDialogColorName').text(colorMap[key].l);
   $('#colorDialogColorValue').val(color);
@@ -348,7 +186,7 @@ $(document).ready(
 
     $('#btnRandomizeColor').on('click', () => {
       const key = $('#colorDialogColorKey').text();
-      const color = randomColor();
+      const color = colorUtils.randomColor();
       assignColor(key, color);
     });
     $('#btnResetColor').on('click', () => {
@@ -388,30 +226,30 @@ $(document).ready(
 
     $('#btnRandomizeAll').on('click', () => {
       let color;
-      color = randomColor();
+      color = colorUtils.randomColor();
       assignColor('colorPrimary', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnPrimary', color);
-      color = randomColor();
+      color = colorUtils.randomColor();
       assignColor('colorPrimaryContainer', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnPrimaryContainer', color);
-      color = randomColor();
+      color = colorUtils.randomColor();
       assignColor('colorSecondary', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnSecondary', color);
-      color = randomColor();
+      color = colorUtils.randomColor();
       assignColor('colorSecondaryContainer', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnSecondaryContainer', color);
 
-      color = randomLightColor();
+      color = colorUtils.randomLightColor();
       assignColor('colorBackground', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnBackground', color);
-      color = randomLightColor();
+      color = colorUtils.randomLightColor();
       assignColor('colorSurface', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnSurface', color);
 
       color = '#BA1A1A';
@@ -423,20 +261,20 @@ $(document).ready(
       color = '#410002';
       assignColor('colorOnErrorContainer', color);
 
-      color = randomLightColor();
+      color = colorUtils.randomLightColor();
       assignColor('colorSurfaceVariant', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOnSurfaceVariant', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOutline', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorOutlineVariant', color);
 
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorSurfaceInverse', color);
-      color = randomLightColor();
+      color = colorUtils.randomLightColor();
       assignColor('colorOnSurfaceInverse', color);
-      color = randomDarkColor();
+      color = colorUtils.randomDarkColor();
       assignColor('colorPrimaryInverse', color);
     });
   },
