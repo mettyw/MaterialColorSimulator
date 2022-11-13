@@ -149,14 +149,28 @@ $(document).ready(
           *                        Action Handlers
           ************************************************************************ */
 
+    function getStyle(className) {
+      let cssText = '';
+      for (let s = 0; s < document.styleSheets.length; s++) {
+        const classes = document.styleSheets[s].rules || document.styleSheets[s].cssRules;
+        for (let x = 0; x < classes.length; x++) {
+          if (classes[x].selectorText === className) {
+            cssText += classes[x].fill || classes[x].style.fill;
+          }
+        }
+      }
+      return cssText;
+    }
+
     // make color swatch flash if user clicks on ui component with that class in SVG
     $('body').on('click', 'rect,text,path,circle', function svgClickHandler() {
       const attrs = $(this).attr('class');
       if (typeof attrs === 'undefined') return;
       const classList = attrs.split(/\s+/);
       classList.forEach((className) => {
-        if (!className.startsWith('color')) return;
-        $(`#swatch-${className}`).fadeOut(100).fadeIn(100).fadeOut(100)
+        const colorName = getStyle(`.${className}`).replace(/var\(--(.*)\)/, '$1');
+        if (!colorName.startsWith('color')) return;
+        $(`#swatch-${colorName}`).fadeOut(100).fadeIn(100).fadeOut(100)
           .fadeIn(100);
       });
     });

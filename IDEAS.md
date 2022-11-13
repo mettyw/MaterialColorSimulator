@@ -1,4 +1,5 @@
 # Future Ideas
+* also generate colorMap.js from m3.xml
 * change real CSS class (via CSSOM?) instead of all fill properties in SVG - see https://stackoverflow.com/a/45210949 
 * SVG enrichment
   * svg item (e.g. rect) contains CSS class for elevation / tint
