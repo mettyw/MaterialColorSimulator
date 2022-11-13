@@ -14,6 +14,10 @@ import { APP_URL } from './constants';
 import colorMap from './colorMap';
 import * as colorUtils from './colorUtils';
 
+require('../scss/mockstyle.scss');
+require('../svg/components.svg');
+require('../svg/mockups.svg');
+
 /** **********************************************************************
       *                        3rd Party Component init
       ************************************************************************ */
@@ -31,6 +35,12 @@ const colorPicker = new iro.ColorPicker('#iropicker', {
 
 function reloadColor(key) {
   const color = colorMap[key].v.toUpperCase();
+  const r = document.querySelector(':root');
+  r.style.setProperty(`--${key}`, color);
+  const rgb = chroma(color).rgb();
+  const color2 = `${rgb[0]}, ${rgb[1]}, ${rgb[2]}`;
+  r.style.setProperty(`--${key}-rgbstr`, color2);
+
   $(`#swatch-${key}`).css('background-color', color);
   $(`.swatchLabel-${key}`).removeClass('cssColorOnLight');
   $(`.swatchLabel-${key}`).removeClass('cssColorOnDark');

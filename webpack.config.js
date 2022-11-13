@@ -1,5 +1,6 @@
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
+const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 
 module.exports = {
   entry: './src/js/main.js',
@@ -18,8 +19,26 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'src/static', to: '.' },
-      ],
+     ],
+
     }),
+  /*  new WebpackShellPluginNext({
+      onBuildStart:{
+        scripts: ['echo "Webpack Start"'],
+        blocking: true,
+        parallel: false
+      }, 
+      onBuildEnd:{
+        scripts: [
+          'echo "Webpack End"',
+          // remove CSS reference for Inkscape only and optimize SVG
+          'npx svgo dist/components.svg',
+        ],
+        blocking: true,
+        parallel: false
+      }
+    }),*/
+
   ],
   module: {
     rules: [
@@ -47,6 +66,25 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.svg$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          },
+          {
+            loader: 'svgo-loader',
+          }
+        ]
+      },
+      {
+        test: /\.css$/,
+        use: 'css-loader',
+        exclude: /node_modules/
+      }
     ],
   },
 };

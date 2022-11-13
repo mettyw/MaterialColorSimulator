@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="28.970627mm"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 208.47972 28.970627"
+   width="208.47972mm"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="components.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <style>
+  <!-- needed for Inkscape only, must be removed by build process -->
+  @import url(mockstyle_inkscape.css);
+  </style>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     pagecolor="#ffffff"
+     showgrid="false"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:current-layer="layer1"
+     inkscape:cx="308.09019"
+     inkscape:cy="-206.26377"
+     inkscape:document-rotation="0"
+     inkscape:document-units="mm"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false"
+     inkscape:window-height="708"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="0.5745071"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer2"
+     inkscape:groupmode="layer"
+     inkscape:label="bG"
+     transform="translate(-5.2785039,-3.423052)" />
+  <g
+     id="layer1"
+     transform="translate(-21.764393,-21.208971)"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+       x="207.85828"
+       y="30.018541"
+       id="buttonText"
+       class="button-text-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444007px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="207.85828"
+         y="30.018541">Confirm</tspan></text>
+    <rect
+       id="buttonFilled"
+       class="button-filled-container"
+       width="29.200125"
+       height="10.000378"
+       x="53.839336"
+       y="21.62677"
+       ry="5.0001888" />
+    <rect
+       id="buttonElevated-1"
+       class="button-elevated-container"
+       width="29.200125"
+       height="10.000378"
+       x="21.993374"
+       y="21.626768"
+       ry="5.0001888" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="25.682362"
+       y="29.170794"
+       id="buttonElevatedText"
+       class="button-elevated-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="25.682362"
+         y="29.170794">Confirm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="57.757301"
+       y="28.757736"
+       id="buttonFilledText"
+       class="button-filled-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="57.757301"
+         y="28.757736">Confirm</tspan></text>
+    <rect
+       id="buttonFilledTonal"
+       class="button-tonal-container"
+       width="29.200125"
+       height="10.000378"
+       x="136.71289"
+       y="21.347338"
+       ry="5.0001888" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="140.63086"
+       y="28.478502"
+       id="buttonFilledTonalText"
+       class="button-tonal-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="140.63086"
+         y="28.478502">Confirm</tspan></text>
+    <rect
+       id="buttonOutlined"
+       class="button-outlined-container"
+       width="30.526114"
+       height="9.427453"
+       x="170.29515"
+       y="21.995226"
+       ry="4.7137265" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="174.68219"
+       y="28.260241"
+       id="buttonOutlinedText"
+       class="button-outlined-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="174.68219"
+         y="28.260241">Confirm</tspan></text>
+    <rect
+       id="buttonFilled2"
+       class="button-filled-container"
+       width="39.462841"
+       height="10.000378"
+       x="88.995399"
+       y="22.482439"
+       ry="5.0001888" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="103.17608"
+       y="29.61339"
+       id="buttonFilledText2"
+       class="button-filled-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="103.17608"
+         y="29.61339">Confirm</tspan></text>
+    <path
+       style="fill-opacity:1"
+       d="m 99.582427,26.58584 c -0.270063,-1.37019 -1.473434,-2.39881 -2.919068,-2.39881 -1.147771,0 -2.144621,0.65133 -2.641066,1.6045 -1.195431,0.12714 -2.124761,1.13982 -2.124761,2.36703 a 2.3829122,2.3829122 0 0 0 2.382913,2.38291 h 5.162972 a 1.9857602,1.9857602 0 0 0 1.985763,-1.98577 c 0,-1.04848 -0.81416,-1.89838 -1.846753,-1.96986 m -0.138992,3.16132 h -5.162972 a 1.5886081,1.5886081 0 0 1 -1.588614,-1.5886 c 0,-0.81417 0.607645,-1.49331 1.413863,-1.5767 l 0.424963,-0.0437 0.198573,-0.37731 c 0.377284,-0.72677 1.116,-1.17953 1.934129,-1.17953 1.04054,0 1.93809,0.73871 2.140641,1.75937 l 0.119178,0.59574 0.607646,0.0437 c 0.619558,0.0398 1.104078,0.56 1.104078,1.17557 a 1.1914561,1.1914561 0 0 1 -1.191458,1.19146 m -4.368673,-1.98577 h 1.012739 v 1.19146 h 1.151742 v -1.19146 h 1.012739 l -1.588605,-1.5886 z"
+       id="buttonFilledIcon"
+       class="button-filled-icon" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="34.669094"
+       y="43.779449"
+       id="text9214-7-4-4-0"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-7-4-5"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="34.669094"
+         y="43.779449">Elevated</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="34.669094"
+         y="51.690617"
+         id="tspan62066">Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="66.104042"
+       y="43.779449"
+       id="text9214-7-4-4-0-1"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-7-4-5-1"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="66.104042"
+         y="43.779449">Filled</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="66.104042"
+         y="51.690617"
+         id="tspan62066-0">Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="102.32204"
+       y="43.779449"
+       id="text9214-7-4-4-0-8"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-7-4-5-5"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="102.32204"
+         y="43.779449">Filled</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="102.32204"
+         y="51.690617"
+         id="tspan62066-06">Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="144.91612"
+       y="43.779449"
+       id="text9214-7-4-4-0-4"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="144.91612"
+         y="43.779449"
+         id="tspan62066-2">Filled</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="144.91612"
+         y="51.690617"
+         id="tspan62200">Tonal Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="177.58556"
+       y="43.779449"
+       id="text9214-7-4-4-0-5"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-7-4-5-8"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="177.58556"
+         y="43.779449">Outlined</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="177.58556"
+         y="51.690617"
+         id="tspan62066-6">Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000"
+       x="212.6964"
+       y="43.659191"
+       id="text9214-7-4-4-0-2"
+       transform="scale(1.031322,0.96962928)"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-7-4-5-84"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="212.6964"
+         y="43.659191">Text</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.15715px;font-family:Roboto;-inkscape-font-specification:'Sans Italic';text-align:center;text-anchor:middle"
+         x="212.6964"
+         y="51.570358"
+         id="tspan62066-7">Button</tspan></text>
+  </g>
+</svg>

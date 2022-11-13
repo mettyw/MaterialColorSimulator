@@ -17,7 +17,13 @@
             "request": "launch",
             "reAttach": true,
             "url": "http://localhost:8080/index.html",
-            "webRoot": "${workspaceFolder}/dist"
+            "webRoot": "${workspaceFolder}/dist",
+            "pathMappings": [
+                {
+                    "url": "http://localhost:8080/main.js",
+                    "path": "${workspaceFolder}/src/js/main.js"
+                }
+            ]
         },
         {
             "name": "Attach",

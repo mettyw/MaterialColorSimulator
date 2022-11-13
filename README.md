@@ -1,5 +1,5 @@
-# Material3ColorSimulator
-[Material3ColorSimulator](https://mettyw.github.io/MaterialColorSimulator/) is a simulator for the Android Material Design color system. It lets you edit, preview and export a Material Design color theme for Android.
+# MaterialColorSimulator
+[MaterialColorSimulator](https://mettyw.github.io/MaterialColorSimulator/) is a simulator for the Android Material Design color system. It lets you edit, preview and export a Material Design color theme for Android.
 
 Note: Currently work in progress: results are usable but not fully accurate.
 
@@ -30,10 +30,11 @@ https://mettyw.github.io/MaterialColorSimulator/
 
 ## How does it work?
 * phone mockups are drawn as SVG images
-* each themable item in the SVG has a CSS class (e.g. colorOnPrimary)
-* mockup SVGs are made inline in order to share the website's CSS
-* color picker changes the color of the CSS classes
-* the CSS class color map is transformed to Android XML files 
+* the SVGs are made inline in order to share the website's CSS
+* each themable item in the SVG has a CSS class (e.g. button-filled-container)
+* the CSS class uses CSS variables
+* color picker changes the value of the CSS variables
+* the map of colors is transformed to Android XML files for export 
 
 ## Feedback & Contributions
 Very welcome!

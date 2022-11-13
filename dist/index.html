@@ -10,29 +10,7 @@
 
     <!-- For img.onLoad(9 to work, svg-injext needs to be executed immediately -->
     <script src="./svg-inject.min.js"></script>
-    <script type="application/javascript"  src="./main.js"></script>
-    <style>
-        .cssColorOnDark {
-            color: #ffffff;
-        }
-
-        .csscssColorOnLight {
-            color: #000000;
-        }
-
-        .swatch {
-            font-size: small;
-            height: 3rem;
-            border: 2px solid white;
-        }
-
-        .tonalPaletteItem {
-            height: 2em;
-            cursor: pointer;
-        }
-    </style>
-    <script type="text/javascript" defer>
-    </script>
+    <script type="application/javascript" src="./main.js"></script>
 </head>
 
 <body>
@@ -41,7 +19,8 @@
             <h4>Material Design Color Simulator (beta)</h4>
         </div>
         <div class="flex-grow-1 px-4">
-            <button type="button" id="btnRandomizeAll" class="btn btn-primary btn-sm">Randomize all colors</button>
+            <button type="button" id="btnRandomizeAll" class="btn btn-light btn-sm">Randomize all colors</button>
+            <button type="button" id="btnResetAll" class="btn btn-light btn-sm">Reset theme</button>
         </div>
         <div class="">
             <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal"
@@ -111,24 +90,29 @@
     </header>
 
     <main>
-        <div class="container-fluid pb-3">
-            <div class="d-grid gap-3" style="grid-template-columns: 1fr 3fr;">
-                <div class="bg-light border rounded-3">
-                    <div class="container p-2 " id="color-swatches-content">
+        <div class="container-fluid px-1 pb-3">
+            <div class="d-grid gap-2" style="grid-template-columns: 1fr 3fr;">
+                <div class="">
+                    <div id="color-swatches-content" class="container px-1">
+                        <!-- placeholder for auto-generated swatches -->
                     </div>
-                    <div class="container p-2 collapse" id="color-picker-content">
+                    <div id="color-picker-content" class="container collapse px-1 h-100">
                         <div class="row justify-content-between mb-3 ">
-                            <div class="col ">
+                            <div class="col-auto align-self-start pe-1">
+                                <a id="btnColorPickerBack" type="button">
+                                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col ps-1">
                                 <h5 class="text-break">
                                     Color <span id="colorDialogColorName">undef</span>
                                 </h5>
                                 <!--      <span class="colorDialogColorDesc">The Material Design color system defines several key colors. </span> 
       <a href="https://m3.material.io/styles/color/the-color-system/tokens">Read more ...</a>
       -->
-                            </div>
-                            <div class="col-auto align-self-start ">
-                                <button id="btnColorPickerBack" title="Close color picker" type="button"
-                                    class="btn-close" aria-label="Close"></button>
                             </div>
                         </div>
 
@@ -180,7 +164,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="row px-1">
+                        <div class="row px-3">
                             <hr />
                         </div>
                         <div class="row">
@@ -194,7 +178,7 @@
                             <h6>Color Primary tonal palette</h6>
                         </div>
                         <div class="row px-2 ">
-                            <table>
+                            <table class="tonalPalette">
                                 <tr>
                                     <td id="colorPrimary-0" class="text-center cssColorOnDark tonalPaletteItem">0</td>
                                     <td id="colorPrimary-10" class="text-center cssColorOnDark tonalPaletteItem">10</td>
@@ -223,7 +207,7 @@
                             <h6>Color Secondary tonal palette</h6>
                         </div>
                         <div class="row px-2">
-                            <table>
+                            <table class="tonalPalette">
                                 <tr>
                                     <td id="colorSecondary-0" class="text-center cssColorOnDark tonalPaletteItem">0</td>
                                     <td id="colorSecondary-10" class="text-center cssColorOnDark tonalPaletteItem">10
@@ -279,9 +263,9 @@
                             <img src="mockups.svg" width="100%" height="*" onload="SVGInject(this)" />
                         </div>
                         <div class="tab-pane fade" id="components" role="tabpanel" aria-labelledby="components-tab">
-                            <!-- TODO provide onError -->
-                            <!--<img src="components.svg" width="100%" height="*" onload="SVGInject(this)" />-->
                             <i>Coming soon!</i>
+                            <!-- TODO provide onError -->
+                            <img src="components.svg" width="100%" height="*" onload="SVGInject(this)" />
                         </div>
                         <div class="tab-pane fade" id="export" role="tabpanel" aria-labelledby="export-tab">
                             <div class="card text-bg-warning m-3">
