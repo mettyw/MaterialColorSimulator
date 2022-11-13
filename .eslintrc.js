@@ -9,7 +9,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  rules: {},
+  rules: {
+    'no-plusplus': 'off',
+  },
   plugins: [
     'eslint-plugin-html',
   ],
