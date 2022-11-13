@@ -178,7 +178,14 @@ $(document).ready(
       if (typeof attrs === 'undefined') return;
       const classList = attrs.split(/\s+/);
       classList.forEach((className) => {
-        const colorName = getFillStyle(`.${className}`).replace(/var\(--(.*)\)/, '$1');
+        let colorName = getFillStyle(`.${className}`);
+        if (colorName.startsWith('var')) {
+          // handle e.g. var(--colorOnSurfaceVariant)
+          colorName = colorName.replace(/var\(--(.*?)\)/, '$1');
+        } else {
+          // handle e.g. rgba(var(--colorPrimary-rgbstr), 0.3)
+          colorName = colorName.replace(/rgba\(var\(--(.*?)-rgbstr\), (\d*\.)?\d+\)/, '$1');
+        }
         if (!colorName.startsWith('color')) return;
         $(`#swatch-${colorName}`).fadeOut(100).fadeIn(100).fadeOut(100)
           .fadeIn(100);
