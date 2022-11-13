@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="174.35295mm"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 93 174.35295"
+   width="93mm"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="mockup1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style
+     id="style"><!-- needed for Inkscape only, must be removed by build process -->
+
+     @import url(mockstyle_inkscape.css);
+  </style>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     pagecolor="#ffffff"
+     showgrid="false"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:current-layer="layer1"
+     inkscape:cx="665.74991"
+     inkscape:cy="378.41485"
+     inkscape:document-rotation="0"
+     inkscape:document-units="mm"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false"
+     inkscape:window-height="708"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="0.46113412"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-19.57289,-27.391671)"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <rect
+       id="deviceBackground-0-0-1-4-9-9"
+       class="device-background"
+       width="86.40638"
+       height="157"
+       x="22.927094"
+       y="30.601648"
+       ry="2.2251673" />
+    <rect
+       style="mix-blend-mode:normal;fill:#000000;fill-opacity:0.598419"
+       id="rect87126-2-5-2-6-9-5-0"
+       width="87"
+       height="10"
+       x="22.927094"
+       y="30.601648"
+       ry="0"
+       class="device-statusbar" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="26.77113"
+       y="123.59274"
+       id="textOnBackgroundTitle2"
+       class="label-secondary"><tspan
+         sodipodi:role="line"
+         id="tspan9212-1-9-1-56-0-75"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
+         x="26.77113"
+         y="123.59274">Apply Coupon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.94587px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="45.109825"
+       y="200.29982"
+       id="text9214-7-0-6-9-4"
+       class="mock-description"><tspan
+         sodipodi:role="line"
+         x="45.109825"
+         y="200.29982"
+         id="tspan170011">Shopping</tspan></text>
+    <rect
+       id="rect3608"
+       class="card-elevated-container"
+       width="79.978073"
+       height="29.04903"
+       x="26.17569"
+       y="54.422005"
+       ry="2.3472857" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="29.653877"
+       y="61.056396"
+       id="text3614"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="29.653877"
+         y="61.056396"
+         id="tspan3612">Paneer Butter Masala</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="39.513008"
+       y="80.447136"
+       id="text3620"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan3618"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         x="39.513008"
+         y="80.447136">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="86.259102"
+       y="80.246788"
+       id="text5434"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5432"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         x="86.259102"
+         y="80.246788">18,50 €</tspan></text>
+    <rect
+       id="rect7134"
+       class="card-elevated-container"
+       width="79.978073"
+       height="29"
+       x="26.17569"
+       y="86.363388"
+       ry="2.3433242" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="29.653877"
+       y="92.997803"
+       id="text7138"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="29.653877"
+         y="92.997803"
+         id="tspan7136">Murgh Makhani</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="86.788269"
+       y="112.18818"
+       id="text7164"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan7162"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         x="86.788269"
+         y="112.18818">12,00 €</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+       x="27.193169"
+       y="49.533546"
+       id="textOnBackgroundTitle1"
+       class="label-onbackground"><tspan
+         sodipodi:role="line"
+         id="tspan9764"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="27.193169"
+         y="49.533546">Shopping Cart</tspan></text>
+    <rect
+       id="rect1166"
+       class="chip-container"
+       width="16.666609"
+       height="5.2297635"
+       x="55.004017"
+       y="96.676003"
+       ry="2.2010231" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="61.016876"
+       y="100.18573"
+       id="text1170"
+       class="chip-text"><tspan
+         sodipodi:role="line"
+         id="tspan1168"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="61.016876"
+         y="100.18573">Spicy</tspan></text>
+    <rect
+       id="rect1174"
+       class="chip-container"
+       width="20.891857"
+       height="5.2297635"
+       x="30.043388"
+       y="96.595787"
+       ry="2.2010231" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="36.400368"
+       y="100.28909"
+       id="text1180"
+       class="chip-text"><tspan
+         sodipodi:role="line"
+         id="tspan1178"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="36.400368"
+         y="100.28909">Chicken</tspan></text>
+    <rect
+       id="textFieldContainerStroke2-9"
+       class="textfield-container"
+       width="52.828915"
+       height="10"
+       x="26.17569"
+       y="127.51326"
+       ry="0.85228246" />
+    <rect
+       id="buttonFilled-6"
+       class="button-filled-container"
+       width="21.880598"
+       height="10.000378"
+       x="83.795143"
+       y="127.1991"
+       ry="2.7662437" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="87.703316"
+       y="133.71371"
+       id="buttonFilledText-75"
+       class="button-filled-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-3"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         x="87.703316"
+         y="133.71371">Apply</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="29.62743"
+       y="134.2679"
+       id="textFieldLabelText"
+       class="textfield-label"><tspan
+         sodipodi:role="line"
+         id="tspan7592-6"
+         style="font-size:4.93889px"
+         x="29.62743"
+         y="134.2679">Enter Code</tspan></text>
+    <path
+       d="m 99.714243,61.926611 q -0.247147,0 -0.424587,-0.174271 -0.17744,-0.174271 -0.17744,-0.42142 v -3.504436 h -0.0697 q -0.126747,0 -0.212297,-0.08555 -0.0855,-0.08555 -0.0855,-0.212295 0,-0.126742 0.0855,-0.212294 0.0855,-0.08555 0.212297,-0.08555 h 1.172354 q 0,-0.126743 0.0856,-0.215462 0.0855,-0.08872 0.21229,-0.08872 h 1.2801 q 0.12674,0 0.21546,0.08872 0.0887,0.08872 0.0887,0.215462 h 1.16603 q 0.12674,0 0.21229,0.08555 0.0856,0.08555 0.0856,0.212294 0,0.126743 -0.0856,0.212295 -0.0855,0.08555 -0.21229,0.08555 h -0.0697 v 3.504436 q 0,0.247149 -0.17744,0.42142 -0.17744,0.174271 -0.42459,0.174271 z m 0,-4.100127 v 3.504436 h 2.877057 v -3.504436 z m 0.640047,2.769328 q 0,0.09506 0.0729,0.167934 0.0729,0.07288 0.16793,0.07288 0.1014,0 0.17428,-0.07288 0.0729,-0.07288 0.0729,-0.167934 v -2.040558 q 0,-0.09506 -0.076,-0.171102 -0.076,-0.07605 -0.1711,-0.07605 -0.10139,0 -0.1711,0.07605 -0.0697,0.07605 -0.0697,0.171102 z m 1.109,0 q 0,0.09506 0.0761,0.167934 0.076,0.07288 0.1711,0.07288 0.10139,0 0.17427,-0.07288 0.0729,-0.07288 0.0729,-0.167934 v -2.040558 q 0,-0.09506 -0.0729,-0.171102 -0.0729,-0.07605 -0.17427,-0.07605 -0.1014,0 -0.17428,0.07605 -0.0729,0.07605 -0.0729,0.171102 z m -1.749047,-2.769328 v 3.504436 z"
+       id="iconButton3"
+       class="iconbutton-text-icon" />
+    <path
+       d="m 99.530963,93.848986 q -0.247147,0 -0.424587,-0.17427 -0.177437,-0.174267 -0.177437,-0.421407 V 89.74891 h -0.0697 q -0.12675,0 -0.2123,-0.0855 -0.0855,-0.0855 -0.0855,-0.2123 0,-0.126737 0.0855,-0.212287 0.0855,-0.0856 0.2123,-0.0856 h 1.172351 q 0,-0.12674 0.0856,-0.21546 0.0855,-0.0887 0.21229,-0.0887 h 1.2801 q 0.12674,0 0.21546,0.0887 0.0887,0.0887 0.0887,0.21546 h 1.16603 q 0.12674,0 0.21229,0.0856 0.0856,0.0855 0.0856,0.212287 0,0.12675 -0.0856,0.2123 -0.0855,0.0855 -0.21229,0.0855 h -0.0697 v 3.504399 q 0,0.24714 -0.17744,0.421407 -0.17744,0.17427 -0.42459,0.17427 z m 0,-4.100076 v 3.504399 h 2.877057 V 89.74891 Z m 0.640047,2.769295 q 0,0.0951 0.0729,0.167927 0.0729,0.0729 0.16793,0.0729 0.1014,0 0.17428,-0.0729 0.0729,-0.0729 0.0729,-0.167927 v -2.040541 q 0,-0.0951 -0.076,-0.171097 -0.076,-0.0761 -0.1711,-0.0761 -0.10139,0 -0.1711,0.0761 -0.0697,0.076 -0.0697,0.171097 z m 1.109,0 q 0,0.0951 0.0761,0.167927 0.076,0.0729 0.1711,0.0729 0.10139,0 0.17427,-0.0729 0.0729,-0.0729 0.0729,-0.167927 v -2.040541 q 0,-0.0951 -0.0729,-0.171097 -0.0729,-0.0761 -0.17427,-0.0761 -0.1014,0 -0.17428,0.0761 -0.0729,0.076 -0.0729,0.171097 z M 99.530963,89.74891 v 3.504399 z"
+       id="iconButton4"
+       class="iconbutton-text-icon" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="39.422272"
+       y="111.78922"
+       id="text1206"
+       class="card-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan1204"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+         x="39.422272"
+         y="111.78922">1</tspan></text>
+    <path
+       d="m 46.885631,81.038317 c -1.166813,0 -2.116667,-0.949855 -2.116667,-2.116667 0,-1.166813 0.949854,-2.116667 2.116667,-2.116667 1.166812,0 2.116667,0.949854 2.116667,2.116667 0,1.166812 -0.949855,2.116667 -2.116667,2.116667 m 0,-4.7625 a 2.6458333,2.6458333 0 0 0 -2.645833,2.645833 2.6458333,2.6458333 0 0 0 2.645833,2.645833 2.6458333,2.6458333 0 0 0 2.645833,-2.645833 2.6458333,2.6458333 0 0 0 -2.645833,-2.645833 m 0.264583,1.322916 h -0.529166 v 1.058334 h -1.058334 v 0.529167 h 1.058334 v 1.058334 h 0.529166 v -1.058334 h 1.058334 v -0.529167 h -1.058334 z"
+       id="iconButton6"
+       class="iconbutton-text-icon" />
+    <path
+       d="m 34.026201,81.038317 c -1.166813,0 -2.116667,-0.949855 -2.116667,-2.116667 0,-1.166813 0.949854,-2.116667 2.116667,-2.116667 1.166812,0 2.116667,0.949854 2.116667,2.116667 0,1.166812 -0.949855,2.116667 -2.116667,2.116667 m 0,-4.7625 a 2.6458333,2.6458333 0 0 0 -2.645833,2.645833 2.6458333,2.6458333 0 0 0 2.645833,2.645833 2.6458333,2.6458333 0 0 0 2.645833,-2.645833 2.6458333,2.6458333 0 0 0 -2.645833,-2.645833 m -1.322917,2.910416 h 2.645834 v -0.529166 h -2.645834"
+       id="iconButton5"
+       class="iconbutton-text-icon" />
+    <path
+       d="m 46.885631,112.39581 c -1.166813,0 -2.116667,-0.94985 -2.116667,-2.11666 0,-1.16682 0.949854,-2.11667 2.116667,-2.11667 1.166812,0 2.116667,0.94985 2.116667,2.11667 0,1.16681 -0.949855,2.11666 -2.116667,2.11666 m 0,-4.7625 a 2.6458333,2.6458333 0 0 0 -2.645833,2.64584 2.6458333,2.6458333 0 0 0 2.645833,2.64584 2.6458333,2.6458333 0 0 0 2.645833,-2.64584 2.6458333,2.6458333 0 0 0 -2.645833,-2.64584 m 0.264583,1.32292 h -0.529166 v 1.05833 h -1.058334 v 0.52917 h 1.058334 v 1.05833 h 0.529166 v -1.05833 h 1.058334 v -0.52917 h -1.058334 z"
+       id="label-onsurface"
+       class="iconbutton-text-icon" />
+    <path
+       d="m 34.026201,112.39582 c -1.166813,0 -2.116667,-0.94985 -2.116667,-2.11666 0,-1.16682 0.949854,-2.11667 2.116667,-2.11667 1.166812,0 2.116667,0.94985 2.116667,2.11667 0,1.16681 -0.949855,2.11666 -2.116667,2.11666 m 0,-4.7625 a 2.6458333,2.6458333 0 0 0 -2.645833,2.64584 2.6458333,2.6458333 0 0 0 2.645833,2.64583 2.6458333,2.6458333 0 0 0 2.645833,-2.64583 2.6458333,2.6458333 0 0 0 -2.645833,-2.64584 m -1.322917,2.91042 h 2.645834 v -0.52917 h -2.645834"
+       id="iconButtonDisabled-1"
+       class="iconbutton-text-icon-disabled" />
+    <rect
+       id="rect87126-7-4-9-2-2"
+       width="87.114731"
+       height="11.884301"
+       x="22.218742"
+       y="175.32332"
+       ry="0"
+       class="device-frame" />
+    <path
+       d="m 42.83181,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
+       id="path13490"
+       class="device-button" />
+    <path
+       d="m 85.76697,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
+       id="path13492"
+       class="device-button" />
+    <path
+       d="m 65.32785,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
+       id="path13494"
+       class="device-button" />
+    <rect
+       id="bottomappbarContainer-7"
+       class="bottomappbar-container"
+       width="86.288788"
+       height="12.074577"
+       x="22.927059"
+       y="163.24873" />
+    <path
+       d="m 26.272586,171.64928 q -0.19195,0 -0.32905,-0.1371 -0.13711,-0.13711 -0.13711,-0.32905 0,-0.18274 0.13711,-0.31984 0.1371,-0.1371 0.32905,-0.1371 h 5.91369 q 0.19195,0 0.32445,0.1371 0.1325,0.1371 0.1325,0.32905 0,0.19195 -0.1325,0.32445 -0.1325,0.13249 -0.32445,0.13249 z m 0,-1.98352 q -0.19195,0 -0.32905,-0.1371 -0.13711,-0.13711 -0.13711,-0.32905 0,-0.18273 0.13711,-0.31984 0.1371,-0.1371 0.32905,-0.1371 h 5.91369 q 0.19195,0 0.32445,0.1371 0.1325,0.13711 0.1325,0.32906 0,0.19194 -0.1325,0.32444 -0.1325,0.13249 -0.32445,0.13249 z m 0,-1.9743 q -0.19195,0 -0.32905,-0.1371 -0.13711,-0.13711 -0.13711,-0.32906 0,-0.19194 0.13711,-0.32904 0.1371,-0.13711 0.32905,-0.13711 h 5.91369 q 0.19195,0 0.32445,0.14172 0.1325,0.14171 0.1325,0.32443 0,0.19195 -0.1325,0.32906 -0.1325,0.1371 -0.32445,0.1371 z"
+       id="topappbarNavigationIcon-9"
+       class="bottomappbar-navigationicon" />
+    <circle
+       style="font-variation-settings:normal"
+       cx="66.427101"
+       cy="163.72455"
+       id="fabCutout"
+       class="fab-cutout-background"
+       r="6.9219599" />
+    <circle
+       style="font-variation-settings:normal"
+       cx="66.427101"
+       cy="163.72453"
+       id="fabContainer-4"
+       class="fab-container"
+       r="5.8994169" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       id="fabIcon-9"
+       class="fab-icon"
+       x="63.410866"
+       y="167.46043"
+       xml:space="preserve"><tspan
+         id="tspan8033-4-0"
+         x="63.410866"
+         y="167.46043"
+         sodipodi:role="line">+</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;stroke-linecap:square"
+       d="m 24.7975,27.391671 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 v 152.54881 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.61628 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.4797 0,151.08749 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 33.34792 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
+       id="path3123-5-6"
+       sodipodi:nodetypes="sssssssssszzzzzzss"
+       class="device-frame" />
+    <rect
+       id="textFieldActivationIndicator2-0"
+       class="textfield-activationindicator-unfocused"
+       width="52.828915"
+       height="0.80000001"
+       x="26.17569"
+       y="136.71326"
+       ry="0" />
+    <rect
+       id="snackbarContainer-3"
+       class="snackbar-container"
+       width="82.625389"
+       height="11.831893"
+       x="25.175591"
+       y="141.64226"
+       ry="2.1172662" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.09459px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="27.549925"
+       y="151.09753"
+       id="snackbarLabel-3"
+       class="snackbar-textlabel"
+       transform="scale(1.0338838,0.96722668)"><tspan
+         sodipodi:role="line"
+         style="font-size:4.09459px"
+         x="27.549925"
+         y="151.09753"
+         id="tspan46517-3">Coupon code has been </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.09459px"
+         x="27.549925"
+         y="156.21577"
+         id="tspan9636">rejected</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+       x="90.387711"
+       y="149.58623"
+       id="snackbarAction-7"
+       class="snackbar-action"><tspan
+         sodipodi:role="line"
+         id="tspan5081-7-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="90.387711"
+         y="149.58623">Retry</tspan></text>
+    <g
+       id="g3875"
+       transform="translate(-223.65735)">
+      <path
+         d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
+         id="path3861"
+         class="device-statusbar-labeltext" />
+      <path
+         d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
+         id="path3863"
+         class="device-statusbar-labeltext" />
+      <path
+         d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
+         id="path3865"
+         class="device-statusbar-labeltext" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+         x="318.27667"
+         y="37.471352"
+         id="text3869"
+         class="device-statusbar-labeltext"><tspan
+           sodipodi:role="line"
+           id="tspan3867"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+           x="318.27667"
+           y="37.471352">72%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+         x="248.42583"
+         y="37.471352"
+         id="text3873"
+         class="device-statusbar-labeltext"><tspan
+           sodipodi:role="line"
+           id="tspan3871"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+           x="248.42583"
+           y="37.471352">12:30</tspan></text>
+    </g>
+    <rect
+       id="rect1162"
+       class="chip-container"
+       width="19.063232"
+       height="5.2297635"
+       x="30.0109"
+       y="64.94696"
+       ry="2.2010231" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="36.367882"
+       y="68.448952"
+       id="text3636"
+       class="chip-text"><tspan
+         sodipodi:role="line"
+         id="tspan3634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="36.367882"
+         y="68.448952">Vegan</tspan></text>
+    <path
+       d="m 32.013488,68.953898 q -0.226581,-0.23173 -0.352746,-0.535555 -0.126165,-0.303825 -0.126165,-0.6231 0,-0.37592 0.131315,-0.687468 0.131313,-0.31155 0.393943,-0.574179 0.180235,-0.180235 0.448013,-0.303825 0.267778,-0.12359 0.630824,-0.193109 0.363046,-0.06952 0.821358,-0.08754 0.458313,-0.01803 1.019618,0.01802 0.0412,0.556155 0.02832,1.017043 -0.01287,0.460888 -0.08239,0.826508 -0.06952,0.365621 -0.195684,0.641123 -0.126164,0.275502 -0.311549,0.460887 -0.262629,0.26263 -0.566454,0.396519 -0.303826,0.133887 -0.648847,0.133887 -0.355322,0 -0.651422,-0.121014 Q 32.255523,69.20108 32.013493,68.9539 Z m 0.530408,0 q 0.128739,0.08754 0.298674,0.133889 0.169938,0.04635 0.360472,0.04635 0.272927,0 0.530406,-0.11329 0.257479,-0.11329 0.468612,-0.329571 0.139039,-0.139039 0.236882,-0.363046 0.09784,-0.224007 0.159636,-0.530406 0.06179,-0.306402 0.08239,-0.692619 0.0206,-0.38622 0,-0.849681 -0.484061,-0.0103 -0.867704,0.01287 -0.383644,0.02317 -0.67717,0.08497 -0.293527,0.06179 -0.50466,0.157062 -0.211132,0.09527 -0.345022,0.234306 -0.216282,0.221432 -0.329573,0.468615 -0.11329,0.24718 -0.11329,0.504655 0,0.247181 0.105566,0.517533 0.105567,0.270357 0.260054,0.435142 0.272928,-0.504659 0.653997,-0.906325 0.381069,-0.401669 0.808485,-0.6334 -0.448014,0.38622 -0.726091,0.836807 -0.278078,0.450588 -0.401668,0.986143 z m 0,0 z m 0,0 z"
+       id="chipIcon2"
+       class="chip-thumbnail" />
+    <path
+       d="m 58.405454,101.07793 q -0.636685,0 -1.078563,-0.44188 -0.441879,-0.44188 -0.441879,-1.078567 0,-0.551147 0.339724,-1.069054 0.339724,-0.517897 0.933647,-0.883751 0.08077,-0.05226 0.163923,-0.0024 0.08315,0.04989 0.08315,0.149669 v 0.342095 q 0,0.16155 0.111658,0.27083 0.111657,0.109277 0.273204,0.109277 0.08552,0 0.159172,-0.0356 0.07365,-0.0356 0.130665,-0.106897 0.03801,-0.0428 0.08552,-0.0594 0.04751,-0.0166 0.09028,0.0119 0.313593,0.213807 0.491768,0.551157 0.178179,0.337337 0.178179,0.722204 0,0.636677 -0.441881,1.078557 -0.441877,0.44188 -1.078563,0.44188 z m -1.235359,-1.520447 q 0,0.29934 0.135414,0.563037 0.135415,0.26371 0.377736,0.43951 -0.019,-0.057 -0.02851,-0.11641 -0.0095,-0.0594 -0.0095,-0.11641 0,-0.15205 0.05702,-0.28508 0.05701,-0.133037 0.166298,-0.242317 l 0.536906,-0.527407 0.536906,0.527407 q 0.109283,0.10928 0.166297,0.242317 0.05702,0.13303 0.05702,0.28508 0,0.057 -0.0095,0.11641 -0.0095,0.0594 -0.02852,0.11641 0.242318,-0.1758 0.377735,-0.43951 0.135415,-0.263697 0.135415,-0.563037 0,-0.256567 -0.109282,-0.501267 -0.109281,-0.244687 -0.313593,-0.448997 -0.09978,0.0713 -0.209059,0.11166 -0.109283,0.0404 -0.218564,0.0404 -0.289835,0 -0.479889,-0.19718 -0.190056,-0.197187 -0.190056,-0.496517 v -0.095 q -0.437127,0.31359 -0.693702,0.743587 -0.256575,0.429997 -0.256575,0.843364 z m 1.235359,0.11404 -0.337348,0.332587 q -0.06652,0.0665 -0.102154,0.1473 -0.03564,0.0808 -0.03564,0.1758 0,0.1948 0.137791,0.33022 0.13779,0.13542 0.337348,0.13542 0.199558,0 0.337348,-0.13542 0.137791,-0.13542 0.137791,-0.33022 0,-0.095 -0.03564,-0.1758 -0.03564,-0.0808 -0.102155,-0.1473 z"
+       id="chipIcon3"
+       class="chip-thumbnail" />
+    <path
+       d="m 34.435635,97.926682 c 0.145232,0 0.283465,0.0385 0.4007,0.11549 0.199476,0.12948 0.32196,0.3272 0.349957,0.556427 0.01924,0.22573 -0.05949,0.447947 -0.218723,0.607177 -0.122484,0.12074 -0.278215,0.19773 -0.449694,0.21522 -0.334208,0.035 -0.628172,0.167967 -0.846895,0.390197 -0.03674,0.035 -0.07699,0.0403 -0.09974,0.0403 -0.021,0 -0.06124,-0.005 -0.09799,-0.0403 l -0.17323,-0.17322 c -0.03149,-0.0315 -0.03849,-0.0683 -0.03849,-0.0928 0,-0.0437 0.01924,-0.0823 0.05599,-0.118977 0.211724,-0.21348 0.341208,-0.496937 0.372704,-0.822397 0.02275,-0.232727 0.146982,-0.432197 0.349957,-0.563427 0.115486,-0.0752 0.251969,-0.11374 0.395451,-0.11374 m 0,-0.34995 c -0.204725,0 -0.409449,0.056 -0.586178,0.169726 -0.307962,0.197724 -0.477691,0.505684 -0.507437,0.824141 -0.02275,0.23098 -0.110236,0.446207 -0.271216,0.607177 l -0.0052,0.005 c -0.202976,0.20298 -0.202976,0.512687 -0.01225,0.701657 l 0.173228,0.173237 c 0.09624,0.0962 0.220473,0.14348 0.344708,0.14348 0.124235,0 0.25022,-0.0473 0.346457,-0.14348 0.169729,-0.169737 0.393701,-0.262467 0.636922,-0.288707 0.239719,-0.0262 0.474191,-0.13124 0.659667,-0.314967 0.484691,-0.48469 0.421699,-1.307074 -0.187226,-1.702529 -0.176728,-0.117243 -0.383203,-0.174985 -0.591427,-0.174985 m -1.653545,3.125098 c 0.04724,0.098 0.03149,0.21698 -0.05074,0.29747 -0.101487,0.10323 -0.267716,0.10323 -0.370954,0 -0.04724,-0.0473 -0.07174,-0.10849 -0.07524,-0.17149 -0.06299,-0.003 -0.124235,-0.028 -0.171479,-0.0752 -0.103237,-0.10323 -0.103237,-0.26947 0,-0.37095 0.08049,-0.0805 0.201225,-0.098 0.297463,-0.0508 l 0.433947,-0.425197 c 0.0245,0.0332 0.05249,0.0717 0.08399,0.103227 l 0.173229,0.17324 c 0.03674,0.035 0.07174,0.0648 0.117235,0.091 z"
+       id="chipIcon4"
+       class="chip-thumbnail" />
+    <rect
+       id="rect1166-9"
+       class="chip-container"
+       width="16.666609"
+       height="5.2297635"
+       x="53.736176"
+       y="64.94696"
+       ry="2.2010231" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="59.749031"
+       y="68.456696"
+       id="text1170-1"
+       class="chip-text"><tspan
+         sodipodi:role="line"
+         id="tspan1168-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Roboto;-inkscape-font-specification:Roboto"
+         x="59.749031"
+         y="68.456696">Spicy</tspan></text>
+    <path
+       d="m 57.137609,69.348898 q -0.636685,0 -1.078563,-0.44188 -0.441879,-0.44188 -0.441879,-1.07857 0,-0.55115 0.339724,-1.06906 0.339724,-0.5179 0.933647,-0.883754 0.08077,-0.05226 0.163923,-0.0024 0.08315,0.04989 0.08315,0.149669 v 0.342095 q 0,0.16155 0.111658,0.27083 0.111657,0.10928 0.273204,0.10928 0.08552,0 0.159172,-0.0356 0.07365,-0.0356 0.130665,-0.1069 0.03801,-0.0428 0.08552,-0.0594 0.04751,-0.0166 0.09028,0.0119 0.313593,0.21381 0.491768,0.55116 0.178179,0.33734 0.178179,0.72221 0,0.63668 -0.441881,1.07856 -0.441877,0.44188 -1.078563,0.44188 z m -1.235359,-1.52045 q 0,0.29934 0.135414,0.56304 0.135415,0.26371 0.377736,0.43951 -0.019,-0.057 -0.02851,-0.11641 -0.0095,-0.0594 -0.0095,-0.11641 0,-0.15205 0.05702,-0.28508 0.05701,-0.13304 0.166298,-0.24232 l 0.536906,-0.52741 0.536906,0.52741 q 0.109283,0.10928 0.166297,0.24232 0.05702,0.13303 0.05702,0.28508 0,0.057 -0.0095,0.11641 -0.0095,0.0594 -0.02852,0.11641 0.242318,-0.1758 0.377735,-0.43951 0.135415,-0.2637 0.135415,-0.56304 0,-0.25657 -0.109282,-0.50127 -0.109281,-0.24469 -0.313593,-0.449 -0.09978,0.0713 -0.209059,0.11166 -0.109283,0.0404 -0.218564,0.0404 -0.289835,0 -0.479889,-0.19718 -0.190056,-0.19719 -0.190056,-0.49652 v -0.095 q -0.437127,0.31359 -0.693702,0.74359 -0.256575,0.43 -0.256575,0.84337 z m 1.235359,0.11404 -0.337348,0.33259 q -0.06652,0.0665 -0.102154,0.1473 -0.03564,0.0808 -0.03564,0.1758 0,0.1948 0.137791,0.33022 0.13779,0.13542 0.337348,0.13542 0.199558,0 0.337348,-0.13542 0.137791,-0.13542 0.137791,-0.33022 0,-0.095 -0.03564,-0.1758 -0.03564,-0.0808 -0.102155,-0.1473 z"
+       id="chipIcon3-7"
+       class="chip-thumbnail" />
+  </g>
+</svg>

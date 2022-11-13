@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="174.67241mm"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 93 174.67241"
+   width="93mm"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="mockup2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style
+     id="style"><!-- needed for Inkscape only, must be removed by build process -->
+
+     @import url(mockstyle_inkscape.css);
+  </style>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     pagecolor="#ffffff"
+     showgrid="false"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:current-layer="layer1"
+     inkscape:cx="448.07993"
+     inkscape:cy="239.83765"
+     inkscape:document-rotation="0"
+     inkscape:document-units="mm"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false"
+     inkscape:window-height="708"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="0.34815217"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-119.94053,-26.912451)"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
+    <rect
+       id="deviceBackground-0-0-1-4-9-28"
+       class="device-background"
+       width="86.684311"
+       height="157"
+       x="122.94076"
+       y="30.266617"
+       ry="2.2251673" />
+    <rect
+       id="buttonOutlined-0-5-8"
+       class="button-outlined-container"
+       width="30.526114"
+       height="9.427453"
+       x="149.86737"
+       y="159.38399"
+       ry="4.7137265" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="156.90025"
+       y="165.649"
+       id="buttonOutlinedText-6-4-8"
+       class="button-outlined-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-6-1-3-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="156.90025"
+         y="165.649">Cancel</tspan></text>
+    <rect
+       id="buttonFilled-4-5-0"
+       class="button-filled-container"
+       width="21.069597"
+       height="10.000378"
+       x="184.72134"
+       y="159.07243"
+       ry="5.0001888" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="192.1503"
+       y="165.67422"
+       id="buttonFilledText-7-6-4"
+       class="button-filled-labeltext"><tspan
+         sodipodi:role="line"
+         id="tspan5081-5-8-9-6"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';font-variant-ligatures:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-variant-east-asian:normal"
+         x="192.1503"
+         y="165.67422">OK</tspan></text>
+    <rect
+       id="sliderTrackInactive-9"
+       class="slider-track-inactive"
+       width="21.546299"
+       height="2"
+       x="182.35687"
+       y="102.38058"
+       ry="1" />
+    <rect
+       id="sliderTrackActive-0"
+       class="slider-track-active"
+       width="47.564632"
+       height="2"
+       x="132.09393"
+       y="102.38058"
+       ry="1" />
+    <circle
+       id="sliderThumb-9"
+       class="slider-thumb"
+       cx="179.40332"
+       cy="102.88058"
+       r="3.5" />
+    <rect
+       id="switchThumbUnchecked-5"
+       class="switch-thumb-unchecked"
+       width="14"
+       height="3"
+       x="189.77853"
+       y="80.421379"
+       ry="1.5" />
+    <circle
+       id="switchTrackUnchecked-2"
+       class="switch-track-unchecked"
+       cx="193.27853"
+       cy="81.921379"
+       r="3.5" />
+    <g
+       id="g5726"
+       transform="translate(-15.875004,-4.2333335)">
+      <rect
+         id="switchThumbChecked-0"
+         class="switch-thumb-checked"
+         width="14"
+         height="3"
+         x="205.65353"
+         y="72.532059"
+         ry="1.5" />
+      <circle
+         id="switchTrackChecked-2"
+         class="switch-track-checked"
+         cx="216.15353"
+         cy="74.032059"
+         r="3.5" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="129.17584"
+       y="61.241898"
+       id="backdropTextTitle1"
+       class="label-secondary"><tspan
+         sodipodi:role="line"
+         id="tspan9212-1-9-1-56-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
+         x="129.17584"
+         y="61.241898">Screen settings</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="132.3054"
+       y="71.737541"
+       id="backdropText-4-9"
+       class="label-onsurface"><tspan
+         sodipodi:role="line"
+         id="tspan9212-1-9-1-56-0-4"
+         style="font-size:4.23333px"
+         x="132.3054"
+         y="71.737541">Keep screen on</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="132.71603"
+       y="83.00174"
+       id="backdropText-4-51"
+       class="label-onsurface"><tspan
+         sodipodi:role="line"
+         id="tspan9212-1-9-1-56-0-03"
+         style="font-size:4.23333px"
+         x="132.71603"
+         y="83.00174">Auto brightness</tspan></text>
+    <rect
+       id="topappbarContainer-9-2"
+       class="topappbar-container"
+       width="86.644997"
+       height="22.619886"
+       x="122.94076"
+       y="30.266617"
+       ry="0" />
+    <path
+       d="m 205.27621,48.958916 q -0.2385,0 -0.4111,-0.168464 -0.17261,-0.168464 -0.17261,-0.406759 0,-0.230208 0.16866,-0.406958 0.16846,-0.176748 0.40676,-0.176748 0.23829,0 0.40676,0.176748 0.16866,0.17675 0.16866,0.406958 0,0.238295 -0.16452,0.406759 -0.16432,0.168464 -0.40261,0.168464 z m 0,-2.424579 q -0.2385,0 -0.4111,-0.168662 -0.17261,-0.168463 -0.17261,-0.406759 0,-0.238295 0.16866,-0.406759 0.16846,-0.168662 0.40676,-0.168662 0.23829,0 0.40676,0.164519 0.16866,0.164321 0.16866,0.402617 0,0.238493 -0.16452,0.4111 -0.16432,0.172606 -0.40261,0.172606 z m 0,-2.416492 q -0.2385,0 -0.4111,-0.172606 -0.17261,-0.172606 -0.17261,-0.411099 0,-0.246581 0.16866,-0.410902 0.16846,-0.164322 0.40676,-0.164322 0.23829,0 0.40676,0.168464 0.16866,0.168464 0.16866,0.40676 0,0.238493 -0.16452,0.411099 -0.16432,0.172606 -0.40261,0.172606 z"
+       id="topappbarActionMenuItem-2-6"
+       class="topappbar-actionmenuitem" />
+    <path
+       d="m 199.5163,48.829137 -1.8432,-1.8432 q -0.22722,0.186872 -0.54386,0.284304 -0.31665,0.09743 -0.68202,0.09743 -0.9256,0 -1.57117,-0.645578 -0.64539,-0.645383 -0.64539,-1.562989 0,-0.909227 0.64539,-1.554805 0.64557,-0.645383 1.56298,-0.645383 0.91742,0 1.5589,0.645383 0.64149,0.645578 0.64149,1.562989 0,0.357183 -0.0974,0.665845 -0.0974,0.308466 -0.2843,0.568218 l 1.85938,1.8432 q 0.12179,0.121789 0.12179,0.292293 0,0.170505 -0.12998,0.292293 -0.12179,0.129779 -0.29638,0.129779 -0.1744,0 -0.29619,-0.129779 z m -3.06908,-2.28164 q 0.5764,0 0.97431,-0.401806 0.39772,-0.402 0.39772,-0.986587 0,-0.576402 -0.39772,-0.978208 -0.39791,-0.402001 -0.97431,-0.402001 -0.58459,0 -0.99068,0.402001 -0.40589,0.401806 -0.40589,0.978208 0,0.584587 0.40199,0.986587 0.40181,0.401806 0.99458,0.401806 z"
+       id="topappbarActionMenuItem-3-2"
+       class="topappbar-actionmenuitem" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="132.3054"
+       y="94.971031"
+       id="text165296"
+       class="label-onsurface"><tspan
+         sodipodi:role="line"
+         id="tspan165294"
+         style="font-size:4.23333px"
+         x="132.3054"
+         y="94.971031">Brightness</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="194.78015"
+       y="94.971031"
+       id="text165296-3"
+       class="label-onsurface"><tspan
+         sodipodi:role="line"
+         id="tspan165294-6"
+         style="font-size:4.23333px"
+         x="194.78015"
+         y="94.971031">73%</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.94587px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#000000"
+       x="150.83464"
+       y="200.14006"
+       id="text9214-7-0-6-9"
+       class="mock-description"><tspan
+         sodipodi:role="line"
+         id="tspan9212-3-78-6-6"
+         x="150.83464"
+         y="200.14006">Settings </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="129.32825"
+       y="114.68779"
+       id="backdropTextTitle2"
+       class="label-secondary"><tspan
+         sodipodi:role="line"
+         id="tspan2711"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
+         x="129.32825"
+         y="114.68779">Orientation</tspan></text>
+    <rect
+       id="textFieldContainer-1"
+       class="textfield-container"
+       width="71.93174"
+       height="10.369102"
+       x="131.81818"
+       y="117.2724"
+       ry="0.88374043" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
+       x="132.87332"
+       y="123.8638"
+       id="textFieldLabelTextEmpty"
+       class="textfield-label"><tspan
+         sodipodi:role="line"
+         id="tspan3488"
+         style="font-size:4.93889px"
+         x="132.87332"
+         y="123.8638">Default</tspan></text>
+    <path
+       d="m 198.2585,123.81061 q -0.0696,0 -0.12756,-0.0232 -0.0579,-0.0232 -0.11596,-0.0812 l -2.29612,-2.29611 q -0.0928,-0.0928 -0.087,-0.24933 0.006,-0.15655 0.0986,-0.24932 0.11597,-0.11597 0.24933,-0.0986 0.13336,0.0174 0.23773,0.11016 l 2.04099,2.041 2.04099,-2.041 q 0.0928,-0.0928 0.24932,-0.10437 0.15655,-0.0116 0.24933,0.10437 0.11597,0.0928 0.0986,0.24353 -0.0174,0.15076 -0.11017,0.25513 l -2.28452,2.28451 q -0.0579,0.0579 -0.11596,0.0812 -0.0579,0.0232 -0.12756,0.0232 z"
+       id="textFieldDropdown"
+       class="textfield-dropdown" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="129.32825"
+       y="136.3835"
+       id="backdropTextTitle3"
+       class="label-secondary"><tspan
+         sodipodi:role="line"
+         id="tspan6699"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
+         x="129.32825"
+         y="136.3835">Credentials</tspan></text>
+    <rect
+       id="textFieldFocusedContainer2"
+       class="textfield-container"
+       width="71.931999"
+       height="11.904919"
+       x="131.81818"
+       y="140.23761"
+       ry="1.0146353" />
+    <rect
+       id="textFieldFocusedActivationIndicator2"
+       class="textfield-activationindicator-focused"
+       width="71.93174"
+       height="0.80000001"
+       x="131.81845"
+       y="151.34253"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="142.71925"
+       y="149.63805"
+       id="textFieldInputText2"
+       class="textfield-inputtext"><tspan
+         sodipodi:role="line"
+         id="tspan7592"
+         style="font-size:4.93889px"
+         x="142.71925"
+         y="149.63805">John Doe</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="142.78767"
+       y="144.32936"
+       id="textFieldLabelTextPopulated"
+       class="textfield-label"><tspan
+         sodipodi:role="line"
+         id="tspan7596"
+         style="font-size:3.52778px"
+         x="142.78767"
+         y="144.32936">Username</tspan></text>
+    <rect
+       id="textFieldActivationIndicator2"
+       class="textfield-activationindicator-unfocused"
+       width="71.931999"
+       height="0.80000001"
+       x="131.8179"
+       y="126.8415"
+       ry="0" />
+    <path
+       d="m 137.30958,145.76467 q -0.53141,0 -0.86957,-0.33816 -0.33816,-0.33817 -0.33816,-0.86957 0,-0.5314 0.33816,-0.86956 0.33816,-0.33817 0.86957,-0.33817 0.5314,0 0.86956,0.33817 0.33817,0.33816 0.33817,0.86956 0,0.5314 -0.33817,0.86957 -0.33816,0.33816 -0.86956,0.33816 z m -2.0934,2.58454 q -0.20129,0 -0.34219,-0.1409 -0.1409,-0.1409 -0.1409,-0.34219 v -0.27375 q 0,-0.30596 0.15298,-0.52335 0.15297,-0.21739 0.39452,-0.33011 0.53945,-0.24155 1.03463,-0.36232 0.49516,-0.12078 0.99436,-0.12078 0.49919,0 0.99034,0.1248 0.49114,0.1248 1.03059,0.3583 0.2496,0.11272 0.40258,0.33011 0.15298,0.21739 0.15298,0.52335 v 0.27375 q 0,0.20129 -0.14091,0.34219 -0.1409,0.1409 -0.34219,0.1409 z"
+       id="textFieldLeadingIcon2"
+       class="textfield-leadingicon" />
+    <rect
+       id="textFieldCaret"
+       class="textfield-cursor"
+       width="0.58999997"
+       height="3.7622254"
+       x="-164.70264"
+       y="145.99467"
+       transform="scale(-1,1)" />
+    <rect
+       id="rect87126-7-4-9-2-8"
+       width="87.038483"
+       height="11.684"
+       x="122.58659"
+       y="174.93816"
+       ry="0"
+       class="device-frame" />
+    <path
+       d="m 143.19944,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
+       id="path13482"
+       class="device-button" />
+    <path
+       d="m 186.1346,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
+       id="path13484"
+       class="device-button" />
+    <path
+       d="m 165.69548,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
+       id="path13486"
+       class="device-button" />
+    <rect
+       style="mix-blend-mode:normal;fill:#000000;fill-opacity:0.598419"
+       id="rect87126-2-5-2-6-9-5"
+       width="87"
+       height="10"
+       x="122.94076"
+       y="30.266617"
+       class="device-statusbar" />
+    <g
+       id="g3859"
+       transform="translate(-123.28971)">
+      <path
+         d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
+         id="path3845"
+         class="device-statusbar-labeltext" />
+      <path
+         d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
+         id="path3847"
+         class="device-statusbar-labeltext" />
+      <path
+         d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
+         id="path3849"
+         class="device-statusbar-labeltext" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+         x="318.27667"
+         y="37.471352"
+         id="text3853"
+         class="device-statusbar-labeltext"><tspan
+           sodipodi:role="line"
+           id="tspan3851"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+           x="318.27667"
+           y="37.471352">72%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+         x="248.42583"
+         y="37.471352"
+         id="text3857"
+         class="device-statusbar-labeltext"><tspan
+           sodipodi:role="line"
+           id="tspan3855"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+           x="248.42583"
+           y="37.471352">12:30</tspan></text>
+    </g>
+    <path
+       style="color:#000000;fill:#000000;stroke-linecap:square"
+       d="m 125.16514,26.912451 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 v 152.54881 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.13706 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.4797 0,151.08749 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 32.8687 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
+       id="path3123-5"
+       sodipodi:nodetypes="sssssssssszzzzzzss"
+       class="device-frame" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
+       x="137.216"
+       y="47.86071"
+       id="topappbarTitle-6-1"
+       class="topappbar-title"><tspan
+         sodipodi:role="line"
+         id="tspan9212-1-9-1-7-7-0-0-9"
+         style="font-size:4.93889px"
+         x="137.216"
+         y="47.86071">Preferences</tspan></text>
+    <path
+       d="m 129.29067,48.532091 -2.7078,-2.707799 q -0.0487,-0.0487 -0.0682,-0.0974 -0.0196,-0.04871 -0.0196,-0.107148 0,-0.05844 0.0196,-0.107148 0.0196,-0.04871 0.0682,-0.09741 l 2.71754,-2.717538 q 0.0779,-0.07792 0.1948,-0.07792 0.11688,0 0.20455,0.08766 0.0876,0.08766 0.0876,0.204546 0,0.11688 -0.0876,0.204546 l -2.21105,2.211043 h 4.83119 q 0.12662,0 0.20942,0.08279 0.0828,0.08279 0.0828,0.209417 0,0.126623 -0.0828,0.209416 -0.0828,0.08279 -0.20942,0.08279 h -4.83119 l 2.22078,2.220785 q 0.0779,0.07792 0.0779,0.194804 0,0.116881 -0.0876,0.204547 -0.0877,0.08766 -0.20455,0.08766 -0.11688,0 -0.20454,-0.08766 z"
+       id="topappbarNavigationIcon-9-0"
+       class="topappbar-navigationicon" />
+  </g>
+</svg>

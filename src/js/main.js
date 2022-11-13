@@ -16,7 +16,10 @@ import * as colorUtils from './colorUtils';
 
 require('../scss/mockstyle.scss');
 require('../svg/components.svg');
-require('../svg/mockups.svg');
+require('../svg/mockup1.svg');
+require('../svg/mockup2.svg');
+require('../svg/mockup3.svg');
+require('../svg/mockup4.svg');
 
 /** **********************************************************************
       *                        3rd Party Component init
