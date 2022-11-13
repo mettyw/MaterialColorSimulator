@@ -10,7 +10,9 @@ import SVGInject from '@iconfu/svg-inject';
 // https://github.com/gka/chroma.js
 import chroma from 'chroma-js';
 
-import { APP_URL } from './constants';
+import {
+  APP_URL,
+} from './constants';
 import colorMap from './colorMap';
 import * as colorUtils from './colorUtils';
 
@@ -22,8 +24,8 @@ require('../svg/mockup3.svg');
 require('../svg/mockup4.svg');
 
 /** **********************************************************************
-      *                        3rd Party Component init
-      ************************************************************************ */
+ *                        3rd Party Component init
+ ************************************************************************ */
 
 const colorPicker = new iro.ColorPicker('#iropicker', {
   width: 200,
@@ -33,8 +35,8 @@ const colorPicker = new iro.ColorPicker('#iropicker', {
 });
 
 /** **********************************************************************
-      *                        Function definitions
-      ************************************************************************ */
+ *                        Function definitions
+ ************************************************************************ */
 
 function setCSSColorVariable(variable, color) {
   const r = document.querySelector(':root');
@@ -42,6 +44,20 @@ function setCSSColorVariable(variable, color) {
   const rgb = chroma(color).rgb();
   const color2 = `${rgb[0]}, ${rgb[1]}, ${rgb[2]}`;
   r.style.setProperty(`--${variable}-rgbstr`, color2);
+}
+
+// utility function that returns the unexpanded CSS "fill" property value for a class
+function getFillStyle(className) {
+  let cssText = '';
+  for (let s = 0; s < document.styleSheets.length; s++) {
+    const classes = document.styleSheets[s].rules || document.styleSheets[s].cssRules;
+    for (let x = 0; x < classes.length; x++) {
+      if (classes[x].selectorText === className) {
+        cssText += classes[x].fill || classes[x].style.fill;
+      }
+    }
+  }
+  return cssText;
 }
 
 function reloadColor(key) {
@@ -132,8 +148,8 @@ SVGInject.setOptions({
 $(document).ready(
   () => {
     /** **********************************************************************
-          *                        Generate UI
-          ************************************************************************ */
+     *                        Generate UI
+     ************************************************************************ */
 
     $('#githublink').attr('href', APP_URL);
 
@@ -144,30 +160,17 @@ $(document).ready(
       // set up color swatch
       $('#color-swatches-content').append(
         `<div class="swatch d-inline-flex flex-column p-1" id="${swatchKey}"" >`
-         + ` <div class="flex-grow-1 fw-bolder swatchLabel ${swatchLabelKey}">${colorMap[key].l}</div>`
+        + ` <div class="flex-grow-1 fw-bolder swatchLabel ${swatchLabelKey}">${colorMap[key].l}</div>`
 
-         + `   <div class="swatchValue ${swatchLabelKey}" id="${swatchValueKey}">${colorMap[key].v}</div>`
-         + '</div>',
+        + `   <div class="swatchValue ${swatchLabelKey}" id="${swatchValueKey}">${colorMap[key].v}</div>`
+        + '</div>',
       );
       reloadColor(key);
     });
 
     /** **********************************************************************
-          *                        Action Handlers
-          ************************************************************************ */
-
-    function getStyle(className) {
-      let cssText = '';
-      for (let s = 0; s < document.styleSheets.length; s++) {
-        const classes = document.styleSheets[s].rules || document.styleSheets[s].cssRules;
-        for (let x = 0; x < classes.length; x++) {
-          if (classes[x].selectorText === className) {
-            cssText += classes[x].fill || classes[x].style.fill;
-          }
-        }
-      }
-      return cssText;
-    }
+     *                        Action Handlers
+     ************************************************************************ */
 
     // make color swatch flash if user clicks on ui component with that class in SVG
     $('body').on('click', 'rect,text,path,circle', function svgClickHandler() {
@@ -175,7 +178,7 @@ $(document).ready(
       if (typeof attrs === 'undefined') return;
       const classList = attrs.split(/\s+/);
       classList.forEach((className) => {
-        const colorName = getStyle(`.${className}`).replace(/var\(--(.*)\)/, '$1');
+        const colorName = getFillStyle(`.${className}`).replace(/var\(--(.*)\)/, '$1');
         if (!colorName.startsWith('color')) return;
         $(`#swatch-${colorName}`).fadeOut(100).fadeIn(100).fadeOut(100)
           .fadeIn(100);
@@ -237,7 +240,9 @@ $(document).ready(
       // make ui components in SVG flash if user clicks on swatch with that class
       const colorValue = colorMap[colorName].v;
       setCSSColorVariable(colorName, '#ffffff00');
-      setTimeout(() => { setCSSColorVariable(colorName, colorValue); }, 100);
+      setTimeout(() => {
+        setCSSColorVariable(colorName, colorValue);
+      }, 100);
     });
     $('#btnCopyClipboard').on('click', () => {
       const key = $('#colorDialogColorKey').text();
