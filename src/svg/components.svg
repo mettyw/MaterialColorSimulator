@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="28.970627mm"
+   height="288.3226"
    id="svg8"
    version="1.1"
-   viewBox="0 0 208.47972 28.970627"
-   width="208.47972mm"
+   viewBox="0 0 206.11824 28.83226"
+   width="2061.1824"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
    sodipodi:docname="components.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -14,9 +14,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <style
+     id="style2"><!-- needed for Inkscape only, must be removed by build process -->
 
-  <style>
-  <!-- needed for Inkscape only, must be removed by build process -->
   @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -30,8 +30,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="308.09019"
-     inkscape:cy="-206.26377"
+     inkscape:cx="8.2955479"
+     inkscape:cy="-160.72624"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -45,7 +45,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.5745071"
+     inkscape:zoom="0.48218635"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -64,10 +64,10 @@
      id="layer2"
      inkscape:groupmode="layer"
      inkscape:label="bG"
-     transform="translate(-5.2785039,-3.423052)" />
+     transform="translate(-5.5074848,-3.5614187)" />
   <g
      id="layer1"
-     transform="translate(-21.764393,-21.208971)"
+     transform="translate(-21.993374,-21.347338)"
      inkscape:groupmode="layer"
      inkscape:label="Ebene 1">
     <text
@@ -79,7 +79,7 @@
        class="button-text-labeltext"><tspan
          sodipodi:role="line"
          id="tspan5081-7"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444007px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="207.85828"
          y="30.018541">Confirm</tspan></text>
     <rect

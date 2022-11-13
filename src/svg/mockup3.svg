@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="174.75327mm"
+   height="1747.5326"
    id="svg8"
    version="1.1"
-   viewBox="0 0 93 174.75327"
-   width="93mm"
+   viewBox="0 0 92.999999 174.75326"
+   width="930"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
    sodipodi:docname="mockup3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -16,6 +16,7 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <style
      id="style"><!-- needed for Inkscape only, must be removed by build process -->
+
 
      @import url(mockstyle_inkscape.css);
   </style>
@@ -30,8 +31,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="163.72151"
-     inkscape:cy="239.83765"
+     inkscape:cx="-189.22138"
+     inkscape:cy="473.05345"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -45,7 +46,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.34815217"
+     inkscape:zoom="0.19553816"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
