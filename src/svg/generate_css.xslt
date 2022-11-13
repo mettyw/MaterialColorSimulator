@@ -92,7 +92,7 @@
                   <xsl:text> stroke: var(--{@stroke});&#10;</xsl:text> 
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text> stroke-width : 1px;&#10;</xsl:text> 
+            <xsl:text> stroke-width : 0.5;&#10;</xsl:text> 
           </xsl:if>
           <xsl:if test="@tint">
             <xsl:choose>
@@ -153,7 +153,7 @@
                   <xsl:text> stroke: {fn:lookup-color(/,string(@stroke))};&#10;</xsl:text> 
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text> stroke-width : 1px;&#10;</xsl:text> 
+            <xsl:text> stroke-width : 0.5;&#10;</xsl:text> 
           </xsl:if>
           <!-- for now @tint is identical to @fill -->
           <xsl:if test="@tint">

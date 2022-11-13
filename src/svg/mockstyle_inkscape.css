@@ -133,7 +133,7 @@
 .button-outlined-container {
  fill: none;
  stroke: rgba(28, 27, 31, 0.88);
- stroke-width : 1px;
+ stroke-width : 0.5;
 }
 /* generated with generate_css.xslt */
 
@@ -240,7 +240,7 @@
 .card-outlined-container {
  fill: #FAFAFD;
  stroke: #79747E;
- stroke-width : 1px;
+ stroke-width : 0.5;
 }
 /* generated with generate_css.xslt */
 
@@ -267,7 +267,7 @@
 .chip-container {
  fill: #FAFAFD;
  stroke: #79747E;
- stroke-width : 1px;
+ stroke-width : 0.5;
 }
 /* generated with generate_css.xslt */
 
@@ -393,7 +393,7 @@
 .m3-switch-track-unchecked {
  fill: #E7E0EC;
  stroke: #79747E;
- stroke-width : 1px;
+ stroke-width : 0.5;
 }
 /* generated with generate_css.xslt */
 
