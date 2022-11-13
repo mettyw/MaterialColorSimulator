@@ -33,13 +33,17 @@ const colorPicker = new iro.ColorPicker('#iropicker', {
       *                        Function definitions
       ************************************************************************ */
 
-function reloadColor(key) {
-  const color = colorMap[key].v.toUpperCase();
+function setCSSColorVariable(variable, color) {
   const r = document.querySelector(':root');
-  r.style.setProperty(`--${key}`, color);
+  r.style.setProperty(`--${variable}`, color);
   const rgb = chroma(color).rgb();
   const color2 = `${rgb[0]}, ${rgb[1]}, ${rgb[2]}`;
-  r.style.setProperty(`--${key}-rgbstr`, color2);
+  r.style.setProperty(`--${variable}-rgbstr`, color2);
+}
+
+function reloadColor(key) {
+  const color = colorMap[key].v.toUpperCase();
+  setCSSColorVariable(key, color);
 
   $(`#swatch-${key}`).css('background-color', color);
   $(`.swatchLabel-${key}`).removeClass('cssColorOnLight');
@@ -174,18 +178,16 @@ $(document).ready(
           .fadeIn(100);
       });
     });
-    // make ui components in SVG flash if user clicks on swatch with that class
+    // open color picker
     $('body').on('click', '.swatch', function swatchClickHandler() {
-      const key = $(this).attr('id').replace('swatch-', '');
-      $('#colorDialogColorName').text(colorMap[key].l);
-      $('#colorDialogColorKey').text(key);
-      $('#colorDialogPreviousValue').text(colorMap[key].v);
-      $('#colorDialogColorValue').val(colorMap[key].v);
-      colorPicker.color.hexString = colorMap[key].v;
+      const colorName = $(this).attr('id').replace('swatch-', '');
+      $('#colorDialogColorName').text(colorMap[colorName].l);
+      $('#colorDialogColorKey').text(colorName);
+      $('#colorDialogPreviousValue').text(colorMap[colorName].v);
+      $('#colorDialogColorValue').val(colorMap[colorName].v);
+      colorPicker.color.hexString = colorMap[colorName].v;
       $('#color-swatches-content').hide();
       $('#color-picker-content').show();
-      $(`.${key}`).fadeOut(100).fadeIn(100).fadeOut(100)
-        .fadeIn(100);
     });
     // add invalid marker if text edit contains no parseable color
     $('#colorDialogColorValue').focusout(function colorInputFocusoutHandler() {
@@ -227,9 +229,12 @@ $(document).ready(
       $('#color-picker-content').hide();
     });
     $('#btnLocateColor').on('click', () => {
-      const key = $('#colorDialogColorKey').text();
-      $(`.${key}`).fadeOut(100).fadeIn(100).fadeOut(100)
-        .fadeIn(100);
+      const colorName = $('#colorDialogColorKey').text();
+
+      // make ui components in SVG flash if user clicks on swatch with that class
+      const colorValue = colorMap[colorName].v;
+      setCSSColorVariable(colorName, '#ffffff00');
+      setTimeout(() => { setCSSColorVariable(colorName, colorValue); }, 100);
     });
     $('#btnCopyClipboard').on('click', () => {
       const key = $('#colorDialogColorKey').text();
