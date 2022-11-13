@@ -17,7 +17,6 @@
   <style
      id="style"><!-- needed for Inkscape only, must be removed by build process -->
 
-
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -31,8 +30,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="-189.22138"
-     inkscape:cy="473.05345"
+     inkscape:cx="191.60639"
+     inkscape:cy="842.01342"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -46,7 +45,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.19553816"
+     inkscape:zoom="0.28443727"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -85,14 +84,6 @@
          x="240.5675"
          y="200.29982"
          id="tspan173836">Music Player</tspan></text>
-    <rect
-       id="rect87126-7-4-9-2"
-       width="86.573845"
-       height="12.516596"
-       x="223.20502"
-       y="174.99402"
-       ry="0"
-       class="device-frame" />
     <rect
        id="listContainer1"
        class="container-surface"
@@ -401,24 +392,6 @@
        d="m 288.59263,171.43463 -2.53581,-1.75483 q -0.13498,-0.0868 -0.13498,-0.24104 0,-0.15427 0.13498,-0.24105 l 2.53581,-1.75482 q 0.14463,-0.10606 0.2989,-0.0241 0.15427,0.082 0.15427,0.25551 v 3.52893 q 0,0.17355 -0.15427,0.25551 -0.15427,0.082 -0.2989,-0.0241 z m -3.87603,0 -2.53581,-1.75483 q -0.13499,-0.0868 -0.13499,-0.24104 0,-0.15427 0.13499,-0.24105 l 2.53581,-1.75482 q 0.14463,-0.10606 0.2989,-0.0241 0.15427,0.082 0.15427,0.25551 v 3.52893 q 0,0.17355 -0.15427,0.25551 -0.15427,0.082 -0.2989,-0.0241 z"
        id="bottomappbarNavigationIcon-4"
        class="iconbutton-tonal-icon" />
-    <path
-       d="m 286.75281,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
-       id="path13463"
-       class="device-button" />
-    <path
-       d="m 266.31369,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
-       id="path13465"
-       class="device-button" />
-    <path
-       d="m 243.81765,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
-       id="path13474"
-       class="device-button" />
-    <path
-       style="color:#000000;fill:#000000;stroke-linecap:square;-inkscape-stroke:none"
-       d="m 225.33149,27.02866 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 V 184.80208 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.253269 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.479701 0,151.087491 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 32.984909 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
-       id="path3123"
-       sodipodi:nodetypes="sssssssssszzzzzzss"
-       class="device-frame" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
@@ -431,46 +404,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="237.16779"
          y="49.470654">Music Player</tspan></text>
-    <g
-       id="g3827"
-       transform="translate(-23.123362)">
-      <path
-         d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
-         id="path91309-4-5-4-8"
-         class="device-statusbar-labeltext" />
-      <path
-         d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
-         id="path91986-8-5-9-3"
-         class="device-statusbar-labeltext" />
-      <path
-         d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
-         id="path92143-0-2-9-8"
-         class="device-statusbar-labeltext" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
-         x="318.27667"
-         y="37.471352"
-         id="text92824-4-9-3-3"
-         class="device-statusbar-labeltext"><tspan
-           sodipodi:role="line"
-           id="tspan92822-29-0-6-33"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
-           x="318.27667"
-           y="37.471352">72%</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
-         x="248.42583"
-         y="37.471352"
-         id="text3716"
-         class="device-statusbar-labeltext"><tspan
-           sodipodi:role="line"
-           id="tspan3714"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
-           x="248.42583"
-           y="37.471352">12:30</tspan></text>
-    </g>
     <circle
        cx="233.19005"
        cy="120.93114"
@@ -511,5 +444,74 @@
        d="m 232.46505,84.706812 q -0.525,0 -0.8875,-0.3625 -0.3625,-0.3625 -0.3625,-0.8875 0,-0.525 0.3625,-0.8875 0.3625,-0.3625 0.8875,-0.3625 0.23333,0 0.42083,0.0667 0.1875,0.0667 0.32917,0.18334 v -3.25 q 0,-0.20833 0.14583,-0.35417 0.14584,-0.14583 0.35417,-0.14583 h 0.89167 q 0.23333,0 0.39583,0.1625 0.1625,0.1625 0.1625,0.39583 0,0.23334 -0.1625,0.4 -0.1625,0.16667 -0.39583,0.16667 h -0.89167 v 3.625 q 0,0.525 -0.3625,0.8875 -0.3625,0.3625 -0.8875,0.3625 z"
        id="iconButtonIcon-1-9"
        class="iconbutton-tonal-icon" />
+    <g
+       id="g382">
+      <rect
+         id="rect87126-7-4-9-2"
+         width="86.573845"
+         height="12.516596"
+         x="223.20502"
+         y="174.99402"
+         ry="0"
+         class="device-frame" />
+      <path
+         d="m 286.75281,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
+         id="path13463"
+         class="device-button" />
+      <path
+         d="m 266.31369,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
+         id="path13465"
+         class="device-button" />
+      <path
+         d="m 243.81765,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
+         id="path13474"
+         class="device-button" />
+      <path
+         style="color:#000000;fill:#000000;stroke-linecap:square;-inkscape-stroke:none"
+         d="m 225.33149,27.02866 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 V 184.80208 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.253269 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.479701 0,151.087491 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 32.984909 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
+         id="path3123"
+         sodipodi:nodetypes="sssssssssszzzzzzss"
+         class="device-frame" />
+      <g
+         id="g3827"
+         transform="translate(-23.123362)">
+        <path
+           d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
+           id="path91309-4-5-4-8"
+           class="device-statusbar-labeltext" />
+        <path
+           d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
+           id="path91986-8-5-9-3"
+           class="device-statusbar-labeltext" />
+        <path
+           d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
+           id="path92143-0-2-9-8"
+           class="device-statusbar-labeltext" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+           x="318.27667"
+           y="37.471352"
+           id="text92824-4-9-3-3"
+           class="device-statusbar-labeltext"><tspan
+             sodipodi:role="line"
+             id="tspan92822-29-0-6-33"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+             x="318.27667"
+             y="37.471352">72%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+           x="248.42583"
+           y="37.471352"
+           id="text3716"
+           class="device-statusbar-labeltext"><tspan
+             sodipodi:role="line"
+             id="tspan3714"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+             x="248.42583"
+             y="37.471352">12:30</tspan></text>
+      </g>
+    </g>
   </g>
 </svg>

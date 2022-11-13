@@ -17,7 +17,6 @@
   <style
      id="style"><!-- needed for Inkscape only, must be removed by build process -->
 
-
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -31,8 +30,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="215.88488"
-     inkscape:cy="720.45304"
+     inkscape:cx="50.960177"
+     inkscape:cy="733.46255"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -46,7 +45,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.19918023"
+     inkscape:zoom="0.27472432"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -364,26 +363,6 @@
        y="145.99467"
        transform="scale(-1,1)" />
     <rect
-       id="rect87126-7-4-9-2-8"
-       width="87.038483"
-       height="11.684"
-       x="122.58659"
-       y="174.93816"
-       ry="0"
-       class="device-frame" />
-    <path
-       d="m 143.19944,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
-       id="path13482"
-       class="device-button" />
-    <path
-       d="m 186.1346,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
-       id="path13484"
-       class="device-button" />
-    <path
-       d="m 165.69548,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
-       id="path13486"
-       class="device-button" />
-    <rect
        style="mix-blend-mode:normal;fill:#000000;fill-opacity:0.598419"
        id="rect87126-2-5-2-6-9-5"
        width="87"
@@ -391,52 +370,6 @@
        x="122.94076"
        y="30.266617"
        class="device-statusbar" />
-    <g
-       id="g3859"
-       transform="translate(-123.28971)">
-      <path
-         d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
-         id="path3845"
-         class="device-statusbar-labeltext" />
-      <path
-         d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
-         id="path3847"
-         class="device-statusbar-labeltext" />
-      <path
-         d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
-         id="path3849"
-         class="device-statusbar-labeltext" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
-         x="318.27667"
-         y="37.471352"
-         id="text3853"
-         class="device-statusbar-labeltext"><tspan
-           sodipodi:role="line"
-           id="tspan3851"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
-           x="318.27667"
-           y="37.471352">72%</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
-         x="248.42583"
-         y="37.471352"
-         id="text3857"
-         class="device-statusbar-labeltext"><tspan
-           sodipodi:role="line"
-           id="tspan3855"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
-           x="248.42583"
-           y="37.471352">12:30</tspan></text>
-    </g>
-    <path
-       style="color:#000000;fill:#000000;stroke-linecap:square"
-       d="m 125.16514,26.912451 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 v 152.54881 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.13706 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.4797 0,151.08749 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 32.8687 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
-       id="path3123-5"
-       sodipodi:nodetypes="sssssssssszzzzzzss"
-       class="device-frame" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -453,5 +386,74 @@
        d="m 129.29067,48.532091 -2.7078,-2.707799 q -0.0487,-0.0487 -0.0682,-0.0974 -0.0196,-0.04871 -0.0196,-0.107148 0,-0.05844 0.0196,-0.107148 0.0196,-0.04871 0.0682,-0.09741 l 2.71754,-2.717538 q 0.0779,-0.07792 0.1948,-0.07792 0.11688,0 0.20455,0.08766 0.0876,0.08766 0.0876,0.204546 0,0.11688 -0.0876,0.204546 l -2.21105,2.211043 h 4.83119 q 0.12662,0 0.20942,0.08279 0.0828,0.08279 0.0828,0.209417 0,0.126623 -0.0828,0.209416 -0.0828,0.08279 -0.20942,0.08279 h -4.83119 l 2.22078,2.220785 q 0.0779,0.07792 0.0779,0.194804 0,0.116881 -0.0876,0.204547 -0.0877,0.08766 -0.20455,0.08766 -0.11688,0 -0.20454,-0.08766 z"
        id="topappbarNavigationIcon-9-0"
        class="topappbar-navigationicon" />
+    <g
+       id="g366">
+      <rect
+         id="rect87126-7-4-9-2-8"
+         width="87.038483"
+         height="11.684"
+         x="122.58659"
+         y="174.93816"
+         ry="0"
+         class="device-frame" />
+      <path
+         d="m 143.19944,186.2616 -3.49435,-3.49436 3.49435,-3.49434 0.64743,0.65571 -2.83864,2.83863 2.83864,2.83864 z"
+         id="path13482"
+         class="device-button" />
+      <path
+         d="m 186.1346,185.93375 v -6.33299 h 6.33299 v 6.33299 z m 0.75528,-0.75531 h 4.81407 v -4.81409 h -4.81407 z m 0,0 v -4.81409 z"
+         id="path13484"
+         class="device-button" />
+      <path
+         d="m 165.69548,186.26575 q -0.72212,0 -1.3612,-0.26974 -0.63912,-0.26978 -1.11638,-0.74703 -0.47726,-0.47728 -0.74699,-1.11634 -0.26979,-0.63913 -0.26979,-1.36124 0,-0.72212 0.26979,-1.36121 0.26973,-0.63911 0.74699,-1.11638 0.47726,-0.47725 1.11638,-0.75114 0.63908,-0.27392 1.35291,-0.27392 0.7304,0 1.37369,0.27392 0.64323,0.27389 1.11632,0.75114 0.47312,0.47727 0.74705,1.11638 0.27387,0.63909 0.27387,1.3695 0,0.71382 -0.27387,1.35295 -0.27393,0.63906 -0.75119,1.11634 -0.47726,0.47725 -1.11634,0.74703 -0.63913,0.26974 -1.36124,0.26974 z m 0,-0.75532 q 1.13713,0 1.93807,-0.80097 0.80097,-0.80093 0.80097,-1.93806 0,-1.13714 -0.80097,-1.93807 -0.80094,-0.80094 -1.93807,-0.80094 -1.13713,0 -1.93807,0.80094 -0.80095,0.80093 -0.80095,1.93807 0,1.13713 0.80095,1.93806 0.80094,0.80097 1.93807,0.80097 z m 0,-2.73903 z"
+         id="path13486"
+         class="device-button" />
+      <g
+         id="g3859"
+         transform="translate(-123.28971)">
+        <path
+           d="m 304.97658,35.44219 q 0.35444,-0.270278 0.75977,-0.42047 0.40549,-0.150199 0.8679,-0.150199 0.46241,0 0.87091,0.150199 0.40836,0.150192 0.76266,0.42047 l 0.66667,-0.660757 q -0.50449,-0.390342 -1.08106,-0.609589 -0.57658,-0.219239 -1.21918,-0.219239 -0.6426,0 -1.21917,0.219239 -0.57657,0.219247 -1.08107,0.609589 z m 1.62767,2.108094 q -0.0422,0 -0.0751,-0.01208 -0.033,-0.012 -0.063,-0.04192 l -2.60675,-2.606699 q -0.0599,-0.05992 -0.057,-0.141119 0.003,-0.081 0.0632,-0.135056 0.57052,-0.504509 1.26731,-0.78386 0.69665,-0.279199 1.47142,-0.279199 0.77478,0 1.47142,0.279199 0.6968,0.279351 1.26732,0.78386 0.0602,0.05408 0.063,0.135056 0.003,0.08116 -0.057,0.141119 l -2.60668,2.606699 q -0.0299,0.02992 -0.063,0.04192 -0.033,0.01208 -0.0751,0.01208 z"
+           id="path3845"
+           class="device-statusbar-labeltext" />
+        <path
+           d="m 313.72916,37.194574 h 1.11485 v -3.041961 l -1.11485,1.114858 z m -2.35191,0.355742 q -0.11671,0 -0.16181,-0.108943 -0.0452,-0.108808 0.0344,-0.193663 l 3.64717,-3.641951 q 0.085,-0.08486 0.19379,-0.03984 0.10882,0.04504 0.10882,0.161944 v 3.647174 q 0,0.07424 -0.0505,0.124743 -0.0503,0.05048 -0.12996,0.05048 z"
+           id="path3847"
+           class="device-statusbar-labeltext" />
+        <path
+           d="m 328.79464,37.550308 q -0.0701,0 -0.11761,-0.04752 -0.0474,-0.04752 -0.0474,-0.117479 v -3.319952 q 0,-0.07496 0.0474,-0.122519 0.0475,-0.04752 0.11761,-0.04752 h 0.43498 v -0.179991 q 0,-0.07 0.0474,-0.11748 0.0475,-0.04752 0.1176,-0.04752 h 0.46991 q 0.0701,0 0.11759,0.04752 0.0474,0.04752 0.0474,0.11748 v 0.179991 h 0.43499 q 0.0701,0 0.1176,0.04752 0.0474,0.04752 0.0474,0.122519 v 3.319952 q 0,0.07 -0.0474,0.117479 -0.0475,0.04752 -0.1176,0.04752 z m 0.16991,-1.61504 h 1.33005 v -1.704912 h -1.33005 z"
+           id="path3849"
+           class="device-statusbar-labeltext" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+           x="318.27667"
+           y="37.471352"
+           id="text3853"
+           class="device-statusbar-labeltext"><tspan
+             sodipodi:role="line"
+             id="tspan3851"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+             x="318.27667"
+             y="37.471352">72%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
+           x="248.42583"
+           y="37.471352"
+           id="text3857"
+           class="device-statusbar-labeltext"><tspan
+             sodipodi:role="line"
+             id="tspan3855"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93889px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
+             x="248.42583"
+             y="37.471352">12:30</tspan></text>
+      </g>
+      <path
+         style="color:#000000;fill:#000000;stroke-linecap:square"
+         d="m 125.16514,26.912451 c -2.84285,0 -5.22461,2.381761 -5.22461,5.224609 v 152.54881 c 0,2.84285 2.38176,5.22657 5.22461,5.22657 h 82.55078 c 2.84285,0 5.22461,-2.38372 5.22461,-5.22657 V 32.13706 c 0,-2.842848 -2.38176,-5.224609 -5.22461,-5.224609 z m 0.66081,3.354166 c 0,0 79.63141,0.01523 81.22916,0 1.59775,-0.01523 2.53125,1.059019 2.53125,2.602083 0,0 -0.007,149.4797 0,151.08749 0.007,1.60779 -0.98468,2.60208 -2.53125,2.60208 -1.54657,0 -79.63141,-0.0153 -81.22916,0 -1.59775,0.0152 -2.53125,-1.05901 -2.53125,-2.60208 V 32.8687 c 0,-1.754401 0.78627,-2.602083 2.53125,-2.602083 z"
+         id="path3123-5"
+         sodipodi:nodetypes="sssssssssszzzzzzss"
+         class="device-frame" />
+    </g>
   </g>
 </svg>
