@@ -120,12 +120,26 @@ function reloadColor(key) {
 
 function assignColor(key, color) {
   if (key === '') return;
+  if (!(key in colorMap)) return;
   if (colorMap[key].v === color) return;
   colorMap[key].v = chroma(color).hex('rgb');
   $('#colorDialogColorValue').val(color);
   colorPicker.color.hexString = color;
 
   reloadColor(key);
+}
+
+function importColorTheme(colors, themes) {
+  const colorsXml = $($.parseXML(colors));
+  const themesXml = $($.parseXML(themes));
+  themesXml.find('item').each((index, elem) => {
+    const colorName = elem.getAttribute('name');
+    colorName.replace('android:', '');
+    const { textContent } = elem;
+    const colorReference = textContent.replace('@color/', '');
+    const value = colorsXml.find(`color[name='${colorReference}']`).text();
+    assignColor(colorName, value);
+  });
 }
 
 colorPicker.on('color:change', (color) => {
@@ -266,6 +280,12 @@ $(document).ready(
     });
     $('#btnResetAll').on('click', () => {
       window.location.reload();
+    });
+    $('#btnImport').on('click', () => {
+      const colors = $('#importColors').val();
+      const themes = $('#importThemes').val();
+
+      importColorTheme(colors, themes);
     });
 
     $('#btnRandomizeAll').on('click', () => {

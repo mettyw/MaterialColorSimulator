@@ -1,4 +1,5 @@
 import colorMap from './colorMap';
+
 import { APP_TITLE, APP_URL } from './constants';
 
 function randomColor() {
