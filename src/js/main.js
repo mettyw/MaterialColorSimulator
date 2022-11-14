@@ -124,7 +124,9 @@ function assignColor(key, color) {
   if (colorMap[key].v === color) return;
   colorMap[key].v = chroma(color).hex('rgb');
   $('#colorDialogColorValue').val(color);
-  colorPicker.color.hexString = color;
+  if ($('#color-picker-content').is(':visible')) {
+    colorPicker.color.hexString = color;
+  }
 
   reloadColor(key);
 }
