@@ -17,6 +17,8 @@
   <style
      id="style"><!-- needed for Inkscape only, must be removed by build process -->
 
+
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -30,8 +32,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="232.61169"
-     inkscape:cy="705.04785"
+     inkscape:cx="490.5"
+     inkscape:cy="1463.5"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -45,7 +47,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.27728614"
+     inkscape:zoom="1"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -172,14 +174,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
-       x="334.10803"
+       x="335.10809"
        y="173.60661"
        id="bottomnavigiationLabel1-1"
        class="bottomnavigation-labeltext-active"><tspan
          sodipodi:role="line"
          id="tspan9212-1-9-1-8-7"
          style="font-size:4.23333px"
-         x="334.10803"
+         x="335.10809"
          y="173.60661">Hotels</tspan></text>
     <text
        xml:space="preserve"
@@ -196,14 +198,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
-       x="388.05804"
+       x="388.85809"
        y="173.46196"
        id="bottomnavigiationLabel3-7"
        class="bottomnavigation-labeltext-inactive"><tspan
          sodipodi:role="line"
          id="tspan9212-1-9-1-8-5-41"
          style="font-size:4.23333px"
-         x="388.05804"
+         x="388.85809"
          y="173.46196">Profile</tspan></text>
     <text
        xml:space="preserve"
@@ -460,7 +462,7 @@
        height="5.2297635"
        x="330.17612"
        y="140.34377"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -484,7 +486,7 @@
        height="5.2297635"
        x="330.30984"
        y="147.64088"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -508,7 +510,7 @@
        height="5.2297635"
        x="356.74368"
        y="94.621872"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -532,7 +534,7 @@
        height="5.2297635"
        x="384.0141"
        y="87.192345"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -552,11 +554,11 @@
     <rect
        id="rect1154"
        class="chip-container"
-       width="22.249155"
-       height="5.2297635"
-       x="330.9133"
-       y="94.62188"
-       ry="2.2010231" />
+       width="22.053551"
+       height="5.1837859"
+       x="331.01111"
+       y="94.644867"
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -580,7 +582,7 @@
        height="5.2297635"
        x="349.15265"
        y="140.34377"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -604,7 +606,7 @@
        height="5.2297635"
        x="383.87451"
        y="146.85164"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
@@ -628,7 +630,7 @@
        height="5.2297635"
        x="402.52344"
        y="87.192345"
-       ry="2.2010231" />
+       ry="1.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"

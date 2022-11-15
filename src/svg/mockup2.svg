@@ -17,6 +17,9 @@
   <style
      id="style"><!-- needed for Inkscape only, must be removed by build process -->
 
+
+
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -30,8 +33,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="50.960177"
-     inkscape:cy="733.46255"
+     inkscape:cx="892.43014"
+     inkscape:cy="1195.4064"
      inkscape:document-rotation="0"
      inkscape:document-units="mm"
      inkscape:pageopacity="0.0"
@@ -45,7 +48,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.27472432"
+     inkscape:zoom="1.0000783"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -85,34 +88,34 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px"
        x="156.90025"
-       y="165.649"
+       y="166.64899"
        id="buttonOutlinedText-6-4-8"
        class="button-outlined-labeltext"><tspan
          sodipodi:role="line"
          id="tspan5081-5-6-1-3-7-6"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="156.90025"
-         y="165.649">Cancel</tspan></text>
+         y="166.64899">Cancel</tspan></text>
     <rect
        id="buttonFilled-4-5-0"
        class="button-filled-container"
        width="21.069597"
        height="10.000378"
        x="184.72134"
-       y="159.07243"
+       y="160.07242"
        ry="5.0001888" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:0px;word-spacing:0px"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';letter-spacing:0px;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff"
        x="192.1503"
-       y="165.67422"
+       y="166.67421"
        id="buttonFilledText-7-6-4"
        class="button-filled-labeltext"><tspan
          sodipodi:role="line"
          id="tspan5081-5-8-9-6"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444px;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';font-variant-ligatures:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.64444001px;font-family:Roboto;-inkscape-font-specification:'Roboto, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="192.1503"
-         y="165.67422">OK</tspan></text>
+         y="166.67421">Ok</tspan></text>
     <rect
        id="sliderTrackInactive-9"
        class="slider-track-inactive"
@@ -163,7 +166,7 @@
       <circle
          id="switchTrackChecked-2"
          class="switch-track-checked"
-         cx="216.15353"
+         cx="216.35353"
          cy="74.032059"
          r="3.5" />
     </g>
@@ -270,38 +273,39 @@
        id="textFieldContainer-1"
        class="textfield-container"
        width="71.93174"
-       height="10.369102"
+       height="11.904757"
        x="131.81818"
-       y="117.2724"
-       ry="0.88374043" />
+       y="117.4724"
+       ry="1.0146216"
+       style="stroke-width:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a"
        x="132.87332"
-       y="123.8638"
+       y="125.46376"
        id="textFieldLabelTextEmpty"
        class="textfield-label"><tspan
          sodipodi:role="line"
          id="tspan3488"
          style="font-size:4.93889px"
          x="132.87332"
-         y="123.8638">Default</tspan></text>
+         y="125.46376">Default</tspan></text>
     <path
-       d="m 198.2585,123.81061 q -0.0696,0 -0.12756,-0.0232 -0.0579,-0.0232 -0.11596,-0.0812 l -2.29612,-2.29611 q -0.0928,-0.0928 -0.087,-0.24933 0.006,-0.15655 0.0986,-0.24932 0.11597,-0.11597 0.24933,-0.0986 0.13336,0.0174 0.23773,0.11016 l 2.04099,2.041 2.04099,-2.041 q 0.0928,-0.0928 0.24932,-0.10437 0.15655,-0.0116 0.24933,0.10437 0.11597,0.0928 0.0986,0.24353 -0.0174,0.15076 -0.11017,0.25513 l -2.28452,2.28451 q -0.0579,0.0579 -0.11596,0.0812 -0.0579,0.0232 -0.12756,0.0232 z"
+       d="m 198.2585,125.41061 q -0.0696,0 -0.12756,-0.0232 -0.0579,-0.0232 -0.11596,-0.0812 l -2.29612,-2.29611 q -0.0928,-0.0928 -0.087,-0.24933 0.006,-0.15655 0.0986,-0.24932 0.11597,-0.11597 0.24933,-0.0986 0.13336,0.0174 0.23773,0.11016 l 2.04099,2.041 2.04099,-2.041 q 0.0928,-0.0928 0.24932,-0.10437 0.15655,-0.0116 0.24933,0.10437 0.11597,0.0928 0.0986,0.24353 -0.0174,0.15076 -0.11017,0.25513 l -2.28452,2.28451 q -0.0579,0.0579 -0.11596,0.0812 -0.0579,0.0232 -0.12756,0.0232 z"
        id="textFieldDropdown"
        class="textfield-dropdown" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
        x="129.32825"
-       y="136.3835"
+       y="137.18349"
        id="backdropTextTitle3"
        class="label-secondary"><tspan
          sodipodi:role="line"
          id="tspan6699"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
          x="129.32825"
-         y="136.3835">Credentials</tspan></text>
+         y="137.18349">Credentials</tspan></text>
     <rect
        id="textFieldFocusedContainer2"
        class="textfield-container"
@@ -347,8 +351,8 @@
        class="textfield-activationindicator-unfocused"
        width="71.931999"
        height="0.80000001"
-       x="131.8179"
-       y="126.8415"
+       x="131.8166"
+       y="128.58459"
        ry="0" />
     <path
        d="m 137.30958,145.76467 q -0.53141,0 -0.86957,-0.33816 -0.33816,-0.33817 -0.33816,-0.86957 0,-0.5314 0.33816,-0.86956 0.33816,-0.33817 0.86957,-0.33817 0.5314,0 0.86956,0.33817 0.33817,0.33816 0.33817,0.86956 0,0.5314 -0.33817,0.86957 -0.33816,0.33816 -0.86956,0.33816 z m -2.0934,2.58454 q -0.20129,0 -0.34219,-0.1409 -0.1409,-0.1409 -0.1409,-0.34219 v -0.27375 q 0,-0.30596 0.15298,-0.52335 0.15297,-0.21739 0.39452,-0.33011 0.53945,-0.24155 1.03463,-0.36232 0.49516,-0.12078 0.99436,-0.12078 0.49919,0 0.99034,0.1248 0.49114,0.1248 1.03059,0.3583 0.2496,0.11272 0.40258,0.33011 0.15298,0.21739 0.15298,0.52335 v 0.27375 q 0,0.20129 -0.14091,0.34219 -0.1409,0.1409 -0.34219,0.1409 z"

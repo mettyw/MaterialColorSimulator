@@ -104,7 +104,7 @@
 
 .bottomnavigation-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -135,7 +135,7 @@
 
 .bottomsheet-container {
  fill: var(--colorBackground);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.5));
+ filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -161,7 +161,7 @@
 
 .button-elevated-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.5));
+ filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -177,7 +177,7 @@
 
 .button-filled-container {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -193,7 +193,7 @@
 
 .button-tonal-container {
  fill: var(--colorSecondaryContainer);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -318,7 +318,7 @@
  fill: var(--colorSurface);
  stroke: var(--colorOutline);
  stroke-width : 0.5;
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.5));
+ filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -400,7 +400,7 @@
 
 .fab-container {
  fill: var(--colorPrimaryContainer);
- filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.3));
 }
 /* generated with generate_css.xslt */
 
@@ -431,7 +431,7 @@
 
 .slider-thumb {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -447,7 +447,7 @@
 
 .snackbar-container {
  fill: rgba(var(--colorSurfaceInverse-rgbstr), 0.8);
- filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.4));
+ filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.3));
 }
 /* generated with generate_css.xslt */
 
@@ -607,14 +607,14 @@
 /* generated with generate_css.xslt */
 
 .topappbar-container {
- fill: var(--colorPrimary);
- filter: drop-shadow(0px 2px 2px rgb(0 0 0 / 0.4));
+ fill: var(--colorSurface);
+ filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
-.m3-topappbar-container {
- fill: var(--colorSurface);
- filter: drop-shadow(0px 2px 2px rgb(0 0 0 / 0.4));
+.m2-topappbar-container {
+ fill: var(--colorPrimary);
+ filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -624,12 +624,12 @@
 /* generated with generate_css.xslt */
 
 .topappbar-title {
- fill: var(--colorOnPrimary);
+ fill: var(--colorOnSurface);
 }
 /* generated with generate_css.xslt */
 
-.m3-topappbar-title {
- fill: var(--colorOnSurface);
+.m2-topappbar-title {
+ fill: var(--colorOnPrimary);
 }
 /* generated with generate_css.xslt */
 
@@ -644,14 +644,14 @@
 /* generated with generate_css.xslt */
 
 .bottomappbar-container {
- fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.4));
+ fill: var(--colorSurface);
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
-.m3-bottomappbar-container {
- fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.4));
+.m2-bottomappbar-container {
+ fill: var(--colorPrimary);
+ filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
 }
 /* generated with generate_css.xslt */
 
@@ -661,12 +661,12 @@
 /* generated with generate_css.xslt */
 
 .bottomappbar-title {
- fill: var(--colorOnPrimary);
+ fill: var(--colorOnSurface);
 }
 /* generated with generate_css.xslt */
 
-.m3-bottomappbar-title {
- fill: var(--colorOnSurface);
+.m2-bottomappbar-title {
+ fill: var(--colorOnPrimary);
 }
 /* generated with generate_css.xslt */
 

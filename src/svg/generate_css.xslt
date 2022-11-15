@@ -109,22 +109,22 @@
                 <!-- Elevation is 0, 1, 3, 6, 8, 12 dp
                 see https://m3.material.io/styles/elevation/tokens -->
                 <xsl:when test="@elevation eq '1'">
-                  <xsl:text> filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.5));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));&#10;</xsl:text> 
                 </xsl:when>
                 <xsl:when test="@elevation eq '2'">
-                  <xsl:text> filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.4));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));&#10;</xsl:text> 
                 </xsl:when>
                 <xsl:when test="@elevation eq '3'">
-                  <xsl:text> filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.4));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));&#10;</xsl:text> 
                 </xsl:when>
                 <xsl:when test="@elevation eq '4'">
-                  <xsl:text> filter: drop-shadow(0px 2px 2px rgb(0 0 0 / 0.4));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.1));&#10;</xsl:text> 
                 </xsl:when>
                 <xsl:when test="@elevation eq '5'">
-                  <xsl:text> filter: drop-shadow(0px 2px 3px rgb(0 0 0 / 0.4));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 2px 3px rgb(0 0 0 / 0.3));&#10;</xsl:text> 
                 </xsl:when>
                 <xsl:when test="@elevation eq '6'">
-                  <xsl:text> filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.4));&#10;</xsl:text> 
+                  <xsl:text> filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.3));&#10;</xsl:text> 
                 </xsl:when>
             </xsl:choose>
         <xsl:text>}}&#10;</xsl:text> 

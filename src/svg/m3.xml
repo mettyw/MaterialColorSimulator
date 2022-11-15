@@ -211,20 +211,20 @@ TODO do ripple with :hover
         
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/TopAppBar.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/appbar/res/values/styles.xml -->
-        <class name="topappbar-container" fill="colorPrimary" elevation="4" />
-        <class name="m3-topappbar-container" fill="colorSurface" elevation="4" />
+        <class name="topappbar-container" fill="colorSurface" elevation="4" />
+        <class name="m2-topappbar-container" fill="colorPrimary" elevation="4" />
         <class name="topappbar-navigationicon" fill="colorOnSurface" />
-        <class name="topappbar-title" fill="colorOnPrimary" />
-        <class name="m3-topappbar-title" fill="colorOnSurface" />
+        <class name="topappbar-title" fill="colorOnSurface" />
+        <class name="m2-topappbar-title" fill="colorOnPrimary" />
         <class name="topappbar-subtitle" fill="colorOnSurfaceVariant" />
         <class name="topappbar-actionmenuitem" fill="colorOnSurfaceVariant" />
 
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md -->
-        <class name="bottomappbar-container" fill="colorPrimary" elevation="3" />
-        <class name="m3-bottomappbar-container" fill="colorSurface" elevation="3" />
+        <class name="bottomappbar-container" fill="colorSurface" elevation="3" />
+        <class name="m2-bottomappbar-container" fill="colorPrimary" elevation="3" />
         <class name="bottomappbar-navigationicon" fill="colorOnSurfaceVariant" />
-        <class name="bottomappbar-title" fill="colorOnPrimary" />
-        <class name="m3-bottomappbar-title" fill="colorOnSurface" />
+        <class name="bottomappbar-title" fill="colorOnSurface" />
+        <class name="m2-bottomappbar-title" fill="colorOnPrimary" />
         <class name="bottomappbar-actionmenuitem" fill="colorOnSurfaceVariant" />
 
         <!-- some self-invented classes for text on components -->
