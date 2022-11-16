@@ -93,7 +93,7 @@
        style="stroke-width:1" />
     <rect
        id="deviceBackground-0-0-1-4-9-7"
-       class="backdrop-front-container"
+       class="container-surface"
        width="108.73709"
        height="196.2267"
        x="3.3948603"
@@ -139,15 +139,6 @@
          x="11.724023"
          y="144.34546"
          id="tspan5347">Four Seasons</tspan></text>
-    <rect
-       id="backdropFrontlayer-0"
-       class="backdrop-front-container"
-       width="108.70905"
-       height="49.680977"
-       x="4.2375722"
-       y="47.915878"
-       ry="6.1767859"
-       style="stroke-width:1" />
     <rect
        id="cardFilledContainer"
        class="card-filled-container"
