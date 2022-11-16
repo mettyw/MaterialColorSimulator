@@ -81,6 +81,13 @@ function reloadColor(key) {
   $('#colorDialogColorKey').text(key);
 
   if (key === 'colorPrimary') {
+    $('#elevation-1-overlay').attr('flood-color', color);
+    $('#elevation-2-overlay').attr('flood-color', color);
+    $('#elevation-3-overlay').attr('flood-color', color);
+    $('#elevation-4-overlay').attr('flood-color', color);
+    $('#elevation-5-overlay').attr('flood-color', color);
+    $('#elevation-6-overlay').attr('flood-color', color);
+
     const hsvColor = chroma(colorMap.colorPrimary.v).hsv();
     const hue = hsvColor[0];
     const sat = hsvColor[1] * 100;
@@ -153,6 +160,7 @@ colorPicker.on('color:change', (color) => {
 });
 
 SVGInject.setOptions({
+//  makeIdsUnique: false,
   afterInject() {
     // initialize all color values on document load
     Object.keys(colorMap).forEach((key) => {

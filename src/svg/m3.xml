@@ -1,53 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style>
     
-<!--/*
-TODO do ripple with :hover
-.button-filled-container:hover {
-    /*
-    idea: add ripple
-    fill: var(- -colorOnPrimary);
-     at 16% opacity */
-}
-*/
--->
+    <!--/*
+         TODO do ripple with :hover
+         .button-filled-container:hover {
+         /*
+         idea: add ripple
+         fill: var(- -colorOnPrimary);
+         at 16% opacity */
+         }
+         */
+    -->
     <!-- ./lib/java/com/google/android/material/color/res/values/tokens.xml -->
+    
     <colors>
-        <color name="colorPrimary" value="#6200EE" />
-        <color name="colorOnPrimary" value="#FFFFFF" />
-        <color name="colorPrimaryContainer" value="#3700B3" />
-        <color name="colorOnPrimaryContainer" value="#FFFFFF" />
-        <color name="colorSecondary" value="#03DAC6" />
-        <color name="colorOnSecondary" value="#000000" />
-        <color name="colorSecondaryContainer" value="#018786" />
-        <color name="colorOnSecondaryContainer" value="#000000" />
-        <color name="colorBackground" value="#FFFBFE" />
-        <color name="colorOnBackground" value="#1C1B1F" />
-        <color name="colorSurface" value="#FAFAFD" />
-        <color name="colorOnSurface" value="#1C1B1F" />
-        <color name="colorSurfaceVariant" value="#E7E0EC" />
-        <color name="colorOnSurfaceVariant" value="#49454E" />
-        <color name="colorError" value="#B3261E" />
-        <color name="colorOnError" value="#FFFFFF" />
-        <color name="colorErrorContainer" value="#F9DEDC" />
-        <color name="colorOnErrorContainer" value="#410E0B" />
-        <color name="colorSurfaceInverse" value="#313033" />
-        <color name="colorOnSurfaceInverse" value="#F4EFF4" />
-        <color name="colorOutline" value="#79747E" />
-        <color name="colorPrimaryInverse" value="#D0BCFF" />
-        <color name="unusedcolorOutlineVariant" value="#C4C7C5" />
-        <color name="unusedcolorShadow" value="#000000" />
-        <color name="unusedcolorSurfaceTint" value="#6750A4" />
-        <color name="unusedcolorSurfaceTintColor" value="#9C4048" />
-        <color name="unusedcolorTertiary" value="#7D5260" />
-        <color name="unusedcolorOnTertiary" value="#FFFFFF" />
-        <color name="unusedcolorTertiaryContainer" value="#FFD8E4" />
-        <color name="unusedcolorOnTertiaryContainer" value="#370B1E" />
-        <color name="unusedcolorScrim" value="#000000" />
-        <color name="colorDeviceFrame" value="#000000" />
-        <color name="colorDeviceButton" value="#ffffff" />
-        <color name="colorStatusbarLabeltext" value="#ffffff" />
+        <color name="colorPrimary" value="#984061" label="Primary" />
+        <color name="colorOnPrimary" value="#FFFFFF" label="OnPrimary" />
+        <color name="colorPrimaryContainer" value="#FFD9E2" label="PrimaryContainer" />
+        <color name="colorOnPrimaryContainer" value="#3E001D" label="OnPrimaryContainer" />
+        <color name="colorSecondary" value="#74565F" label="Secondary" />
+        <color name="colorOnSecondary" value="#FFFFFF" label="OnSecondary" />
+        <color name="colorSecondaryContainer" value="#FFD9E2" label="SecondaryContainer" />
+        <color name="colorOnSecondaryContainer" value="#2B151C" label="OnSecondaryContainer" />
+        
+        <color name="colorBackground" value="#FFFBFF" label="Background" />
+        <color name="colorOnBackground" value="#201A1B" label="OnBackground" />
+        <color name="colorSurface" value="#FFFBFF" label="Surface" />
+        <color name="colorOnSurface" value="#201A1B" label="OnSurface" />
+        <color name="colorSurfaceVariant" value="#F2DDE1" label="SurfaceVariant" />
+        <color name="colorOnSurfaceVariant" value="#514347" label="OnSurfaceVariant" />
+        
+        <color name="colorError" value="#BA1A1A" label="Error" />
+        <color name="colorErrorContainer" value="#FFDAD6" label="ErrorContainer" />
+        <color name="colorOnError" value="#FFFFFF" label="OnError" />
+        <color name="colorOnErrorContainer" value="#410002" label="OnErrorContainer" />
 
+        <color name="colorSurfaceInverse" value="#352F30" label="SurfaceInverse" />
+        <color name="colorOnSurfaceInverse" value="#FAEEEF" label="OnSurfaceInverse" />
+        <color name="colorOutline" value="#837377" label="Outline" />
+        <color name="colorPrimaryInverse" value="#FFB1C8" label="PrimaryInverse" />
+        
+        <color name="colorShadow" value="#000000" label="unused" />
+        <color name="colorSurfaceTint" value="#984061" label="unused" />
+        <color name="colorOutlineVariant" value="#D5C2C6" label="unused" />
+        <color name="colorSurfaceTintColor" value="#9C4048" label="unused" />
+        <color name="colorTertiary" value="#7C5635" label="unused" />
+        <color name="colorOnTertiary" value="#FFFFFF" label="unused" />
+        <color name="colorTertiaryContainer" value="#FFDCC1" label="unused" />
+        <color name="colorOnTertiaryContainer" value="#2E1500" label="unused" />
+        <color name="colorScrim" value="#000000" label="unused" />
+        
+        <color name="colorDeviceFrame" value="#000000" label="internal" />
+        <color name="colorDeviceButton" value="#ffffff" label="internal" />
+        <color name="colorWhite" value="#ffffff" label="internal" />
+        <color name="colorBlack" value="#000000" label="internal" />
+        
     </colors>
     <classes>
         <!-- https://m2.material.io/components/backdrop#theming -->
@@ -55,13 +62,13 @@ TODO do ripple with :hover
         <class name="backdrop-back-icon" fill="colorOnPrimary" />
         <class name="backdrop-front-container" fill="colorSurface" />
         <class name="backdrop-front-labeltext" fill="colorOnSurface" fill-opacity="60" />
-
-
+        
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BadgeDrawable.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/badge/res/values/styles.xml -->
         <class name="badge-container" fill="colorError" />
         <class name="badge-labeltext" fill="colorOnError" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BottomNavigation.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/bottomnavigation/res/values/styles.xml -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/navigation/res/values/attrs.xml -->
@@ -72,14 +79,16 @@ TODO do ripple with :hover
         <class name="bottomnavigation-labeltext-inactive" fill="colorOnSurfaceVariant" />
         <class name="bottomnavigation-activeindicator" fill="colorSecondaryContainer" />
         
+        <!-- https://m3.material.io/components/bottom-sheets/specs -->
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BottomSheet.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/bottomsheet/res/values/tokens.xml -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/bottomsheet/res/values/styles.xml -->
-        <class name="bottomsheet-container" fill="colorBackground" bgTint="colorSurface" elevation="1" />
-        <class name="bottomsheet-content" fill="colorOnSurface"  />
-        <class name="bottomsheet-scrim" fill="colorOnSurface"  /><!-- FIXME  -->
-        <class name="bottomsheet-draghandle" fill="colorOnSurfaceVariant"  />
-
+        <class name="bottomsheet-container" fill="colorSurface" elevation="1" />
+        <class name="bottomsheet-content" fill="colorOnSurface" />
+        <class name="bottomsheet-scrim" fill="colorScrim" />
+        <class name="bottomsheet-draghandle" fill="colorOnSurfaceVariant" fill-opacity="40" />
+        
+        <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/tokens.xml -->
         <class name="button-elevated-labeltext" fill="colorOnSurface" />
         <class name="button-elevated-container" fill="colorSurface" elevation="1" ripple="colorOnSurface" ripple-opacity="16"/>
@@ -97,7 +106,7 @@ TODO do ripple with :hover
         <class name="button-text-container" fill="colorTransparent" elevation="0" ripple="colorOnSurface" ripple-opacity="16"/>
         <class name="button-text-icon" fill="colorOnSurface" />
         <class name="button-text-icon-checked" fill="colorOnSecondaryContainer" />
-
+        
         <!-- ./lib/java/com/google/android/material/color/res/color/m3_icon_button_icon_color_selector.xml -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/styles.xml -->
         <class name="iconbutton-text-icon-disabled" fill="colorOnSurface" />
@@ -114,17 +123,21 @@ TODO do ripple with :hover
         <class name="iconbutton-tonal-icon-checked" fill="colorOnPrimary" />
         <class name="iconbutton-tonal-icon" fill="colorOnSecondaryContainer" />
         <class name="iconbutton-tonal-container" fill="colorSecondaryContainer" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Card.md -->
-        <class name="card-elevated-container" fill="colorSurface" elevation="0" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
-        <class name="card-outlined-container" fill="colorSurface" elevation="1" stroke="colorOutline" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
+        <class name="card-elevated-container" fill="colorSurface" elevation="1" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
+        <class name="card-outlined-container-unchecked" fill="colorSurface" elevation="0" stroke="colorOutline" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
+        <class name="card-outlined-container-checked" fill="colorSurface" elevation="0" stroke="colorSecondary" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
         <class name="card-filled-container" fill="colorSurfaceVariant" elevation="0" ripple="colorOnSurfaceVariant" ripple-opacity="20"/>
         <class name="card-labeltext" fill="colorOnSurface" />
-
+        <!-- https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/resources/res/drawable/ic_mtrl_checked_circle.xml -->
+        <class name="card-icon-unchecked" fill="colorOutline" />
+        <class name="card-icon-checked" fill="colorSecondary" />
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Checkbox.md -->
         <class name="checkbox-container" fill="colorOnSurface" />
         <class name="checkbox-icon" fill="colorOnPrimary" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Chip.md -->
         <!-- https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/chip/res/color -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/chip/res/color/m3_chip_background_color.xml -->
@@ -134,60 +147,63 @@ TODO do ripple with :hover
         <class name="chip-removeicon" fill="colorOnSurface" fill-opacity="13" />
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/chip/res/color/m3_assist_chip_icon_tint_color.xml -->
         <class name="chip-thumbnail" fill="colorPrimary" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Dialog.md -->
         <!-- https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/dialog/res/values -->
         <class name="dialog-container" fill="colorSurface" />
         <class name="dialog-title-textlabel" fill="colorOnSurface" />
-        <class name="dialog-title-icon" tint="colorSecondary" />
+        <class name="dialog-title-icon" fill="colorSecondary" />
         <class name="dialog-content-text" fill="colorOnSurfaceVariant" />
         <class name="dialog-scrim" backgroundDimAmount="32" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Divider.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/divider/res/values/styles.xml -->
         <class name="divider-container" fill="colorOutline"  />
         <class name="mcomp-divider-container" fill="colorOnSurface" fill-opacity="88" />
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/divider/res/values/tokens.xml -->
         <!--<class name="m3-divider-container" fill="colorOutlineVariant" />-->
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/FloatingActionButton.md -->
         <class name="fab-container" fill="colorPrimaryContainer" elevation="6" ripple="colorOnPrimaryContainer" />
         <class name="fab-icon" fill="colorOnPrimaryContainer" />
         <class name="fab-cutout-background" fill="colorBackground" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/RadioButton.md -->
         <class name="radiobutton" fill="colorOnSurface" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Slider.md -->
         <class name="slider-track-active" fill="colorPrimary" />
         <class name="slider-track-inactive" fill="colorSurfaceVariant" />
         <class name="slider-thumb" fill="colorPrimary" elevation="2" />
         <class name="slider-tickmark-active" fill="colorSurfaceVariant" />
         <class name="slider-tickmark-inactive" fill="colorPrimary" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Snackbar.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/snackbar/res/values/styles.xml -->
         <class name="snackbar-container" fill="colorSurfaceInverse" fill-opacity="20" elevation="6" />
         <class name="snackbar-textlabel" fill="colorOnSurfaceInverse" />
         <class name="snackbar-action" fill="colorPrimaryInverse" />
-
+        
+        <!-- https://m3.material.io/components/switch/specs -->
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Switch.md -->
         <!-- https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/switchmaterial/res/values -->
-        <class name="m3-switch-thumb-unchecked" fill="colorOutline" />
-        <class name="m3-switch-thumb-checked" fill="colorOnPrimary" />
-        <class name="m3-switch-track-unchecked" fill="colorSurfaceVariant" stroke="colorOutline" />
-        <class name="m3-switch-track-checked" fill="colorPrimary" />
-        <class name="m3-switch-icon-unchecked" fill="colorSurfaceVariant" />
-        <class name="m3-switch-icon-checked" fill="colorOnPrimaryContainer" />
-
-        <class name="switch-thumb-unchecked" fill="colorOnSurface" />
-        <class name="switch-thumb-checked" fill="colorPrimary" />
-        <class name="switch-track-unchecked" fill="colorOutline"  />
-        <class name="switch-track-checked" fill="colorPrimaryContainer" />
-
+        <class name="switch-thumb-unchecked" fill="colorOutline" />
+        <class name="switch-thumb-checked" fill="colorOnPrimary" />
+        <class name="switch-track-unchecked" fill="colorSurfaceVariant" stroke="colorOutline" />
+        <class name="switch-track-checked" fill="colorPrimary" />
+        <class name="switch-icon-unchecked" fill="colorSurfaceVariant" />
+        <class name="switch-icon-checked" fill="colorOnPrimaryContainer" />
+        
+        <class name="m2-switch-thumb-unchecked" fill="colorOnSurface" />
+        <class name="m2-switch-thumb-checked" fill="colorPrimary" />
+        <class name="m2-switch-track-unchecked" fill="colorOutline"  />
+        <class name="m2-switch-track-checked" fill="colorPrimaryContainer" />
+        
+        <!-- https://m3.material.io/components/tabs/specs -->
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/Tabs.md -->
         <!-- https://github.com/material-components/material-components-android/tree/master/lib/java/com/google/android/material/tabs/res/values -->
-        <class name="tab-container" fill="colorSurfaceVariant" /><!-- FIXME colorOnSurfaceVariant -->
+        <class name="tab-container" fill="colorSurface" /><!-- FIXME colorOnSurfaceVariant -->
+        <class name="tab-divider" fill="colorSurfaceVariant" />
         <class name="tab-active-icon" fill="colorPrimary" />
         <class name="tab-active-textlabel" fill="colorPrimary" />
         <class name="tab-active-tabindicator" fill="colorPrimary" />
@@ -195,7 +211,7 @@ TODO do ripple with :hover
         <class name="tab-inactive-icon" fill="colorOnSurfaceVariant" />
         <class name="tab-inactive-textlabel" fill="colorOnSurfaceVariant" />
         <class name="tab-inactive-item" ripple="colorOnSurfaceVariant" ripple-opacity="16" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/TextField.md -->
         <class name="textfield-container" fill="colorSurfaceVariant" />
         <class name="textfield-leadingicon" fill="colorOnSurfaceVariant" />
@@ -211,14 +227,14 @@ TODO do ripple with :hover
         
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/TopAppBar.md -->
         <!-- https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/appbar/res/values/styles.xml -->
-        <class name="topappbar-container" fill="colorSurface" elevation="4" />
+        <class name="topappbar-container" fill="colorSurface" elevation="2" />
         <class name="m2-topappbar-container" fill="colorPrimary" elevation="4" />
         <class name="topappbar-navigationicon" fill="colorOnSurface" />
         <class name="topappbar-title" fill="colorOnSurface" />
         <class name="m2-topappbar-title" fill="colorOnPrimary" />
         <class name="topappbar-subtitle" fill="colorOnSurfaceVariant" />
         <class name="topappbar-actionmenuitem" fill="colorOnSurfaceVariant" />
-
+        
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BottomAppBar.md -->
         <class name="bottomappbar-container" fill="colorSurface" elevation="3" />
         <class name="m2-bottomappbar-container" fill="colorPrimary" elevation="3" />
@@ -226,7 +242,7 @@ TODO do ripple with :hover
         <class name="bottomappbar-title" fill="colorOnSurface" />
         <class name="m2-bottomappbar-title" fill="colorOnPrimary" />
         <class name="bottomappbar-actionmenuitem" fill="colorOnSurfaceVariant" />
-
+        
         <!-- some self-invented classes for text on components -->
         <class name="label-onprimary" fill="colorOnPrimary" />
         <class name="label-onprimarycontainer" fill="colorOnPrimaryContainer" />
@@ -237,18 +253,19 @@ TODO do ripple with :hover
         <class name="label-onsurfacevariant" fill="colorOnSurfaceVariant" />
         <class name="label-onsurfaceinverse" fill="colorOnSurfaceInverse" />
         <class name="label-onbackground" fill="colorOnBackground" />
-
+        
         <class name="container-background" fill="colorBackground" />
         <class name="container-surface" fill="colorSurface" />
+        
+        <class name="device-statusbar" fill="colorTransparent" />
+        <class name="device-statusbar-labeltext" fill="colorOnSurface" />
+        <class name="m2-device-statusbar" fill="colorBlack" fill-opacity="40" />
+        <class name="m2-device-statusbar-labeltext" fill="colorWhite" />
 
-        <!-- for later use -->
-        <class name="device-statusbar"  />
-        <class name="device-statusbar-labeltext" fill="colorStatusbarLabeltext" />
         <class name="device-frame" fill="colorDeviceFrame" />
         <class name="device-button" fill="colorDeviceButton" />
         <class name="device-background" fill="colorBackground" />
-
-        <class name="mock-description"  />
-
+        <class name="mock-description" fill="colorBlack" />
+        
     </classes>
 </style>

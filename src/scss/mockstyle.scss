@@ -1,72 +1,74 @@
 :root {
-  --colorPrimary: #6200EE;
-  --colorPrimary-rgbstr: 98, 0, 238;
+  --colorPrimary: #984061;
+  --colorPrimary-rgbstr: 152, 64, 97;
   --colorOnPrimary: #FFFFFF;
   --colorOnPrimary-rgbstr: 255, 255, 255;
-  --colorPrimaryContainer: #3700B3;
-  --colorPrimaryContainer-rgbstr: 55, 0, 179;
-  --colorOnPrimaryContainer: #FFFFFF;
-  --colorOnPrimaryContainer-rgbstr: 255, 255, 255;
-  --colorSecondary: #03DAC6;
-  --colorSecondary-rgbstr: 3, 218, 198;
-  --colorOnSecondary: #000000;
-  --colorOnSecondary-rgbstr: 0, 0, 0;
-  --colorSecondaryContainer: #018786;
-  --colorSecondaryContainer-rgbstr: 1, 135, 134;
-  --colorOnSecondaryContainer: #000000;
-  --colorOnSecondaryContainer-rgbstr: 0, 0, 0;
-  --colorBackground: #FFFBFE;
-  --colorBackground-rgbstr: 255, 251, 254;
-  --colorOnBackground: #1C1B1F;
-  --colorOnBackground-rgbstr: 28, 27, 31;
-  --colorSurface: #FAFAFD;
-  --colorSurface-rgbstr: 250, 250, 253;
-  --colorOnSurface: #1C1B1F;
-  --colorOnSurface-rgbstr: 28, 27, 31;
-  --colorSurfaceVariant: #E7E0EC;
-  --colorSurfaceVariant-rgbstr: 231, 224, 236;
-  --colorOnSurfaceVariant: #49454E;
-  --colorOnSurfaceVariant-rgbstr: 73, 69, 78;
-  --colorError: #B3261E;
-  --colorError-rgbstr: 179, 38, 30;
+  --colorPrimaryContainer: #FFD9E2;
+  --colorPrimaryContainer-rgbstr: 255, 217, 226;
+  --colorOnPrimaryContainer: #3E001D;
+  --colorOnPrimaryContainer-rgbstr: 62, 0, 29;
+  --colorSecondary: #74565F;
+  --colorSecondary-rgbstr: 116, 86, 95;
+  --colorOnSecondary: #FFFFFF;
+  --colorOnSecondary-rgbstr: 255, 255, 255;
+  --colorSecondaryContainer: #FFD9E2;
+  --colorSecondaryContainer-rgbstr: 255, 217, 226;
+  --colorOnSecondaryContainer: #2B151C;
+  --colorOnSecondaryContainer-rgbstr: 43, 21, 28;
+  --colorBackground: #FFFBFF;
+  --colorBackground-rgbstr: 255, 251, 255;
+  --colorOnBackground: #201A1B;
+  --colorOnBackground-rgbstr: 32, 26, 27;
+  --colorSurface: #FFFBFF;
+  --colorSurface-rgbstr: 255, 251, 255;
+  --colorOnSurface: #201A1B;
+  --colorOnSurface-rgbstr: 32, 26, 27;
+  --colorSurfaceVariant: #F2DDE1;
+  --colorSurfaceVariant-rgbstr: 242, 221, 225;
+  --colorOnSurfaceVariant: #514347;
+  --colorOnSurfaceVariant-rgbstr: 81, 67, 71;
+  --colorError: #BA1A1A;
+  --colorError-rgbstr: 186, 26, 26;
+  --colorErrorContainer: #FFDAD6;
+  --colorErrorContainer-rgbstr: 255, 218, 214;
   --colorOnError: #FFFFFF;
   --colorOnError-rgbstr: 255, 255, 255;
-  --colorErrorContainer: #F9DEDC;
-  --colorErrorContainer-rgbstr: 249, 222, 220;
-  --colorOnErrorContainer: #410E0B;
-  --colorOnErrorContainer-rgbstr: 65, 14, 11;
-  --colorSurfaceInverse: #313033;
-  --colorSurfaceInverse-rgbstr: 49, 48, 51;
-  --colorOnSurfaceInverse: #F4EFF4;
-  --colorOnSurfaceInverse-rgbstr: 244, 239, 244;
-  --colorOutline: #79747E;
-  --colorOutline-rgbstr: 121, 116, 126;
-  --colorPrimaryInverse: #D0BCFF;
-  --colorPrimaryInverse-rgbstr: 208, 188, 255;
-  --unusedcolorOutlineVariant: #C4C7C5;
-  --unusedcolorOutlineVariant-rgbstr: 196, 199, 197;
-  --unusedcolorShadow: #000000;
-  --unusedcolorShadow-rgbstr: 0, 0, 0;
-  --unusedcolorSurfaceTint: #6750A4;
-  --unusedcolorSurfaceTint-rgbstr: 103, 80, 164;
-  --unusedcolorSurfaceTintColor: #9C4048;
-  --unusedcolorSurfaceTintColor-rgbstr: 156, 64, 72;
-  --unusedcolorTertiary: #7D5260;
-  --unusedcolorTertiary-rgbstr: 125, 82, 96;
-  --unusedcolorOnTertiary: #FFFFFF;
-  --unusedcolorOnTertiary-rgbstr: 255, 255, 255;
-  --unusedcolorTertiaryContainer: #FFD8E4;
-  --unusedcolorTertiaryContainer-rgbstr: 255, 216, 228;
-  --unusedcolorOnTertiaryContainer: #370B1E;
-  --unusedcolorOnTertiaryContainer-rgbstr: 55, 11, 30;
-  --unusedcolorScrim: #000000;
-  --unusedcolorScrim-rgbstr: 0, 0, 0;
+  --colorOnErrorContainer: #410002;
+  --colorOnErrorContainer-rgbstr: 65, 0, 2;
+  --colorSurfaceInverse: #352F30;
+  --colorSurfaceInverse-rgbstr: 53, 47, 48;
+  --colorOnSurfaceInverse: #FAEEEF;
+  --colorOnSurfaceInverse-rgbstr: 250, 238, 239;
+  --colorOutline: #837377;
+  --colorOutline-rgbstr: 131, 115, 119;
+  --colorPrimaryInverse: #FFB1C8;
+  --colorPrimaryInverse-rgbstr: 255, 177, 200;
+  --colorShadow: #000000;
+  --colorShadow-rgbstr: 0, 0, 0;
+  --colorSurfaceTint: #984061;
+  --colorSurfaceTint-rgbstr: 152, 64, 97;
+  --colorOutlineVariant: #D5C2C6;
+  --colorOutlineVariant-rgbstr: 213, 194, 198;
+  --colorSurfaceTintColor: #9C4048;
+  --colorSurfaceTintColor-rgbstr: 156, 64, 72;
+  --colorTertiary: #7C5635;
+  --colorTertiary-rgbstr: 124, 86, 53;
+  --colorOnTertiary: #FFFFFF;
+  --colorOnTertiary-rgbstr: 255, 255, 255;
+  --colorTertiaryContainer: #FFDCC1;
+  --colorTertiaryContainer-rgbstr: 255, 220, 193;
+  --colorOnTertiaryContainer: #2E1500;
+  --colorOnTertiaryContainer-rgbstr: 46, 21, 0;
+  --colorScrim: #000000;
+  --colorScrim-rgbstr: 0, 0, 0;
   --colorDeviceFrame: #000000;
   --colorDeviceFrame-rgbstr: 0, 0, 0;
   --colorDeviceButton: #ffffff;
   --colorDeviceButton-rgbstr: 255, 255, 255;
-  --colorStatusbarLabeltext: #ffffff;
-  --colorStatusbarLabeltext-rgbstr: 255, 255, 255;
+  --colorWhite: #ffffff;
+  --colorWhite-rgbstr: 255, 255, 255;
+  --colorBlack: #000000;
+  --colorBlack-rgbstr: 0, 0, 0;
   --colorTransparent : none;
 }
 
@@ -75,684 +77,580 @@
 .backdrop-back-container {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .backdrop-back-icon {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .backdrop-front-container {
  fill: var(--colorSurface);
 }
-/* generated with generate_css.xslt */
 
 .backdrop-front-labeltext {
  fill: rgba(var(--colorOnSurface-rgbstr), 0.4);
 }
-/* generated with generate_css.xslt */
 
 .badge-container {
  fill: var(--colorError);
 }
-/* generated with generate_css.xslt */
 
 .badge-labeltext {
  fill: var(--colorOnError);
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-4");
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-icon-active {
  fill: var(--colorOnSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-icon-inactive {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-labeltext-active {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-labeltext-inactive {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-activeindicator {
  fill: var(--colorSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-container {
- fill: var(--colorBackground);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
+ fill: var(--colorSurface);
+ filter: url("#elevation-1");
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-content {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-scrim {
- fill: var(--colorOnSurface);
+ fill: var(--colorScrim);
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-draghandle {
- fill: var(--colorOnSurfaceVariant);
+ fill: rgba(var(--colorOnSurfaceVariant-rgbstr), 0.6);
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-labeltext {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-1");
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-icon {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-filled-labeltext {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .button-filled-container {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-2");
 }
-/* generated with generate_css.xslt */
 
 .button-filled-icon {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-labeltext {
  fill: var(--colorOnSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-container {
  fill: var(--colorSecondaryContainer);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-2");
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-icon {
  fill: var(--colorOnSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-labeltext {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-container {
  fill: var(--colorTransparent);
  stroke: rgba(var(--colorOnSurface-rgbstr), 0.88);
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-icon {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-text-labeltext {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-text-container {
  fill: var(--colorTransparent);
 }
-/* generated with generate_css.xslt */
 
 .button-text-icon {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .button-text-icon-checked {
  fill: var(--colorOnSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-disabled {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-unchecked {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-checked {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-container {
  fill: var(--colorTransparent);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-disabled {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-unchecked {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-checked {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-container {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-disabled {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-unchecked {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-checked {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon {
  fill: var(--colorOnSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-container {
  fill: var(--colorSecondaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .card-elevated-container {
  fill: var(--colorSurface);
+ filter: url("#elevation-1");
 }
-/* generated with generate_css.xslt */
 
-.card-outlined-container {
+.card-outlined-container-unchecked {
  fill: var(--colorSurface);
  stroke: var(--colorOutline);
  stroke-width : 0.5;
- filter: drop-shadow(0px 1px 1px rgb(0 0 0 / 0.1));
 }
-/* generated with generate_css.xslt */
+
+.card-outlined-container-checked {
+ fill: var(--colorSurface);
+ stroke: var(--colorSecondary);
+ stroke-width : 0.5;
+}
 
 .card-filled-container {
  fill: var(--colorSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .card-labeltext {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
+
+.card-icon-unchecked {
+ fill: var(--colorOutline);
+}
+
+.card-icon-checked {
+ fill: var(--colorSecondary);
+}
 
 .checkbox-container {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .checkbox-icon {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .chip-container {
  fill: var(--colorSurface);
  stroke: var(--colorOutline);
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
 
 .chip-text {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .chip-removeicon {
  fill: rgba(var(--colorOnSurface-rgbstr), 0.87);
 }
-/* generated with generate_css.xslt */
 
 .chip-thumbnail {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .dialog-container {
  fill: var(--colorSurface);
 }
-/* generated with generate_css.xslt */
 
 .dialog-title-textlabel {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .dialog-title-icon {
  fill: var(--colorSecondary);
 }
-/* generated with generate_css.xslt */
 
 .dialog-content-text {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .dialog-scrim {
 }
-/* generated with generate_css.xslt */
 
 .divider-container {
  fill: var(--colorOutline);
 }
-/* generated with generate_css.xslt */
 
 .mcomp-divider-container {
  fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
 }
-/* generated with generate_css.xslt */
 
 .fab-container {
  fill: var(--colorPrimaryContainer);
- filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.3));
+ filter: url("#elevation-6");
 }
-/* generated with generate_css.xslt */
 
 .fab-icon {
  fill: var(--colorOnPrimaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .fab-cutout-background {
  fill: var(--colorBackground);
 }
-/* generated with generate_css.xslt */
 
 .radiobutton {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .slider-track-active {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .slider-track-inactive {
  fill: var(--colorSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .slider-thumb {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-2");
 }
-/* generated with generate_css.xslt */
 
 .slider-tickmark-active {
  fill: var(--colorSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .slider-tickmark-inactive {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .snackbar-container {
  fill: rgba(var(--colorSurfaceInverse-rgbstr), 0.8);
- filter: drop-shadow(0px 3px 3px rgb(0 0 0 / 0.3));
+ filter: url("#elevation-6");
 }
-/* generated with generate_css.xslt */
 
 .snackbar-textlabel {
  fill: var(--colorOnSurfaceInverse);
 }
-/* generated with generate_css.xslt */
 
 .snackbar-action {
  fill: var(--colorPrimaryInverse);
 }
-/* generated with generate_css.xslt */
 
-.m3-switch-thumb-unchecked {
+.switch-thumb-unchecked {
  fill: var(--colorOutline);
 }
-/* generated with generate_css.xslt */
 
-.m3-switch-thumb-checked {
+.switch-thumb-checked {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
-.m3-switch-track-unchecked {
+.switch-track-unchecked {
  fill: var(--colorSurfaceVariant);
  stroke: var(--colorOutline);
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
-
-.m3-switch-track-checked {
- fill: var(--colorPrimary);
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-icon-unchecked {
- fill: var(--colorSurfaceVariant);
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-icon-checked {
- fill: var(--colorOnPrimaryContainer);
-}
-/* generated with generate_css.xslt */
-
-.switch-thumb-unchecked {
- fill: var(--colorOnSurface);
-}
-/* generated with generate_css.xslt */
-
-.switch-thumb-checked {
- fill: var(--colorPrimary);
-}
-/* generated with generate_css.xslt */
-
-.switch-track-unchecked {
- fill: var(--colorOutline);
-}
-/* generated with generate_css.xslt */
 
 .switch-track-checked {
- fill: var(--colorPrimaryContainer);
+ fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
-.tab-container {
+.switch-icon-unchecked {
  fill: var(--colorSurfaceVariant);
 }
-/* generated with generate_css.xslt */
+
+.switch-icon-checked {
+ fill: var(--colorOnPrimaryContainer);
+}
+
+.m2-switch-thumb-unchecked {
+ fill: var(--colorOnSurface);
+}
+
+.m2-switch-thumb-checked {
+ fill: var(--colorPrimary);
+}
+
+.m2-switch-track-unchecked {
+ fill: var(--colorOutline);
+}
+
+.m2-switch-track-checked {
+ fill: var(--colorPrimaryContainer);
+}
+
+.tab-container {
+ fill: var(--colorSurface);
+}
+
+.tab-divider {
+ fill: var(--colorSurfaceVariant);
+}
 
 .tab-active-icon {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .tab-active-textlabel {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .tab-active-tabindicator {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .tab-active-item {
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-icon {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-textlabel {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-item {
 }
-/* generated with generate_css.xslt */
 
 .textfield-container {
  fill: var(--colorSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .textfield-leadingicon {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .textfield-label {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .textfield-label-collapsed {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .textfield-inputtext {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .textfield-dropdown {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .textfield-cursor {
  fill: rgba(var(--colorPrimary-rgbstr), 0.30000000000000004);
 }
-/* generated with generate_css.xslt */
 
 .textfield-trailingicon {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .textfield-erroricon {
  fill: var(--colorError);
 }
-/* generated with generate_css.xslt */
 
 .textfield-activationindicator-focused {
  fill: var(--colorPrimary);
 }
-/* generated with generate_css.xslt */
 
 .textfield-activationindicator-unfocused {
  fill: var(--colorOutline);
 }
-/* generated with generate_css.xslt */
 
 .topappbar-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-2");
 }
-/* generated with generate_css.xslt */
 
 .m2-topappbar-container {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 3px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-3");
 }
-/* generated with generate_css.xslt */
 
 .topappbar-navigationicon {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .topappbar-title {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .m2-topappbar-title {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .topappbar-subtitle {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .topappbar-actionmenuitem {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-container {
  fill: var(--colorSurface);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-4");
 }
-/* generated with generate_css.xslt */
 
 .m2-bottomappbar-container {
  fill: var(--colorPrimary);
- filter: drop-shadow(0px 1px 2px rgb(0 0 0 / 0.1));
+ filter: url("#elevation-4");
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-navigationicon {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-title {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .m2-bottomappbar-title {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-actionmenuitem {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .label-onprimary {
  fill: var(--colorOnPrimary);
 }
-/* generated with generate_css.xslt */
 
 .label-onprimarycontainer {
  fill: var(--colorOnPrimaryContainer);
 }
-/* generated with generate_css.xslt */
 
 .label-secondary {
  fill: var(--colorSecondary);
 }
-/* generated with generate_css.xslt */
 
 .label-onsecondary {
  fill: var(--colorOnSecondary);
 }
-/* generated with generate_css.xslt */
 
 .label-onsecondarycontainer {
  fill: var(--colorOnSecondaryContainerC);
 }
-/* generated with generate_css.xslt */
 
 .label-onsurface {
  fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
 
 .label-onsurfacevariant {
  fill: var(--colorOnSurfaceVariant);
 }
-/* generated with generate_css.xslt */
 
 .label-onsurfaceinverse {
  fill: var(--colorOnSurfaceInverse);
 }
-/* generated with generate_css.xslt */
 
 .label-onbackground {
  fill: var(--colorOnBackground);
 }
-/* generated with generate_css.xslt */
 
 .container-background {
  fill: var(--colorBackground);
 }
-/* generated with generate_css.xslt */
 
 .container-surface {
  fill: var(--colorSurface);
 }
-/* generated with generate_css.xslt */
 
 .device-statusbar {
+ fill: var(--colorTransparent);
 }
-/* generated with generate_css.xslt */
 
 .device-statusbar-labeltext {
- fill: var(--colorStatusbarLabeltext);
+ fill: var(--colorOnSurface);
 }
-/* generated with generate_css.xslt */
+
+.m2-device-statusbar {
+ fill: rgba(var(--colorBlack-rgbstr), 0.6);
+}
+
+.m2-device-statusbar-labeltext {
+ fill: var(--colorWhite);
+}
 
 .device-frame {
  fill: var(--colorDeviceFrame);
 }
-/* generated with generate_css.xslt */
 
 .device-button {
  fill: var(--colorDeviceButton);
 }
-/* generated with generate_css.xslt */
 
 .device-background {
  fill: var(--colorBackground);
 }
-/* generated with generate_css.xslt */
 
 .mock-description {
+ fill: var(--colorBlack);
 }
+

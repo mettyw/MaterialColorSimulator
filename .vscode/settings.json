@@ -21,4 +21,7 @@
     "[xml]": {
         "editor.defaultFormatter": "deltaxml.xslt-xpath"
     },
+    "[xslt]": {
+        "editor.defaultFormatter": "deltaxml.xslt-xpath"
+    },
 }

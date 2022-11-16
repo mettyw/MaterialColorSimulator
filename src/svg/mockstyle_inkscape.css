@@ -1,673 +1,569 @@
 /* generated with generate_css.xslt */
 
 .backdrop-back-container {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .backdrop-back-icon {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .backdrop-front-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .backdrop-front-labeltext {
- fill: rgba(28, 27, 31, 0.4);
+ fill: rgba(32, 26, 27, 0.4);
 }
-/* generated with generate_css.xslt */
 
 .badge-container {
- fill: #B3261E;
+ fill: #BA1A1A;
 }
-/* generated with generate_css.xslt */
 
 .badge-labeltext {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-icon-active {
- fill: #000000;
+ fill: #2B151C;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-icon-inactive {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-labeltext-active {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-labeltext-inactive {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .bottomnavigation-activeindicator {
- fill: #018786;
+ fill: #FFD9E2;
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-container {
- fill: #FFFBFE;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-content {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-scrim {
- fill: #1C1B1F;
+ fill: #000000;
 }
-/* generated with generate_css.xslt */
 
 .bottomsheet-draghandle {
- fill: #49454E;
+ fill: rgba(81, 67, 71, 0.6);
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-labeltext {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .button-elevated-icon {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-filled-labeltext {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .button-filled-container {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .button-filled-icon {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-labeltext {
- fill: #000000;
+ fill: #2B151C;
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-container {
- fill: #018786;
+ fill: #FFD9E2;
 }
-/* generated with generate_css.xslt */
 
 .button-tonal-icon {
- fill: #000000;
+ fill: #2B151C;
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-labeltext {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-container {
  fill: none;
- stroke: rgba(28, 27, 31, 0.88);
+ stroke: #201A1B;
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
 
 .button-outlined-icon {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-text-labeltext {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-text-container {
  fill: none;
 }
-/* generated with generate_css.xslt */
 
 .button-text-icon {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .button-text-icon-checked {
- fill: #000000;
+ fill: #2B151C;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-disabled {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-unchecked {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon-checked {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-icon {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-text-container {
  fill: none;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-disabled {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-unchecked {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-icon-checked {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-filled-container {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-disabled {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-unchecked {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon-checked {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-icon {
- fill: #000000;
+ fill: #2B151C;
 }
-/* generated with generate_css.xslt */
 
 .iconbutton-tonal-container {
- fill: #018786;
+ fill: #FFD9E2;
 }
-/* generated with generate_css.xslt */
 
 .card-elevated-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
-.card-outlined-container {
- fill: #FAFAFD;
- stroke: #79747E;
+.card-outlined-container-unchecked {
+ fill: #FFFBFF;
+ stroke: #837377;
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
+
+.card-outlined-container-checked {
+ fill: #FFFBFF;
+ stroke: #74565F;
+ stroke-width : 0.5;
+}
 
 .card-filled-container {
- fill: #E7E0EC;
+ fill: #F2DDE1;
 }
-/* generated with generate_css.xslt */
 
 .card-labeltext {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
+
+.card-icon-unchecked {
+ fill: #837377;
+}
+
+.card-icon-checked {
+ fill: #74565F;
+}
 
 .checkbox-container {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .checkbox-icon {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .chip-container {
- fill: #FAFAFD;
- stroke: #79747E;
+ fill: #FFFBFF;
+ stroke: #837377;
  stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
 
 .chip-text {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .chip-removeicon {
- fill: rgba(28, 27, 31, 0.87);
+ fill: rgba(32, 26, 27, 0.87);
 }
-/* generated with generate_css.xslt */
 
 .chip-thumbnail {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .dialog-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .dialog-title-textlabel {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .dialog-title-icon {
- fill: #03DAC6;
+ fill: #74565F;
 }
-/* generated with generate_css.xslt */
 
 .dialog-content-text {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .dialog-scrim {
 }
-/* generated with generate_css.xslt */
 
 .divider-container {
- fill: #79747E;
+ fill: #837377;
 }
-/* generated with generate_css.xslt */
 
 .mcomp-divider-container {
- fill: rgba(28, 27, 31, 0.12);
+ fill: rgba(32, 26, 27, 0.12);
 }
-/* generated with generate_css.xslt */
 
 .fab-container {
- fill: #3700B3;
+ fill: #FFD9E2;
 }
-/* generated with generate_css.xslt */
 
 .fab-icon {
- fill: #FFFFFF;
+ fill: #3E001D;
 }
-/* generated with generate_css.xslt */
 
 .fab-cutout-background {
- fill: #FFFBFE;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .radiobutton {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .slider-track-active {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .slider-track-inactive {
- fill: #E7E0EC;
+ fill: #F2DDE1;
 }
-/* generated with generate_css.xslt */
 
 .slider-thumb {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .slider-tickmark-active {
- fill: #E7E0EC;
+ fill: #F2DDE1;
 }
-/* generated with generate_css.xslt */
 
 .slider-tickmark-inactive {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .snackbar-container {
- fill: rgba(49, 48, 51, 0.8);
+ fill: rgba(53, 47, 48, 0.8);
 }
-/* generated with generate_css.xslt */
 
 .snackbar-textlabel {
- fill: #F4EFF4;
+ fill: #FAEEEF;
 }
-/* generated with generate_css.xslt */
 
 .snackbar-action {
- fill: #D0BCFF;
+ fill: #FFB1C8;
 }
-/* generated with generate_css.xslt */
-
-.m3-switch-thumb-unchecked {
- fill: #79747E;
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-thumb-checked {
- fill: #FFFFFF;
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-track-unchecked {
- fill: #E7E0EC;
- stroke: #79747E;
- stroke-width : 0.5;
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-track-checked {
- fill: #6200EE;
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-icon-unchecked {
- fill: #E7E0EC;
-}
-/* generated with generate_css.xslt */
-
-.m3-switch-icon-checked {
- fill: #FFFFFF;
-}
-/* generated with generate_css.xslt */
 
 .switch-thumb-unchecked {
- fill: #1C1B1F;
+ fill: #837377;
 }
-/* generated with generate_css.xslt */
 
 .switch-thumb-checked {
- fill: #6200EE;
+ fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .switch-track-unchecked {
- fill: #79747E;
+ fill: #F2DDE1;
+ stroke: #837377;
+ stroke-width : 0.5;
 }
-/* generated with generate_css.xslt */
 
 .switch-track-checked {
- fill: #3700B3;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
+
+.switch-icon-unchecked {
+ fill: #F2DDE1;
+}
+
+.switch-icon-checked {
+ fill: #3E001D;
+}
+
+.m2-switch-thumb-unchecked {
+ fill: #201A1B;
+}
+
+.m2-switch-thumb-checked {
+ fill: #984061;
+}
+
+.m2-switch-track-unchecked {
+ fill: #837377;
+}
+
+.m2-switch-track-checked {
+ fill: #FFD9E2;
+}
 
 .tab-container {
- fill: #E7E0EC;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
+
+.tab-divider {
+ fill: #F2DDE1;
+}
 
 .tab-active-icon {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .tab-active-textlabel {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .tab-active-tabindicator {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .tab-active-item {
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-icon {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-textlabel {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .tab-inactive-item {
 }
-/* generated with generate_css.xslt */
 
 .textfield-container {
- fill: #E7E0EC;
+ fill: #F2DDE1;
 }
-/* generated with generate_css.xslt */
 
 .textfield-leadingicon {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .textfield-label {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .textfield-label-collapsed {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .textfield-inputtext {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .textfield-dropdown {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .textfield-cursor {
- fill: rgba(98, 0, 238, 0.30000000000000004);
+ fill: rgba(152, 64, 97, 0.30000000000000004);
 }
-/* generated with generate_css.xslt */
 
 .textfield-trailingicon {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .textfield-erroricon {
- fill: #B3261E;
+ fill: #BA1A1A;
 }
-/* generated with generate_css.xslt */
 
 .textfield-activationindicator-focused {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .textfield-activationindicator-unfocused {
- fill: #79747E;
+ fill: #837377;
 }
-/* generated with generate_css.xslt */
 
 .topappbar-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .m2-topappbar-container {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .topappbar-navigationicon {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .topappbar-title {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .m2-topappbar-title {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .topappbar-subtitle {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .topappbar-actionmenuitem {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-container {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .m2-bottomappbar-container {
- fill: #6200EE;
+ fill: #984061;
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-navigationicon {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-title {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .m2-bottomappbar-title {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .bottomappbar-actionmenuitem {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .label-onprimary {
  fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .label-onprimarycontainer {
- fill: #FFFFFF;
+ fill: #3E001D;
 }
-/* generated with generate_css.xslt */
 
 .label-secondary {
- fill: #03DAC6;
+ fill: #74565F;
 }
-/* generated with generate_css.xslt */
 
 .label-onsecondary {
- fill: #000000;
+ fill: #FFFFFF;
 }
-/* generated with generate_css.xslt */
 
 .label-onsecondarycontainer {
  fill: ;
 }
-/* generated with generate_css.xslt */
 
 .label-onsurface {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .label-onsurfacevariant {
- fill: #49454E;
+ fill: #514347;
 }
-/* generated with generate_css.xslt */
 
 .label-onsurfaceinverse {
- fill: #F4EFF4;
+ fill: #FAEEEF;
 }
-/* generated with generate_css.xslt */
 
 .label-onbackground {
- fill: #1C1B1F;
+ fill: #201A1B;
 }
-/* generated with generate_css.xslt */
 
 .container-background {
- fill: #FFFBFE;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .container-surface {
- fill: #FAFAFD;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .device-statusbar {
+ fill: none;
 }
-/* generated with generate_css.xslt */
 
 .device-statusbar-labeltext {
+ fill: #201A1B;
+}
+
+.m2-device-statusbar {
+ fill: rgba(0, 0, 0, 0.6);
+}
+
+.m2-device-statusbar-labeltext {
  fill: #ffffff;
 }
-/* generated with generate_css.xslt */
 
 .device-frame {
  fill: #000000;
 }
-/* generated with generate_css.xslt */
 
 .device-button {
  fill: #ffffff;
 }
-/* generated with generate_css.xslt */
 
 .device-background {
- fill: #FFFBFE;
+ fill: #FFFBFF;
 }
-/* generated with generate_css.xslt */
 
 .mock-description {
+ fill: #000000;
 }
+

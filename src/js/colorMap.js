@@ -1,7 +1,8 @@
+/* generated with generate_css.xslt */
 const colorMap = {
   colorPrimary: {
     l: 'Primary',
-    v: '#6200EE',
+    v: '#984061',
   },
   colorOnPrimary: {
     l: 'OnPrimary',
@@ -9,95 +10,84 @@ const colorMap = {
   },
   colorPrimaryContainer: {
     l: 'PrimaryContainer',
-    v: '#3700B3',
+    v: '#FFD9E2',
   },
   colorOnPrimaryContainer: {
     l: 'OnPrimaryContainer',
-    v: '#FFFFFF',
+    v: '#3E001D',
   },
   colorSecondary: {
     l: 'Secondary',
-    v: '#03DAC6',
+    v: '#74565F',
   },
   colorOnSecondary: {
     l: 'OnSecondary',
-    v: '#000000',
+    v: '#FFFFFF',
   },
   colorSecondaryContainer: {
     l: 'SecondaryContainer',
-    v: '#018786',
+    v: '#FFD9E2',
   },
   colorOnSecondaryContainer: {
     l: 'OnSecondaryContainer',
-    v: '#000000',
+    v: '#2B151C',
   },
   colorBackground: {
     l: 'Background',
-    v: '#FFFBFE',
+    v: '#FFFBFF',
   },
   colorOnBackground: {
     l: 'OnBackground',
-    v: '#1C1B1F',
+    v: '#201A1B',
   },
   colorSurface: {
     l: 'Surface',
-    v: '#FAFAFD',
+    v: '#FFFBFF',
   },
   colorOnSurface: {
     l: 'OnSurface',
-    v: '#1C1B1F',
+    v: '#201A1B',
   },
   colorSurfaceVariant: {
     l: 'SurfaceVariant',
-    v: '#E7E0EC',
+    v: '#F2DDE1',
   },
   colorOnSurfaceVariant: {
     l: 'OnSurfaceVariant',
-    v: '#49454E',
+    v: '#514347',
   },
   colorError: {
     l: 'Error',
-    v: '#B3261E',
+    v: '#BA1A1A',
+  },
+  colorErrorContainer: {
+    l: 'ErrorContainer',
+    v: '#FFDAD6',
   },
   colorOnError: {
     l: 'OnError',
     v: '#FFFFFF',
   },
-  colorErrorContainer: {
-    l: 'ErrorContainer',
-    v: '#F9DEDC',
-  },
   colorOnErrorContainer: {
     l: 'OnErrorContainer',
-    v: '#410E0B',
+    v: '#410002',
   },
   colorSurfaceInverse: {
     l: 'SurfaceInverse',
-    v: '#313033',
+    v: '#352F30',
   },
   colorOnSurfaceInverse: {
     l: 'OnSurfaceInverse',
-    v: '#F4EFF4',
+    v: '#FAEEEF',
   },
   colorOutline: {
     l: 'Outline',
-    v: '#79747E',
+    v: '#837377',
   },
   colorPrimaryInverse: {
     l: 'PrimaryInverse',
-    v: '#D0BCFF',
+    v: '#FFB1C8',
   },
-  /*
-         "colorOutlineVariant": { "l": "OutlineVariant", "v": "#C4C7C5" },
-         "colorShadow" : {"l" : "Shadow", "v" : "#000000"},
-         "colorSurfaceTint" : {"l" : "SurfaceTint", "v" : "#6750A4"},
-         "colorSurfaceTintColor" : {"l" : "SurfaceTintColor", "v" : "#9C4048"},
-         "colorTertiary" : {"l" : "Tertiary", "v" : "#7D5260"},
-         "colorOnTertiary" : {"l" : "OnTertiary", "v" : "#FFFFFF"},
-         "colorTertiaryContainer" : {"l" : "TertiaryContainer", "v" : "#FFD8E4"},
-         "colorOnTertiaryContainer" : {"l" : "OnTertiaryContainer", "v" : "#370B1E"},
-         "colorScrim" : {"l" : "Scrim", "v" : "#000000"},
-         */
 };
 
 export default colorMap;

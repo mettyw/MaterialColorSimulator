@@ -20,6 +20,14 @@
             "webRoot": "${workspaceFolder}/dist",
             "pathMappings": [
                 {
+                    "url": "http://localhost:8080/index.html",
+                    "path": "${workspaceFolder}/src/static/index.html"
+                },
+                {
+                    "url": "http://localhost:8080/index.html",
+                    "path": "${workspaceFolder}/src/static/index.html"
+                },
+                {
                     "url": "http://localhost:8080/main.js",
                     "path": "${workspaceFolder}/src/js/main.js"
                 }
