@@ -58,10 +58,10 @@
     </colors>
     <classes>
         <!-- https://m2.material.io/components/backdrop#theming -->
-        <class name="backdrop-back-container" fill="colorPrimary" />
-        <class name="backdrop-back-icon" fill="colorOnPrimary" />
-        <class name="backdrop-front-container" fill="colorSurface" />
-        <class name="backdrop-front-labeltext" fill="colorOnSurface" fill-opacity="60" />
+        <class name="m2-backdrop-back-container" fill="colorPrimary" />
+        <class name="m2-backdrop-back-icon" fill="colorOnPrimary" />
+        <class name="m2-backdrop-front-container" fill="colorSurface" />
+        <class name="m2-backdrop-front-labeltext" fill="colorOnSurface" fill-opacity="60" />
         
         
         <!-- https://github.com/material-components/material-components-android/blob/master/docs/components/BadgeDrawable.md -->
