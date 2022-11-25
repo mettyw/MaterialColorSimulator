@@ -22,6 +22,7 @@
 
 
 
+
   @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -35,10 +36,10 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="-1037.5269"
-     inkscape:cy="117.14013"
+     inkscape:cx="1840.7735"
+     inkscape:cy="2716.5354"
      inkscape:document-rotation="0"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:snap-bbox="true"
