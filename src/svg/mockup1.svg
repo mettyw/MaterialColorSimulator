@@ -20,6 +20,7 @@
 
 
 
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -33,8 +34,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="581.38639"
-     inkscape:cy="1089.5767"
+     inkscape:cx="689.35228"
+     inkscape:cy="1080.1561"
      inkscape:document-rotation="0"
      inkscape:document-units="px"
      inkscape:pageopacity="0.0"
@@ -48,7 +49,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.23908368"
+     inkscape:zoom="0.39022138"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -64,6 +65,15 @@
        x="4.2243176"
        y="4.0217366"
        ry="2.5731127"
+       style="stroke-width:1" />
+    <rect
+       id="textFieldContainerStroke2-9"
+       class="textfield-filled-container-unfocused"
+       width="66.02832"
+       height="12.498518"
+       x="8.2845831"
+       y="125.1469"
+       ry="1.0652263"
        style="stroke-width:1" />
     <text
        xml:space="preserve"
@@ -219,15 +229,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.40919px;font-family:Roboto;-inkscape-font-specification:Roboto;stroke-width:1"
          x="21.063913"
          y="91.120697">Chicken</tspan></text>
-    <rect
-       id="textFieldContainerStroke2-9"
-       class="textfield-container"
-       width="66.02832"
-       height="12.498518"
-       x="8.2845831"
-       y="125.1469"
-       ry="1.0652263"
-       style="stroke-width:1" />
     <rect
        id="buttonFilled-6"
        class="button-tonal-container"
