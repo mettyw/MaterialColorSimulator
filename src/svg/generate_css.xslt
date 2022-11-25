@@ -142,8 +142,15 @@
       <xsl:text>.{@name} {{&#10;</xsl:text> 
       <xsl:if test="@fill">
         <xsl:choose>
-          <xsl:when test="@fill-opacity">
-            <xsl:text> fill: rgba({fn:hex-to-rbgstring(fn:lookup-color(/, string(@fill)))}, {1 - @fill-opacity div 100});&#10;</xsl:text> 
+          <!-- inkscape cannot handle rgba(.), so we generate crude grayscale colors to tell things apart visually at least -->
+          <xsl:when test="@fill-opacity < 50">
+            <xsl:text> fill: #222222;&#10;</xsl:text> 
+          </xsl:when>
+          <xsl:when test="@fill-opacity < 80">
+            <xsl:text> fill: #888888;&#10;</xsl:text> 
+          </xsl:when>
+          <xsl:when test="@fill-opacity <= 100">
+            <xsl:text> fill: #EEEEEE;&#10;</xsl:text> 
           </xsl:when>
           <xsl:otherwise>
             <xsl:text> fill: {fn:lookup-color(/,string(@fill))};&#10;</xsl:text> 
