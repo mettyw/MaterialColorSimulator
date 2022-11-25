@@ -13,7 +13,7 @@
 }
 
 .m2-backdrop-front-labeltext {
- fill: rgba(32, 26, 27, 0.4);
+ fill: #888888;
 }
 
 .badge-container {
@@ -61,15 +61,15 @@
 }
 
 .bottomsheet-draghandle {
- fill: rgba(81, 67, 71, 0.6);
-}
-
-.button-elevated-labeltext {
- fill: #201A1B;
+ fill: #222222;
 }
 
 .button-elevated-container {
  fill: #FFFBFF;
+}
+
+.button-elevated-labeltext {
+ fill: #201A1B;
 }
 
 .button-elevated-icon {
@@ -88,20 +88,24 @@
  fill: #FFFFFF;
 }
 
-.button-tonal-labeltext {
- fill: #2B151C;
+.button-filled-disabled-container {
+ fill: #EEEEEE;
+}
+
+.button-filled-disabled-labeltext {
+ fill: #888888;
 }
 
 .button-tonal-container {
  fill: #FFD9E2;
 }
 
-.button-tonal-icon {
+.button-tonal-labeltext {
  fill: #2B151C;
 }
 
-.button-outlined-labeltext {
- fill: #201A1B;
+.button-tonal-icon {
+ fill: #2B151C;
 }
 
 .button-outlined-container {
@@ -110,16 +114,20 @@
  stroke-width : 0.5;
 }
 
-.button-outlined-icon {
+.button-outlined-labeltext {
  fill: #201A1B;
 }
 
-.button-text-labeltext {
+.button-outlined-icon {
  fill: #201A1B;
 }
 
 .button-text-container {
  fill: none;
+}
+
+.button-text-labeltext {
+ fill: #201A1B;
 }
 
 .button-text-icon {
@@ -130,8 +138,12 @@
  fill: #2B151C;
 }
 
+.iconbutton-text-icon {
+ fill: #984061;
+}
+
 .iconbutton-text-icon-disabled {
- fill: #201A1B;
+ fill: #888888;
 }
 
 .iconbutton-text-icon-unchecked {
@@ -142,16 +154,20 @@
  fill: #984061;
 }
 
-.iconbutton-text-icon {
+.iconbutton-filled-container-disabled {
+ fill: #EEEEEE;
+}
+
+.iconbutton-filled-container-unchecked {
+ fill: #F2DDE1;
+}
+
+.iconbutton-filled-container-checked {
  fill: #984061;
 }
 
-.iconbutton-text-container {
- fill: none;
-}
-
 .iconbutton-filled-icon-disabled {
- fill: #201A1B;
+ fill: #888888;
 }
 
 .iconbutton-filled-icon-unchecked {
@@ -162,12 +178,20 @@
  fill: #FFFFFF;
 }
 
-.iconbutton-filled-container {
- fill: #984061;
+.iconbutton-tonal-container-disabled {
+ fill: #EEEEEE;
+}
+
+.iconbutton-tonal-container-unchecked {
+ fill: #F2DDE1;
+}
+
+.iconbutton-tonal-container-checked {
+ fill: #FFD9E2;
 }
 
 .iconbutton-tonal-icon-disabled {
- fill: #201A1B;
+ fill: #888888;
 }
 
 .iconbutton-tonal-icon-unchecked {
@@ -182,8 +206,32 @@
  fill: #2B151C;
 }
 
-.iconbutton-tonal-container {
- fill: #FFD9E2;
+.iconbutton-outlined-icon-disabled {
+ fill: #888888;
+}
+
+.iconbutton-outlined-icon-unchecked {
+ fill: #514347;
+}
+
+.iconbutton-outlined-icon-checked {
+ fill: #FAEEEF;
+}
+
+.iconbutton-outlined-container-disabled {
+ fill: none;
+ stroke: #201A1B;
+ stroke-width : 0.5;
+}
+
+.iconbutton-outlined-container-unchecked {
+ fill: none;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.iconbutton-outlined-container-checked {
+ fill: #352F30;
 }
 
 .card-elevated-container {
@@ -197,7 +245,7 @@
 }
 
 .card-outlined-container-checked {
- fill: #FFFBFF;
+ fill: #EEEEEE;
  stroke: #74565F;
  stroke-width : 0.5;
 }
@@ -218,12 +266,44 @@
  fill: #74565F;
 }
 
-.checkbox-container {
- fill: #201A1B;
+.checkbox-container-checked {
+ fill: #984061;
 }
 
-.checkbox-icon {
+.checkbox-container-unchecked {
+ fill: #514347;
+}
+
+.checkbox-container-indeterminate {
+ fill: #984061;
+}
+
+.checkbox-container-disabled {
+ fill: #888888;
+}
+
+.checkbox-container-error {
+ fill: #BA1A1A;
+}
+
+.checkbox-icon-checked {
  fill: #FFFFFF;
+}
+
+.checkbox-icon-unchecked {
+ fill: #FFFFFF;
+}
+
+.checkbox-icon-indeterminate {
+ fill: #FFFFFF;
+}
+
+.checkbox-icon-error {
+ fill: #FFFFFF;
+}
+
+.checkbox-icon-disabled {
+ fill: #FFFBFF;
 }
 
 .chip-container {
@@ -237,11 +317,103 @@
 }
 
 .chip-removeicon {
- fill: rgba(32, 26, 27, 0.87);
+ fill: #222222;
 }
 
 .chip-thumbnail {
  fill: #984061;
+}
+
+.chip-assist-container {
+ fill: #FFFBFF;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.chip-assist-text {
+ fill: #201A1B;
+}
+
+.chip-assist-leadingicon {
+ fill: #984061;
+}
+
+.chip-assist-trailingicon {
+ fill: #984061;
+}
+
+.chip-filter-container-unselected {
+ fill: #FFFBFF;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.chip-filter-container-selected {
+ fill: #FFD9E2;
+}
+
+.chip-filter-container-disabled {
+ fill: #EEEEEE;
+}
+
+.chip-filter-text-unselected {
+ fill: #514347;
+}
+
+.chip-filter-text-selected {
+ fill: #2B151C;
+}
+
+.chip-filter-text-disabled {
+ fill: #888888;
+}
+
+.chip-filter-leadingicon-unselected {
+ fill: #514347;
+}
+
+.chip-filter-leadingicon-selected {
+ fill: #2B151C;
+}
+
+.chip-filter-leadingicon-disabled {
+ fill: #888888;
+}
+
+.chip-input-container {
+ fill: #FFFBFF;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.chip-input-text {
+ fill: #514347;
+}
+
+.chip-input-leadingicon {
+ fill: #514347;
+}
+
+.chip-input-trailingicon {
+ fill: #514347;
+}
+
+.chip-suggestion-container-enabled {
+ fill: #FFFBFF;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.chip-suggestion-container-disabled {
+ fill: #EEEEEE;
+}
+
+.chip-suggestion-text-enabled {
+ fill: #514347;
+}
+
+.chip-suggestion-text-disabled {
+ fill: #888888;
 }
 
 .dialog-container {
@@ -261,6 +433,7 @@
 }
 
 .dialog-scrim {
+ fill: #888888;
 }
 
 .divider-container {
@@ -268,7 +441,7 @@
 }
 
 .mcomp-divider-container {
- fill: rgba(32, 26, 27, 0.12);
+ fill: #EEEEEE;
 }
 
 .fab-container {
@@ -283,8 +456,16 @@
  fill: #FFFBFF;
 }
 
-.radiobutton {
+.radiobutton-checked {
+ fill: #984061;
+}
+
+.radiobutton-unchecked {
  fill: #201A1B;
+}
+
+.radiobutton-disabled {
+ fill: #888888;
 }
 
 .slider-track-active {
@@ -308,7 +489,7 @@
 }
 
 .snackbar-container {
- fill: rgba(53, 47, 48, 0.8);
+ fill: #222222;
 }
 
 .snackbar-textlabel {
@@ -395,8 +576,34 @@
 .tab-inactive-item {
 }
 
-.textfield-container {
+.textfield-filled-container-focused {
  fill: #F2DDE1;
+}
+
+.textfield-filled-container-unfocused {
+ fill: #F2DDE1;
+}
+
+.textfield-filled-container-error {
+ fill: #F2DDE1;
+}
+
+.textfield-outlined-container-focused {
+ fill: #984061;
+ stroke: #984061;
+ stroke-width : 0.5;
+}
+
+.textfield-outlined-container-unfocused {
+ fill: #837377;
+ stroke: #837377;
+ stroke-width : 0.5;
+}
+
+.textfield-outlined-container-error {
+ fill: #BA1A1A;
+ stroke: #BA1A1A;
+ stroke-width : 0.5;
 }
 
 .textfield-leadingicon {
@@ -407,6 +614,10 @@
  fill: #514347;
 }
 
+.textfield-label-error {
+ fill: #BA1A1A;
+}
+
 .textfield-label-collapsed {
  fill: #984061;
 }
@@ -415,19 +626,35 @@
  fill: #201A1B;
 }
 
+.textfield-helpertext {
+ fill: #514347;
+}
+
+.textfield-helpertext-error {
+ fill: #BA1A1A;
+}
+
+.textfield-countertext {
+ fill: #514347;
+}
+
+.textfield-countertext-error {
+ fill: #BA1A1A;
+}
+
 .textfield-dropdown {
  fill: #201A1B;
 }
 
 .textfield-cursor {
- fill: rgba(152, 64, 97, 0.30000000000000004);
+ fill: #888888;
 }
 
 .textfield-trailingicon {
  fill: #514347;
 }
 
-.textfield-erroricon {
+.textfield-trailingicon-error {
  fill: #BA1A1A;
 }
 
@@ -437,6 +664,10 @@
 
 .textfield-activationindicator-unfocused {
  fill: #837377;
+}
+
+.textfield-activationindicator-error {
+ fill: #BA1A1A;
 }
 
 .topappbar-container {
@@ -544,7 +775,7 @@
 }
 
 .m2-device-statusbar {
- fill: rgba(0, 0, 0, 0.6);
+ fill: #222222;
 }
 
 .m2-device-statusbar-labeltext {

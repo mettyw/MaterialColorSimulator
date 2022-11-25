@@ -140,13 +140,13 @@
  fill: rgba(var(--colorOnSurfaceVariant-rgbstr), 0.6);
 }
 
-.button-elevated-labeltext {
- fill: var(--colorOnSurface);
-}
-
 .button-elevated-container {
  fill: var(--colorSurface);
- filter: url("#elevation-1");
+ filter: url("#elevation-5");
+}
+
+.button-elevated-labeltext {
+ fill: var(--colorOnSurface);
 }
 
 .button-elevated-icon {
@@ -166,8 +166,12 @@
  fill: var(--colorOnPrimary);
 }
 
-.button-tonal-labeltext {
- fill: var(--colorOnSecondaryContainer);
+.button-filled-disabled-container {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
+}
+
+.button-filled-disabled-labeltext {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
 }
 
 .button-tonal-container {
@@ -175,12 +179,12 @@
  filter: url("#elevation-2");
 }
 
-.button-tonal-icon {
+.button-tonal-labeltext {
  fill: var(--colorOnSecondaryContainer);
 }
 
-.button-outlined-labeltext {
- fill: var(--colorOnSurface);
+.button-tonal-icon {
+ fill: var(--colorOnSecondaryContainer);
 }
 
 .button-outlined-container {
@@ -189,16 +193,20 @@
  stroke-width : 0.5;
 }
 
-.button-outlined-icon {
+.button-outlined-labeltext {
  fill: var(--colorOnSurface);
 }
 
-.button-text-labeltext {
+.button-outlined-icon {
  fill: var(--colorOnSurface);
 }
 
 .button-text-container {
  fill: var(--colorTransparent);
+}
+
+.button-text-labeltext {
+ fill: var(--colorOnSurface);
 }
 
 .button-text-icon {
@@ -209,8 +217,12 @@
  fill: var(--colorOnSecondaryContainer);
 }
 
+.iconbutton-text-icon {
+ fill: var(--colorPrimary);
+}
+
 .iconbutton-text-icon-disabled {
- fill: var(--colorOnSurface);
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
 }
 
 .iconbutton-text-icon-unchecked {
@@ -221,16 +233,20 @@
  fill: var(--colorPrimary);
 }
 
-.iconbutton-text-icon {
+.iconbutton-filled-container-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
+}
+
+.iconbutton-filled-container-unchecked {
+ fill: var(--colorSurfaceVariant);
+}
+
+.iconbutton-filled-container-checked {
  fill: var(--colorPrimary);
 }
 
-.iconbutton-text-container {
- fill: var(--colorTransparent);
-}
-
 .iconbutton-filled-icon-disabled {
- fill: var(--colorOnSurface);
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
 }
 
 .iconbutton-filled-icon-unchecked {
@@ -241,12 +257,20 @@
  fill: var(--colorOnPrimary);
 }
 
-.iconbutton-filled-container {
- fill: var(--colorPrimary);
+.iconbutton-tonal-container-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
+}
+
+.iconbutton-tonal-container-unchecked {
+ fill: var(--colorSurfaceVariant);
+}
+
+.iconbutton-tonal-container-checked {
+ fill: var(--colorSecondaryContainer);
 }
 
 .iconbutton-tonal-icon-disabled {
- fill: var(--colorOnSurface);
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
 }
 
 .iconbutton-tonal-icon-unchecked {
@@ -261,13 +285,37 @@
  fill: var(--colorOnSecondaryContainer);
 }
 
-.iconbutton-tonal-container {
- fill: var(--colorSecondaryContainer);
+.iconbutton-outlined-icon-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
+}
+
+.iconbutton-outlined-icon-unchecked {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.iconbutton-outlined-icon-checked {
+ fill: var(--colorOnSurfaceInverse);
+}
+
+.iconbutton-outlined-container-disabled {
+ fill: var(--colorTransparent);
+ stroke: rgba(var(--colorOnSurface-rgbstr), 0.12);
+ stroke-width : 0.5;
+}
+
+.iconbutton-outlined-container-unchecked {
+ fill: var(--colorTransparent);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+}
+
+.iconbutton-outlined-container-checked {
+ fill: var(--colorSurfaceInverse);
 }
 
 .card-elevated-container {
  fill: var(--colorSurface);
- filter: url("#elevation-1");
+ filter: url("#elevation-5");
 }
 
 .card-outlined-container-unchecked {
@@ -277,7 +325,7 @@
 }
 
 .card-outlined-container-checked {
- fill: var(--colorSurface);
+ fill: rgba(var(--colorSecondary-rgbstr), 0.16000000000000003);
  stroke: var(--colorSecondary);
  stroke-width : 0.5;
 }
@@ -298,12 +346,44 @@
  fill: var(--colorSecondary);
 }
 
-.checkbox-container {
- fill: var(--colorOnSurface);
+.checkbox-container-checked {
+ fill: var(--colorPrimary);
 }
 
-.checkbox-icon {
+.checkbox-container-unchecked {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.checkbox-container-indeterminate {
+ fill: var(--colorPrimary);
+}
+
+.checkbox-container-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
+}
+
+.checkbox-container-error {
+ fill: var(--colorError);
+}
+
+.checkbox-icon-checked {
  fill: var(--colorOnPrimary);
+}
+
+.checkbox-icon-unchecked {
+ fill: var(--colorOnPrimary);
+}
+
+.checkbox-icon-indeterminate {
+ fill: var(--colorOnPrimary);
+}
+
+.checkbox-icon-error {
+ fill: var(--colorOnError);
+}
+
+.checkbox-icon-disabled {
+ fill: var(--colorSurface);
 }
 
 .chip-container {
@@ -324,8 +404,104 @@
  fill: var(--colorPrimary);
 }
 
+.chip-assist-container {
+ fill: var(--colorSurface);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+ filter: url("#elevation-1");
+}
+
+.chip-assist-text {
+ fill: var(--colorOnSurface);
+}
+
+.chip-assist-leadingicon {
+ fill: var(--colorPrimary);
+}
+
+.chip-assist-trailingicon {
+ fill: var(--colorPrimary);
+}
+
+.chip-filter-container-unselected {
+ fill: var(--colorSurface);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+ filter: url("#elevation-1");
+}
+
+.chip-filter-container-selected {
+ fill: var(--colorSecondaryContainer);
+ filter: url("#elevation-1");
+}
+
+.chip-filter-container-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
+}
+
+.chip-filter-text-unselected {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-filter-text-selected {
+ fill: var(--colorOnSecondaryContainer);
+}
+
+.chip-filter-text-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
+}
+
+.chip-filter-leadingicon-unselected {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-filter-leadingicon-selected {
+ fill: var(--colorOnSecondaryContainer);
+}
+
+.chip-filter-leadingicon-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
+}
+
+.chip-input-container {
+ fill: var(--colorSurface);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+}
+
+.chip-input-text {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-input-leadingicon {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-input-trailingicon {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-suggestion-container-enabled {
+ fill: var(--colorSurface);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+}
+
+.chip-suggestion-container-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.12);
+}
+
+.chip-suggestion-text-enabled {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.chip-suggestion-text-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.38);
+}
+
 .dialog-container {
  fill: var(--colorSurface);
+ filter: url("#elevation-6");
 }
 
 .dialog-title-textlabel {
@@ -341,6 +517,7 @@
 }
 
 .dialog-scrim {
+ fill: rgba(var(--colorScrim-rgbstr), 0.31999999999999995);
 }
 
 .divider-container {
@@ -364,8 +541,16 @@
  fill: var(--colorBackground);
 }
 
-.radiobutton {
+.radiobutton-checked {
+ fill: var(--colorPrimary);
+}
+
+.radiobutton-unchecked {
  fill: var(--colorOnSurface);
+}
+
+.radiobutton-disabled {
+ fill: rgba(var(--colorOnSurface-rgbstr), 0.31999999999999995);
 }
 
 .slider-track-active {
@@ -478,8 +663,34 @@
 .tab-inactive-item {
 }
 
-.textfield-container {
+.textfield-filled-container-focused {
  fill: var(--colorSurfaceVariant);
+}
+
+.textfield-filled-container-unfocused {
+ fill: var(--colorSurfaceVariant);
+}
+
+.textfield-filled-container-error {
+ fill: var(--colorSurfaceVariant);
+}
+
+.textfield-outlined-container-focused {
+ fill: var(--colorPrimary);
+ stroke: var(--colorPrimary);
+ stroke-width : 0.5;
+}
+
+.textfield-outlined-container-unfocused {
+ fill: var(--colorOutline);
+ stroke: var(--colorOutline);
+ stroke-width : 0.5;
+}
+
+.textfield-outlined-container-error {
+ fill: var(--colorError);
+ stroke: var(--colorError);
+ stroke-width : 0.5;
 }
 
 .textfield-leadingicon {
@@ -490,12 +701,32 @@
  fill: var(--colorOnSurfaceVariant);
 }
 
+.textfield-label-error {
+ fill: var(--colorError);
+}
+
 .textfield-label-collapsed {
  fill: var(--colorPrimary);
 }
 
 .textfield-inputtext {
  fill: var(--colorOnSurface);
+}
+
+.textfield-helpertext {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.textfield-helpertext-error {
+ fill: var(--colorError);
+}
+
+.textfield-countertext {
+ fill: var(--colorOnSurfaceVariant);
+}
+
+.textfield-countertext-error {
+ fill: var(--colorError);
 }
 
 .textfield-dropdown {
@@ -510,7 +741,7 @@
  fill: var(--colorOnSurfaceVariant);
 }
 
-.textfield-erroricon {
+.textfield-trailingicon-error {
  fill: var(--colorError);
 }
 
@@ -520,6 +751,10 @@
 
 .textfield-activationindicator-unfocused {
  fill: var(--colorOutline);
+}
+
+.textfield-activationindicator-error {
+ fill: var(--colorError);
 }
 
 .topappbar-container {
