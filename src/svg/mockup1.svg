@@ -21,6 +21,7 @@
 
 
 
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -34,8 +35,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="689.35228"
-     inkscape:cy="1080.1561"
+     inkscape:cx="492.0284"
+     inkscape:cy="993.02606"
      inkscape:document-rotation="0"
      inkscape:document-units="px"
      inkscape:pageopacity="0.0"
@@ -110,7 +111,7 @@
        style="stroke-width:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.0546px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-weight:normal;font-size:7.0546px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
        x="12.6318"
        y="42.085663"
        id="text3614"
@@ -122,7 +123,7 @@
          id="tspan3612">Paneer Butter Masala</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.291px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.291px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px"
        x="24.954245"
        y="66.32119"
        id="text3620"
@@ -134,7 +135,7 @@
          y="66.32119">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.1729px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-weight:normal;font-size:6.1729px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
        x="83.379944"
        y="66.070786"
        id="text5434"
@@ -155,7 +156,7 @@
        style="stroke-width:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.0546px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-weight:normal;font-size:7.0546px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
        x="12.6318"
        y="82.007668"
        id="text7138"
@@ -167,7 +168,7 @@
          id="tspan7136">Murgh Makhani</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.1729px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-weight:normal;font-size:6.1729px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px"
        x="84.041313"
        y="105.99284"
        id="text7164"
@@ -274,7 +275,7 @@
        style="stroke-width:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.291px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px;fill:#201a1a;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:5.291px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';letter-spacing:0px;word-spacing:0px"
        x="24.840845"
        y="105.49416"
        id="text1206"
