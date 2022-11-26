@@ -20,6 +20,7 @@
 
 
 
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -33,8 +34,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="1143.1952"
-     inkscape:cy="920.65802"
+     inkscape:cx="868.61302"
+     inkscape:cy="924.24733"
      inkscape:document-rotation="0"
      inkscape:document-units="px"
      inkscape:pageopacity="0.0"
@@ -128,13 +129,13 @@
        cx="16.368322"
        cy="143.85004"
        id="iconButtonContainer-1-27"
-       class="iconbutton-tonal-container"
+       class="iconbutton-tonal-container-unchecked"
        r="7.3733954"
        style="stroke-width:1" />
     <path
        d="m 15.462191,147.59955 q -0.65618,0 -1.10925,-0.45307 -0.45307,-0.45307 -0.45307,-1.10924 0,-0.65617 0.45307,-1.10924 0.45307,-0.45308 1.10925,-0.45308 0.29162,0 0.52597,0.0834 0.23435,0.0834 0.41142,0.22915 v -4.06202 q 0,-0.26038 0.18226,-0.44266 0.18228,-0.18227 0.44266,-0.18227 h 1.11446 q 0.29162,0 0.49473,0.2031 0.2031,0.20311 0.2031,0.49473 0,0.29164 -0.2031,0.49994 -0.20311,0.20832 -0.49473,0.20832 h -1.11446 v 4.53071 q 0,0.65617 -0.45307,1.10924 -0.45307,0.45307 -1.10924,0.45307 z"
        id="iconButtonIcon-1-0"
-       class="iconbutton-tonal-icon"
+       class="iconbutton-tonal-icon-unchecked"
        style="stroke-width:1" />
     <text
        xml:space="preserve"
@@ -305,49 +306,49 @@
        cx="16.368322"
        cy="94.8255"
        id="iconButtonContainer-1"
-       class="iconbutton-tonal-container"
+       class="iconbutton-tonal-container-unchecked"
        r="7.3733954"
        style="stroke-width:1" />
     <path
        d="m 15.462191,98.575014 q -0.65618,0 -1.10925,-0.45307 -0.45307,-0.45307 -0.45307,-1.10924 0,-0.65617 0.45307,-1.10925 0.45307,-0.45307 1.10925,-0.45307 0.29162,0 0.52597,0.0834 0.23435,0.0834 0.41142,0.22915 v -4.06202 q 0,-0.26038 0.18226,-0.44266 0.18228,-0.18227 0.44266,-0.18227 h 1.11446 q 0.29162,0 0.49473,0.2031 0.2031,0.2031 0.2031,0.49473 0,0.29164 -0.2031,0.49994 -0.20311,0.20832 -0.49473,0.20832 h -1.11446 v 4.53071 q 0,0.65617 -0.45307,1.10924 -0.45307,0.45307 -1.10924,0.45307 z"
        id="iconButtonIcon-1"
-       class="iconbutton-tonal-icon"
+       class="iconbutton-tonal-icon-unchecked"
        style="stroke-width:1" />
     <circle
        cx="16.368322"
        cy="119.33778"
        id="iconButtonContainer-1-6"
-       class="iconbutton-tonal-container"
+       class="iconbutton-tonal-container-unchecked"
        r="7.3733954"
        style="stroke-width:1" />
     <path
        d="m 15.462191,123.08729 q -0.65618,0 -1.10925,-0.45308 -0.45307,-0.45306 -0.45307,-1.10924 0,-0.65618 0.45307,-1.10925 0.45307,-0.45306 1.10925,-0.45306 0.29162,0 0.52597,0.0834 0.23435,0.0834 0.41142,0.22913 v -4.06202 q 0,-0.26038 0.18226,-0.44264 0.18228,-0.18228 0.44266,-0.18228 h 1.11446 q 0.29162,0 0.49473,0.2031 0.2031,0.2031 0.2031,0.49474 0,0.29163 -0.2031,0.49994 -0.20311,0.2083 -0.49473,0.2083 h -1.11446 v 4.53071 q 0,0.65617 -0.45307,1.10926 -0.45307,0.45306 -1.10924,0.45306 z"
        id="iconButtonIcon-1-7"
-       class="iconbutton-tonal-icon"
+       class="iconbutton-tonal-icon-unchecked"
        style="stroke-width:1" />
     <circle
        cx="16.368322"
        cy="70.313232"
        id="iconButtonContainer-1-3"
-       class="iconbutton-tonal-container"
+       class="iconbutton-tonal-container-unchecked"
        r="7.3733954"
        style="stroke-width:1" />
     <path
        d="m 15.462191,74.062733 q -0.65618,0 -1.10925,-0.45307 -0.45307,-0.45307 -0.45307,-1.10924 0,-0.656175 0.45307,-1.109245 0.45307,-0.45307 1.10925,-0.45307 0.29162,0 0.52597,0.0834 0.23435,0.0834 0.41142,0.22915 v -4.06202 q 0,-0.26038 0.18226,-0.44266 0.18228,-0.18226 0.44266,-0.18226 h 1.11446 q 0.29162,0 0.49473,0.2031 0.2031,0.2031 0.2031,0.49472 0,0.29165 -0.2031,0.49995 -0.20311,0.20831 -0.49473,0.20831 h -1.11446 v 4.530715 q 0,0.65617 -0.45307,1.10924 -0.45307,0.45307 -1.10924,0.45307 z"
        id="iconButtonIcon-1-5"
-       class="iconbutton-tonal-icon"
+       class="iconbutton-tonal-icon-unchecked"
        style="stroke-width:1" />
     <circle
        cx="16.368322"
        cy="45.800945"
        id="iconButtonContainer-1-2"
-       class="iconbutton-tonal-container"
+       class="iconbutton-tonal-container-unchecked"
        r="7.3733954"
        style="stroke-width:1" />
     <path
        d="m 15.462191,49.550458 q -0.65618,0 -1.10925,-0.453071 -0.45307,-0.453071 -0.45307,-1.109243 0,-0.656172 0.45307,-1.109243 0.45307,-0.453072 1.10925,-0.453072 0.29162,0 0.52597,0.08337 0.23435,0.08337 0.41142,0.229148 V 42.67633 q 0,-0.260382 0.18226,-0.44266 0.18228,-0.182266 0.44266,-0.182266 h 1.11446 q 0.29162,0 0.49473,0.203101 0.2031,0.2031 0.2031,0.494728 0,0.291641 -0.2031,0.499941 -0.20311,0.208313 -0.49473,0.208313 h -1.11446 v 4.530712 q 0,0.656172 -0.45307,1.109243 -0.45307,0.453071 -1.10924,0.453071 z"
        id="iconButtonIcon-1-9"
-       class="iconbutton-tonal-icon"
+       class="iconbutton-tonal-icon-unchecked"
        style="stroke-width:1" />
     <rect
        id="bottomnavigationContainer-2"
