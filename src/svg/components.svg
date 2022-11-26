@@ -27,6 +27,7 @@
 
 
 
+
   @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -40,8 +41,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="-567.5359"
-     inkscape:cy="3547.0993"
+     inkscape:cx="2857.0785"
+     inkscape:cy="1192.7713"
      inkscape:document-rotation="0"
      inkscape:document-units="px"
      inkscape:pageopacity="0.0"
@@ -55,7 +56,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.07400413"
+     inkscape:zoom="0.4665605"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -2175,8 +2176,7 @@
          height="2.4997034"
          x="277.84894"
          y="85.937622"
-         ry="1.2498517"
-         style="fill:#984061;stroke-width:1" />
+         ry="1.2498517" />
       <circle
          id="sliderThumb-9"
          class="slider-thumb"
