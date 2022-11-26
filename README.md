@@ -14,7 +14,7 @@ https://mettyw.github.io/MaterialColorSimulator/
 
 ## Features
 * Use <em>Randomize all</em> button to randomize all colors
-* Click swatch to select color
+* Or click a color swatch to select a color
 * Color picker
   * Press <em>Locate color</em> button to make corresponding UI components flash
   * Press <em>Random color</em> button on each color
@@ -27,6 +27,7 @@ https://mettyw.github.io/MaterialColorSimulator/
   * Use <em>Components</em> tab to preview color theme on components
   * Click on UI component to make corresponding color swatch flash
   * Use <em>Export</em> tab to obtain android colors.xml and themes.xml file content
+  * Use <em>Import</em> tab to load a theme from android colors.xml and themes.xml file content
 
 ## How does it work?
 
