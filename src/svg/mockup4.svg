@@ -18,6 +18,7 @@
 
 
 
+
      @import url(mockstyle_inkscape.css);
   </style>
   <defs
@@ -31,8 +32,8 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true"
      inkscape:current-layer="layer1"
-     inkscape:cx="-200.78548"
-     inkscape:cy="880.94628"
+     inkscape:cx="693.3291"
+     inkscape:cy="676.85537"
      inkscape:document-rotation="0"
      inkscape:document-units="px"
      inkscape:pageopacity="0.0"
@@ -46,7 +47,7 @@
      inkscape:window-width="1366"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:zoom="0.1992176"
+     inkscape:zoom="0.69808119"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
@@ -316,8 +317,7 @@
        height="21.266624"
        x="4.0743194"
        y="34.830448"
-       ry="0"
-       style="fill:#fffbff;stroke-width:1" />
+       ry="0" />
     <path
        d="m 90.000566,42.458289 q -0.797098,0 -1.304339,-0.50724 -0.507264,-0.50726 -0.507264,-1.30436 0,-0.7971 0.507264,-1.30433 0.507241,-0.50725 1.304339,-0.50725 0.797098,0 1.30435,0.50725 0.50724,0.50723 0.50724,1.30433 0,0.7971 -0.50724,1.30436 -0.507252,0.50724 -1.30435,0.50724 z m -3.1401,3.87682 q -0.30192,0 -0.513289,-0.21136 -0.211345,-0.21135 -0.211345,-0.51328 v -0.41063 q 0,-0.45893 0.229467,-0.78502 0.229468,-0.32609 0.591779,-0.49517 0.809171,-0.36232 1.551939,-0.54347 0.742744,-0.18117 1.491549,-0.18117 0.748793,0 1.485512,0.1872 0.736707,0.18719 1.545874,0.53744 0.374396,0.16908 0.603864,0.49517 0.229479,0.32609 0.229479,0.78502 v 0.41063 q 0,0.30193 -0.211357,0.51328 -0.211345,0.21136 -0.513277,0.21136 z"
        id="bottomnavigationIcon3-7"
@@ -333,8 +333,7 @@
        cy="39.187645"
        id="badgeContainer"
        class="badge-container"
-       r="2.4997032"
-       style="stroke-width:1" />
+       r="2.4997032" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;letter-spacing:0px;word-spacing:0px;stroke-width:1"
@@ -359,11 +358,10 @@
        height="1.4051198"
        x="13.840928"
        y="54.586403"
-       ry="0"
-       style="fill:#984061;stroke-width:0.999998" />
+       ry="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#984061;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
        x="15.67909"
        y="51.936821"
        id="tabActiveLabel-1-2"
@@ -375,7 +373,7 @@
          y="51.936821">Hotels</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#514347;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
        x="83.538902"
        y="51.963264"
        id="tabInactiveLabel2-1-5"
@@ -387,7 +385,7 @@
          y="51.963264">Profile</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#514347;stroke-width:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.4092px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px"
        x="49.893433"
        y="51.963264"
        id="tabInactiveLabel1-9-8"
@@ -403,8 +401,7 @@
        width="108.73711"
        height="0.62492579"
        x="4.0743194"
-       y="55.912056"
-       style="fill:#f2dde1;stroke-width:1" />
+       y="55.912056" />
     <rect
        id="rect1146"
        class="chip-container"
