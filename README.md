@@ -29,12 +29,8 @@ https://mettyw.github.io/MaterialColorSimulator/
   * Use <em>Export</em> tab to obtain android colors.xml and themes.xml file content
 
 ## How does it work?
-* phone mockups are drawn as SVG images
-* the SVGs are made inline in order to share the website's CSS
-* each themable item in the SVG has a CSS class (e.g. button-filled-container)
-* the CSS class uses CSS variables
-* color picker changes the value of the CSS variables
-* the map of colors is transformed to Android XML files for export 
+
+See [DESIGN.md](./DESIGN.md).
 
 ## Feedback & Contributions
 Very welcome!
