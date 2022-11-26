@@ -291,6 +291,18 @@ $(document).ready(
     $('#btnResetAll').on('click', () => {
       window.location.reload();
     });
+    $('#btnSave').on('click', () => {
+      Object.keys(colorMap).forEach((key) => {
+        window.localStorage.setItem(key, colorMap[key].v);
+      });
+    });
+    $('#btnLoad').on('click', () => {
+      Object.keys(colorMap).forEach((key) => {
+        const value = window.localStorage.getItem(key);
+        if (value == null) return;
+        assignColor(key, value);
+      });
+    });
     $('#btnImport').on('click', () => {
       const colors = $('#importColors').val();
       const themes = $('#importThemes').val();
